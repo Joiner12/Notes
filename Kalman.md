@@ -16,6 +16,8 @@
 
 [4]《H无穷滤波器和Kalman滤波器比较》<https://wenku.baidu.com/view/6e7035323968011ca3009147.html>
 
+[5]《AlanTukalman 滤波》<https://www.cnblogs.com/alantu2018/p/9224001.html>
+
 
 
 ## 2.CODE
@@ -98,4 +100,10 @@ t=1:N;
 plot(t,x_update,'r',t,z,'g',t,x_true,'b');
 
 ```
+
+## 3.（协）方差 | 期望 | 标准差
+
+《方差，协方差、标准差，与其意义》
+
+<https://blog.csdn.net/yangdashi888/article/details/52397990>
 
