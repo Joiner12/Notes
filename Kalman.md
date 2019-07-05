@@ -18,7 +18,11 @@
 
 [5]《AlanTukalman 滤波》<https://www.cnblogs.com/alantu2018/p/9224001.html>
 
+[6]《MATLAB VAR函数》<https://blog.csdn.net/ouening/article/details/51281242>
 
+[7] 《C KALMAN》<https://blog.csdn.net/von_kent/article/details/76610952>
+
+[8]<https://blog.csdn.net/tiandijun/article/details/72469471>
 
 ## 2.CODE
 
@@ -53,7 +57,7 @@ H=0.2;
 z=H*x_true+v;%量测方差，c为量测矩阵，同a简化取为一个数
 
 
-%% 开始 预测-更新过程
+%% 预测-更新过程
 
 % x_predict: 预测过程得到的x
 % x_update:更新过程得到的x
@@ -75,11 +79,14 @@ for t=2:N
     	p1为一步估计的协方差，
     	此式从t-1时刻最优化估计s的协方差得到t-1时刻到t时刻一步估计的协方差
     %}
-    P_predict(t)=A*P_update(t-1)*A'+Q;
+    P_predict(t)=A*P_update(t-1)*A'+ Q;
     %{
     -------------------2. 更新-------------------
     %}
     %-----2.1 计算卡尔曼增益-----
+    %{
+   		仿真程序需要使用R，实际过程中，R存在于观测值中，是客观到物理量
+    %}
     K(t)=H*P_predict(t) / (H*P_predict(t)*H'+R);
     % b为卡尔曼增益，其意义表示为状态误差的协方差与量测误差的协方差之比(个人见解)
    
@@ -101,9 +108,100 @@ plot(t,x_update,'r',t,z,'g',t,x_true,'b');
 
 ```
 
+
+
+cCode
+
+```c
+/*
+对上面过程的特殊数据，一般化。 
+1.假设21：19分温度为23及协方差为9（分别用X(k-1|k-1)和P(k-1|k-1)来表示） 
+2.猜测21:20分温度与21：19分温度相同，协方差为16（分别用X(k|k-1)和Q来表示） 
+3.计算温度，及协方差（结果用P(k|k-1)表示）可以得到下面两个公式 
+X(k|k-1)=X(k-1|k-1)； 
+P(k|k-1)=P(k-1|k-1)+Q; 
+4. 读温度计的值为25，猜测协方差为16（分别用Z(k)和R表示） 
+5.计算权值，即卡尔曼增益（用K(k)来表示） 
+6.计算21:20分温度及协方差（分别用X(k|k)和P(k|k)表示）可以得到下面三个公式 
+K(k)=P(k|k-1)/（P(k|k-1)+R） 
+X(k|k)=X(k|k-1)+K(k)*（Z(k)-X(k|k-1)）
+P(k|k)=（1-K(k)）*P(k|k-1) 
+这五个公式就是，对卡尔曼五个核心公式进行简化
+*/
+/*       
+        Q:过程噪声，Q增大，动态响应变快，收敛稳定性变坏
+        R:测量噪声，R增大，动态响应变慢，收敛稳定性变好       
+*/
+
+#define KALMAN_Q 0.02
+
+#define KALMAN_R 7.0000
+
+/* 卡尔曼滤波处理 */
+
+static double KalmanFilter(const double ResrcData,double ProcessNiose_Q,double MeasureNoise_R)
+{
+
+    double R = MeasureNoise_R;
+    double Q = ProcessNiose_Q;
+
+    static double x_last;
+    double x_mid = x_last;
+    double x_now;
+
+    static double p_last;
+    double p_mid ;
+    double p_now;
+
+    double kg;
+
+    x_mid=x_last;                       //x_last=x(k-1|k-1),x_mid=x(k|k-1)
+    p_mid=p_last+Q;                     //p_mid=p(k|k-1),p_last=p(k-1|k-1),Q=噪声
+
+    /*
+     *  卡尔曼滤波的五个重要公式
+     */
+    kg=p_mid/(p_mid+R);                 //kg为kalman filter，R 为噪声
+    x_now=x_mid+kg*(ResrcData-x_mid);   //估计出的最优值
+    p_now=(1-kg)*p_mid;                 //最优值对应的covariance
+    p_last = p_now;                     //更新covariance 值
+    x_last = x_now;                     //更新系统状态值
+
+    return x_now;
+
+}
+```
+
+
+
 ## 3.（协）方差 | 期望 | 标准差
 
 《方差，协方差、标准差，与其意义》
 
 <https://blog.csdn.net/yangdashi888/article/details/52397990>
+
+## 4.Kalman滤波推导过程
+
+$$
+系统模型：X_k = F_k*X_{k-1} + B_k*U_k + \omega_k \\
+观测模型：Z_k = H_k*X_k + v_k \\ 
+五条公式：\\
+****预测与更新****\\
+**预测问题**\\
+已知:\\
+上一个状态的更新值\\
+上一个状态的更新值和真实值之间的误差\\
+求解：\\
+
+这一个状态的预测值\\
+这一个状态的预测值和真实值之间的误差\\
+$$
+
+```c
+//上一个周期更新值 Xk-1|k-1  预测当前时刻预测值 Xk|k-1
+
+//由上一个更新值和真实值之间的误差 Pk-1|k-1 预测下一个预测值和真实值之间的误差 Pk|k-1
+
+
+```
 
