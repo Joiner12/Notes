@@ -2,27 +2,27 @@
 
 ## 1.Reference
 
-[1]《对Kalman(卡尔曼)滤波器的理解》
-
-<https://www.cnblogs.com/xmphoenix/p/3634536.html>
-
 [2]《Math\]理解卡尔曼滤波器 (Understanding Kalman Filter)》
 
 <https://segmentfault.com/a/1190000000514987>
 
-[3]《细说Kalman滤波：The Kalman Filter》
+[3]《细说Kalman滤波：The Kalman Filter》★★★
 
 <https://www.cnblogs.com/ycwang16/p/5999034.html>
 
 [4]《H无穷滤波器和Kalman滤波器比较》<https://wenku.baidu.com/view/6e7035323968011ca3009147.html>
 
-[5]《AlanTukalman 滤波》<https://www.cnblogs.com/alantu2018/p/9224001.html>
+[5]《Kalman 滤波》
 
-[6]《MATLAB VAR函数》<https://blog.csdn.net/ouening/article/details/51281242>
+<https://www.cnblogs.com/alantu2018/p/9224001.html>
 
-[7] 《C KALMAN》<https://blog.csdn.net/von_kent/article/details/76610952>
+[6]《MATLAB VAR函数》
 
-[8]<https://blog.csdn.net/tiandijun/article/details/72469471>
+<https://blog.csdn.net/ouening/article/details/51281242>
+
+[7] 《C KALMAN》
+
+<https://blog.csdn.net/von_kent/article/details/76610952>
 
 ## 2.CODE
 
@@ -105,71 +105,173 @@ end
 %kalman滤波的作用就是 由绿色的波形得到红色的波形， 使之尽量接近蓝色的真实状态。
 t=1:N;
 plot(t,x_update,'r',t,z,'g',t,x_true,'b');
+legend('kalman','obser','true')
 
 ```
 
-
-
-cCode
+C Code Ver.1.0
 
 ```c
+/*********************kalman.h**********************/
+#pragma once
 /*
-对上面过程的特殊数据，一般化。 
-1.假设21：19分温度为23及协方差为9（分别用X(k-1|k-1)和P(k-1|k-1)来表示） 
-2.猜测21:20分温度与21：19分温度相同，协方差为16（分别用X(k|k-1)和Q来表示） 
-3.计算温度，及协方差（结果用P(k|k-1)表示）可以得到下面两个公式 
-X(k|k-1)=X(k-1|k-1)； 
-P(k|k-1)=P(k-1|k-1)+Q; 
-4. 读温度计的值为25，猜测协方差为16（分别用Z(k)和R表示） 
-5.计算权值，即卡尔曼增益（用K(k)来表示） 
-6.计算21:20分温度及协方差（分别用X(k|k)和P(k|k)表示）可以得到下面三个公式 
-K(k)=P(k|k-1)/（P(k|k-1)+R） 
-X(k|k)=X(k|k-1)+K(k)*（Z(k)-X(k|k-1)）
-P(k|k)=（1-K(k)）*P(k|k-1) 
-这五个公式就是，对卡尔曼五个核心公式进行简化
-*/
-/*       
-        Q:过程噪声，Q增大，动态响应变快，收敛稳定性变坏
-        R:测量噪声，R增大，动态响应变慢，收敛稳定性变好       
-*/
-
-#define KALMAN_Q 0.02
-
-#define KALMAN_R 7.0000
-
-/* 卡尔曼滤波处理 */
-
-static double KalmanFilter(const double ResrcData,double ProcessNiose_Q,double MeasureNoise_R)
+	Created date:2019-7-8
+	Kalman Filter
+*/ 
+typedef struct
 {
+	double nVarQ;			// 过程噪声方差
+	double nVarR;			// 观测噪声方差
+	double nPreX;			// X(k-1|k-1)
+	double nKg;				// kalman增益
+	double nPreZ;			// Z(k-1|k-1)
+	double nP;				// 协方差
+	double nU;				// 控制量
+	double nXreal;			// 真实状态量
+}tKalman;
 
-    double R = MeasureNoise_R;
-    double Q = ProcessNiose_Q;
+tKalman* KalmanGet();
 
-    static double x_last;
-    double x_mid = x_last;
-    double x_now;
+void KalmanInit(tKalman* pSelf_, double nVarQ_, double nVarR_);
 
-    static double p_last;
-    double p_mid ;
-    double p_now;
+void KalmanProcess(tKalman* pSelf_, double nZk_,double nUk_);
 
-    double kg;
+void Kalman_Test();
 
-    x_mid=x_last;                       //x_last=x(k-1|k-1),x_mid=x(k|k-1)
-    p_mid=p_last+Q;                     //p_mid=p(k|k-1),p_last=p(k-1|k-1),Q=噪声
+
+/*********************kalman.c**********************/
+#include "stdafx.h"
+#include "kalman.h"
+
+tKalman g_tKalman;
+
+/*
+Kalman Filter
+Q:过程噪声，Q增大，动态响应变快，收敛稳定性变坏
+R:测量噪声，R增大，动态响应变慢，收敛稳定性变好
+/------------预测-----------/
+X(k | k - 1) = X(k - 1 | k - 1)	+ u(k)		(1)	状态预测
+P(k | k - 1) = P(k - 1 | k - 1) + Q			(2)	预测方差
+/-----------更新------------/
+K(k)=P(k|k-1)/（P(k|k-1)+R）					(3)	更新kalman增益
+X(k|k)=X(k|k-1)+K(k)*（Z(k)-X(k|k-1)）		(4)	状态更新
+P(k|k)=（1-K(k)）*P(k|k-1)					(5)	滤波方差更新
+*/
+
+// 获取全局变量
+tKalman* KalmanGet()
+{
+	return 	&g_tKalman;
+}
+
+void KalmanInit(tKalman* pSelf_, double nVarQ_, double nVarR_)
+{
+	nVarQ_ > 0 ? pSelf_->nVarQ = nVarQ_ : pSelf_->nVarQ = 0.0;
+	nVarR_ > 0 ? pSelf_->nVarR = nVarR_ : pSelf_->nVarR = 0.0;
+	pSelf_->nKg = 0.0;
+	pSelf_->nP = 10.0;			// 初始化不为零
+	pSelf_->nPreX = 0.0;			// 初始状态x(k-1|k-1)
+	pSelf_->nU = 0.0;
+	pSelf_->nXreal = 0.0;
+}
+
+void KalmanProcess(tKalman* pSelf_, double nZk_, double nUk_)
+{
+	int _nAs = 1;//A状态矩阵
+	/*
+		X(k | k - 1) = X(k - 1 | k - 1) + u(k)		(1)	状态预测
+	*/
+	double _nXKK_1 = (pSelf_->nPreX)*_nAs + nUk_;
+    /*
+	P(k | k - 1) = P(k - 1 | k - 1) + Q			(2)	预测方差
+    */
+    double _nPkk_1 = pSelf_->nP + pSelf_->nVarQ;
 
     /*
-     *  卡尔曼滤波的五个重要公式
-     */
-    kg=p_mid/(p_mid+R);                 //kg为kalman filter，R 为噪声
-    x_now=x_mid+kg*(ResrcData-x_mid);   //估计出的最优值
-    p_now=(1-kg)*p_mid;                 //最优值对应的covariance
-    p_last = p_now;                     //更新covariance 值
-    x_last = x_now;                     //更新系统状态值
+        K(k)=P(k|k-1)/（P(k|k-1)+R）					(3)	更新kalman增益
+    */
+    double _nKg = _nPkk_1 / (_nPkk_1 + pSelf_->nVarR);
+    pSelf_->nKg = _nKg;
 
-    return x_now;
+    /*
+        X(k|k)=X(k|k-1)+K(k)*（Z(k)-X(k|k-1)）		(4)	状态更新
+    */
+    double _nXkk = _nXKK_1 + _nKg * (nZk_ - _nXKK_1);
+    pSelf_->nPreX = _nXkk;
+    pSelf_->nPreZ = nZk_;
 
+    /*
+        P(k|k)=（1-K(k)）*P(k|k-1)					(5)	滤波方差更新
+    */
+    double _nPkk = (1 - _nKg)*_nPkk_1;
+    pSelf_->nP = _nPkk;
 }
+void Kalman_Test()
+{
+	cout << "Simulator for kalman filter" << endl;
+	int _nLoopCnt = 0;
+	ofstream kalman("kalman.txt");
+	clock_t tStart, tEnd;
+	tStart = clock();
+	while (++_nLoopCnt <= 1000)
+	{
+		if (_nLoopCnt == 1)
+		{
+			double _nVarQ = 10;
+			double _nVarR = 10;
+			KalmanInit(KalmanGet(), _nVarQ, _nVarR);
+			srand((unsigned)time(NULL));
+		}
+		else
+		{
+			// x(k) = a*x(k-1) + w1(k) + u(k)
+			// sin(2*pi*f*t)
+			static double _nFre = 2 * 3.1415 * 0.1 * 0.1;
+			double _nUk = 10 * sin(_nFre*_nLoopCnt);
+			// 真实状态
+			double _nXreal = _nUk + KalmanGet()->nXreal;// +(rand() % 10 - 5.0);
+			// z(k) = h*x(k)+w(k); 带观测噪声观测值
+			double _nZk = _nXreal + (rand() % 10 - 1.0);
+
+
+		KalmanProcess(KalmanGet(), _nZk, _nUk);
+		KalmanGet()->nXreal = _nXreal;
+		double _nXkk = KalmanGet()->nPreX;
+		kalman << _nLoopCnt * 0.1 << "," << _nXreal << "," << _nZk << "," 			<< _nXkk << endl;
+		}
+    }
+    kalman.close();
+    tEnd = clock();
+    cout << "Operation duration:" << (tEnd - tStart) << endl;
+}
+```
+
+%% 数据处理
+
+```matlab
+%% 测试kalman.h .c
+%{
+    获取处理数据
+%}
+clc;
+datapath = 'D:\Codes\VsProjects\LeetCode\LeetCode';
+filename = 'kalman.txt';
+file = strcat(datapath,'\',filename);
+
+origin = load(file);
+if isequal(length(origin),0)
+    warning('数据导入出错');
+end
+time_k = origin(:,1);
+real_x = origin(:,2);
+obser_x = origin(:,3);
+kalman_x = origin(:,4);
+
+figure(1)
+p = plot(time_k,real_x,time_k,obser_x,time_k,kalman_x);
+p1.LineWidth = 2;
+grid on 
+legend('real','obser','kalman')
 ```
 
 
@@ -183,29 +285,8 @@ static double KalmanFilter(const double ResrcData,double ProcessNiose_Q,double M
 ## 4.Kalman滤波推导过程
 
 $$
-系统模型：X_k = F_k*X_{k-1} + B_k*U_k + \omega_k \\
-观测模型：Z_k = H_k*X_k + v_k \\ 
-五条公式：\\
-****预测与更新****\\
-**预测问题**\\
-状态预测：X(K|K-1) = A*X(K-1|K-1)+B*u(K)...(1)
-\\预测协方差：P（K|K-1） = A*P(K-1|k-1)*A' + Q(K-1)...(2)
-\\x(K|K) = X(K|K-1) + K(K)
-已知:\\
-上一个状态的更新值\\
-上一个状态的更新值和真实值之间的误差\\
-求解：\\
-
-这一个状态的预测值\\
-这一个状态的预测值和真实值之间的误差\\
+Reference:https://www.cnblogs.com/ycwang16/p/5999034.html
 $$
 
-```c
-Reference:《基于机载北斗导航系统的卡尔曼滤波算法研究》
-//上一个周期更新值 Xk-1|k-1  预测当前时刻预测值 Xk|k-1
 
-//由上一个更新值和真实值之间的误差 Pk-1|k-1 预测下一个预测值和真实值之间的误差 Pk|k-1
-
-
-```
 
