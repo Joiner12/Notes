@@ -278,9 +278,23 @@ legend('real','obser','kalman')
 
 ## 3.（协）方差 | 期望 | 标准差
 
-《方差，协方差、标准差，与其意义》
+#### 3.1《方差，协方差、标准差，与其意义》
 
 <https://blog.csdn.net/yangdashi888/article/details/52397990>
+
+均值：样本集合的中间点；
+
+方差：样本点到样本中间点距离的均值；
+
+标准差：sqrt(方差)；
+
+协方差：表示两组数据的相关度（正负相关）；
+
+#### 3.2 std、var函数
+
+var计算矩阵（数组）的方差；
+
+<https://ww2.mathworks.cn/help/matlab/ref/var.html>
 
 ## 4.Kalman滤波推导过程
 
