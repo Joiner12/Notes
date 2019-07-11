@@ -2,27 +2,25 @@
 
 ## 1.Reference
 
-[2]《Math\]理解卡尔曼滤波器 (Understanding Kalman Filter)》
+[1]《Math\]理解卡尔曼滤波器 (Understanding Kalman Filter)》
 
 <https://segmentfault.com/a/1190000000514987>
 
-[3]《细说Kalman滤波：The Kalman Filter》★★★
+[2]《细说Kalman滤波：The Kalman Filter》★★★
 
 <https://www.cnblogs.com/ycwang16/p/5999034.html>
 
-[4]《H无穷滤波器和Kalman滤波器比较》<https://wenku.baidu.com/view/6e7035323968011ca3009147.html>
+[3]《H无穷滤波器和Kalman滤波器比较》
 
-[5]《Kalman 滤波》
+<https://wenku.baidu.com/view/6e7035323968011ca3009147.html>
 
-<https://www.cnblogs.com/alantu2018/p/9224001.html>
-
-[6]《MATLAB VAR函数》
+[4]《MATLAB VAR函数》
 
 <https://blog.csdn.net/ouening/article/details/51281242>
 
-[7] 《C KALMAN》
+[5] 《EKF》★★★
 
-<https://blog.csdn.net/von_kent/article/details/76610952>
+<https://blog.csdn.net/Q_18163961/article/details/52505591>
 
 ## 2.CODE
 
@@ -288,13 +286,15 @@ legend('real','obser','kalman')
 
 标准差：sqrt(方差)；
 
-协方差：表示两组数据的相关度（正负相关）；
+协方差：表示两组数据的相关度（正负相关）
 
 #### 3.2 std、var函数
 
 var计算矩阵（数组）的方差；
 
 <https://ww2.mathworks.cn/help/matlab/ref/var.html>
+
+
 
 ## 4.Kalman滤波推导过程
 
@@ -304,3 +304,15 @@ $$
 
 
 
+#### 4.1 Extented Kalman
+
+（1）扩张卡尔曼滤波是将非线性系统线性化，然后进行滤波，其本质是还是线性滤波器，且存在一定的局限性，强非线性违背局部线性假设，Taylor展开式中大偏差的高阶项被忽略，但可能会造成滤波发散；
+
+（2）Jacobian matrix
+
+#### 4.2 KF解决的问题
+
+1. Kalman滤波所解决的问题，是对一个动态变化的系统的状态跟踪的问题，基本的模型假设包括：1）系统的状态方程是线性的；2）观测方程是线性的；3）过程噪声符合零均值高斯分布；4）观测噪声符合零均值高斯分布；从而，一直在线性变化的空间中操作高斯分布，状态的概率密度符合高斯分布。
+2. 对于线性系统，零均值高斯噪声的系统，Kalman是理论上无偏的，最优滤波器；
+3. Kalman滤波在实际使用中，要注意参数R和Q的调节，这两者实际上是相对的，表示更相信观测还是更相信预测。具体使用时，R可以根据过程噪声的幅度决定，然后Q可以相对R来给定。当更相信观测时，把Q调小，不相信观测时，把Q调大；
+4. Q越大，表示越不相信观测，这是系统状态越容易收敛，对观测的变化响应越慢。Q越小，表示越相信观测，这时对观测的变化响应快，但是越不容易收敛。Q、R值的大小表示置信度大小；
