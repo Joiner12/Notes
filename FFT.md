@@ -34,3 +34,5 @@ https://blog.csdn.net/wuxianglonghaohao/article/details/21602305
 比特位反转|对数运算
 
 http://graphics.stanford.edu/~seander/bithacks.html#BitReverseObvious
+
+⭐⭐⭐⭐《dft》 https://web.xidian.edu.cn/kywang/files/20121027_164737.pdf 
