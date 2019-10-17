@@ -36,3 +36,25 @@ https://blog.csdn.net/wuxianglonghaohao/article/details/21602305
 http://graphics.stanford.edu/~seander/bithacks.html#BitReverseObvious
 
 ⭐⭐⭐⭐《dft》 https://web.xidian.edu.cn/kywang/files/20121027_164737.pdf 
+
+
+
+## Blog
+
+## 1.理论基础
+
+#### 1.1. 傅里叶变换定义${^{[1]}}$：
+
+  傅里叶变换是以时间为自变量的“信号”函数，同以频率为自变量的“频谱”函数之间的变换关系；
+
+#### 1.2 不同形式时域函数和频域函数
+
+（1）时域连续造成频谱的非周期，时域的
+
+
+
+
+
+### Reference:
+
+[1]《数字信号处理及 MATLAB 实现》余成波 杨 菁 杨如民 周登义 编著
