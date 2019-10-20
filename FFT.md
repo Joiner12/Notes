@@ -45,7 +45,7 @@ http://graphics.stanford.edu/~seander/bithacks.html#BitReverseObvious
 
 #### 1.1. 傅里叶变换定义${^{[1]}}$：
 
-  频域分析的引入，任意信号都可以分解成不同频率、振幅和初相位角的正弦信号的叠加，这样就可以从频率的角度描述时域信号${^{[2]}}​$，傅里叶变换是以时间为自变量的“信号”函数，同以频率为自变量的“频谱”函数之间的变换关系；
+  频域分析的引入，任意信号都可以分解成不同频率、振幅和初相位角的正弦信号的叠加，这样就可以从频率的角度描述时域信号${^{[2]}}$，傅里叶变换是以时间为自变量的“信号”函数，同以频率为自变量的“频谱”函数之间的变换关系；
 
 #### 1.2 不同形式时域函数和频域函数
 
@@ -78,23 +78,29 @@ $$
 
 
 ```matlab
+%% 
+clc;
+fprintf('Discrete Fourier Transform\n');
 N1 = 8; % 序列长度
 SreialNums = 0:1:N1-1;
-xn = 0.5.^SerialNums;
+xn = 0.5.^SreialNums;
 DFTN8 = zeros(0); % 8点傅里叶变换
 for k = 1:1:N1
 	% WN = exp(-j*n*2*pi/N1)
 	temp = -1j*2*pi/N1;
-	DFTN8(k) = sum(xn.*exp(temp*k*.SreialNums));
+	DFTN8(k) = sum(xn.*exp(temp*k.*SreialNums));
 end
 
+close all
 figure(1)
 subplot(311)
 stem(SreialNums,xn)
 title('离散序列')
 subplot(312)
 stem(linspace(0,2*pi,N1),abs(DFTN8))
-title('DFT')
+xlabel('\omega')
+ylabel('|A(X)|')
+title('8点DFT')
 
 
 
@@ -110,4 +116,6 @@ title('DFT')
 
 [3] 《信号与系统》奥本海姆
 
-[4] 《DFT》https://
+[4] 《DFT》, https://web.xidian.edu.cn/kywang/files/20121027_164737.pdf 
+
+[5] 《DFT》, http://www.robots.ox.ac.uk/~sjrob/Teaching/SP/l7.pdf 
