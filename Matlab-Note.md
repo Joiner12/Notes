@@ -505,3 +505,10 @@ http://bbs.elecfans.com/jishu_369721_1_1.html
 
 <https://ww2.mathworks.cn/help/simulink/s-function-basics-matlab.html>
 
+---
+
+## 48.Histogram 
+
+1.《Doc-Histogram》
+
+<https://ww2.mathworks.cn/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html>
