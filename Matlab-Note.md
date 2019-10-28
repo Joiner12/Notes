@@ -519,16 +519,5 @@ http://bbs.elecfans.com/jishu_369721_1_1.html
 
 <https://ww2.mathworks.cn/help/matlab/ref/geobasemap.html?requestedDomain=cn>
 
-```matlab
-clc;
-clear;
-fprintf('cellular...\n ');
-opts = detectImportOptions('file.file');
-opts.VariableNames = {'**','***','***'};
-Eq = readtable('file.file')
-figure(1)
-geoscatter()
-geobasemap bluegreen
 
-```
 
