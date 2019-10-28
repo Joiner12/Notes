@@ -505,10 +505,30 @@ http://bbs.elecfans.com/jishu_369721_1_1.html
 
 <https://ww2.mathworks.cn/help/simulink/s-function-basics-matlab.html>
 
----
-
 ## 48.Histogram 
 
 1.《Doc-Histogram》
 
 <https://ww2.mathworks.cn/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html>
+
+
+
+## 49.GeoMap
+
+1.《Geobasemap》
+
+<https://ww2.mathworks.cn/help/matlab/ref/geobasemap.html?requestedDomain=cn>
+
+```matlab
+clc;
+clear;
+fprintf('cellular...\n ');
+opts = detectImportOptions('file.file');
+opts.VariableNames = {'**','***','***'};
+Eq = readtable('file.file')
+figure(1)
+geoscatter()
+geobasemap bluegreen
+
+```
+
