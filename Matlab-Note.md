@@ -521,3 +521,25 @@ http://bbs.elecfans.com/jishu_369721_1_1.html
 
 
 
+## 50.Table补全
+
+```matlab
+file = 'C:\\User\\Desktop\\file.txt';
+opts = detectImportOptions;
+opts.VariableNames = {'what','the','fun'};
+origin_table = readtable(file,opts);
+% 局部使用struct2table table2struct
+full_struct = table2struct(origin_table);
+% 使用截断方法
+table_size = size(origin_table);
+cut_index = 1;
+for i = 2:1:table_size(1)
+	% table以列为导向(column oriented)，strut 以行为导向(row oriented)
+	if isempty(origin_table.what(i)) || imempty(origin_table.fun(i))
+		full_struct(i).what = origin_table.what(cut_index);
+	else
+		cut_index = i;
+	end
+end
+```
+
