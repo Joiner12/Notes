@@ -439,21 +439,21 @@ https://www.mathworks.com/matlabcentral/cody/
 
 <http://undocumentedmatlab.com/blog/changing-matlab-command-window-colors/>
 
-## 44.iddata
+### 44.iddata
 
 数据保存类型，相比较于mat文件，可以存储数据的类型，以及相关属性；
 
 https://ww2.mathworks.cn/help/ident/gs/identify-nonlinear-black-box-models-using-the-gui.html
 
-## 45.蕨形树叶
+### 45.蕨形树叶
 
 《蕨形树叶》<https://zhuanlan.zhihu.com/p/24649825>
 
 ---
 
-## 46.地图
+46.地图
 
-##### 45.1 地图绘图
+### 45.1 地图绘图
 
 <https://ww2.mathworks.cn/help/matlab/ref/geoscatter.html?s_tid=doc_ta>
 
@@ -469,7 +469,7 @@ https://ww2.mathworks.cn/help/ident/gs/identify-nonlinear-black-box-models-using
 
 
 
-## 47.Simulink 仿真
+### 47.Simulink 仿真
 
 1.<https://blog.csdn.net/zkzfengyi/article/details/80473110>
 
@@ -505,7 +505,7 @@ http://bbs.elecfans.com/jishu_369721_1_1.html
 
 <https://ww2.mathworks.cn/help/simulink/s-function-basics-matlab.html>
 
-## 48.Histogram 
+### 48.Histogram 
 
 1.《Doc-Histogram》
 
@@ -521,7 +521,7 @@ http://bbs.elecfans.com/jishu_369721_1_1.html
 
 
 
-## 50.Table补全
+### 50.Table补全
 
 ```matlab
 file = 'C:\\User\\Desktop\\file.txt';
@@ -543,3 +543,18 @@ for i = 2:1:table_size(1)
 end
 ```
 
+### 51.信号频谱
+
+1.《使用MATLAB—SIMULINK分析典型信号频谱特性》
+
+https://www.cnblogs.com/cql/archive/2012/12/01/2797821.html
+
+2.《三角波》
+
+<https://www.jianshu.com/p/ea3f9a325801>
+
+
+
+《TD》
+
+<https://zhuanlan.zhihu.com/p/76326861>
