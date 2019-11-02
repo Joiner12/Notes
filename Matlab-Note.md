@@ -2,7 +2,7 @@
 
 ——记录Matlab相关；
 
-## 1.自然对数e
+### 1.自然对数e
 
 <https://blog.csdn.net/Katherine_S/article/details/53677608>
 
@@ -10,13 +10,13 @@
 
 syms sys
 
-## 2.S函数
+### 2.S函数
 
 《S函数介绍》
 
 <https://blog.csdn.net/acelit/article/details/59082349>
 
-## 3.MATLAB批量修改名字
+### 3.MATLAB批量修改名字
 
 《利用MATLAB批量修改文件名》
 
@@ -26,7 +26,7 @@ syms sys
 
 https://blog.csdn.net/u010099080/article/details/49915743
 
-## 4.MATLAB 静态变量和全局变量
+### 4.MATLAB 静态变量和全局变量
 
 persistent  & global
 
@@ -34,7 +34,7 @@ persistent  & global
 
 --winopen()
 
-## 5.Matlab字符串做变量名
+### 5.Matlab字符串做变量名
 
 《字符串处理函数》
 
@@ -53,13 +53,13 @@ eval( [str_var, '= 10']);
 
 <https://blog.csdn.net/qq_21090131/article/details/82953326>
 
-## 6 Matlab*.fig中提取Origin Data
+### 6 Matlab*.fig中提取Origin Data
 
 《*.fig提取数据》
 
 <https://blog.csdn.net/shineprince/article/details/79688351#>
 
-## 7 MATLAB 多点运动图
+### 7 MATLAB 多点运动图
 
 <https://www.zhihu.com/question/30908838>
 
@@ -69,7 +69,7 @@ eval( [str_var, '= 10']);
 
 <https://blog.csdn.net/wh1312142954/article/details/80796764>
 
-## 8 Matlab解决调用其他文件夹函数的问题
+### 8 Matlab解决调用其他文件夹函数的问题
 
 <https://blog.csdn.net/cfyzcc/article/details/50535632> Matlab中用文件夹中子文件夹内.m文件的方法
 
@@ -85,11 +85,11 @@ eval( [str_var, '= 10']);
 
 -.2sign函数
 
-## 9 Matlab脚本 ->exe
+### 9 Matlab脚本 ->exe
 
 <https://blog.csdn.net/proton_boke/article/details/72865498>
 
-## 10 GUI获取数据
+### 10 GUI获取数据
 
 《Matlab GUI设计——文件读取和保存uigetfile,uiputfile》
 
@@ -143,7 +143,7 @@ eval( [str_var, '= 10']);
 
 <https://ww2.mathworks.cn/help/matlab/import_export/read-spreadsheet-data-into-table.html>
 
-## 11 Table数据类型
+### 11 Table数据类型
 
 <https://www.ilovematlab.cn/article-52-1.html>
 
@@ -156,19 +156,19 @@ readdata('file')
 '.' , '{}','()'
 ```
 
-## 12 正态分布常用函数
+### 12 正态分布常用函数
 
 《normpdf_normcdf_norminv_normrnd_normfit》
 
 <https://blog.csdn.net/shanchuan2012/article/details/52901758>
 
-## 13.矩形波
+### 13.矩形波
 
 《matlab产生方波脉冲和周期性方波信号》
 
 <https://blog.csdn.net/wordwarwordwar/article/details/56676130>
 
-## 14 Persistent Global
+### 14 Persistent Global
 
 《Persistent》
 
@@ -180,7 +180,7 @@ readdata('file')
 
 <http://www.matlabsky.com/thread-240-1-1.html>
 
-## 15 CMD指令运行MATLAB
+### 15 CMD指令运行MATLAB
 
 1.《cmd 命令行方式执行 matlab 脚本》
 
@@ -206,7 +206,7 @@ readdata('file')
 
 <https://wenku.baidu.com/view/2aa0632a0066f5335a812178.html?re=view>
 
-## 16.写Txt
+### 16.写Txt
 
 <https://blog.csdn.net/kunyxu/article/details/53563154>
 
@@ -215,7 +215,7 @@ fopen方式
 save方式
 ```
 
-## 17.中文乱码
+### 17.中文乱码
 
 1.《解决Matlab script脚本文件显示中文乱码的问题》
 
@@ -233,11 +233,11 @@ save方式
 
 <https://blog.csdn.net/ZYY88886666/article/details/75285780>
 
-## 18 .Simulink外部数据，信号源
+### 18 .Simulink外部数据，信号源
 
 1.<https://www.ilovematlab.cn/thread-506910-1-1.html>
 
-## 19. figure属性操作|Print保存图片
+### 19. figure属性操作|Print保存图片
 
 1.《figure属性操作》
 
@@ -247,11 +247,11 @@ save方式
 
 <https://www.cnblogs.com/stxs/p/8808971.html>
 
-## 20. matlab书籍资源
+### 20. matlab书籍资源
 
 <https://blog.csdn.net/myvanguard/article/details/84061563>
 
-## 21 修改启动默认位置
+### 21 修改启动默认位置
 
 https://blog.csdn.net/u012210613/article/details/52346842
 
@@ -259,17 +259,17 @@ https://blog.csdn.net/u012210613/article/details/52346842
 
 ```
 
-## 22 高级绘图
+### 22 高级绘图
 
 1.<https://www.cnblogs.com/jeromeblog/p/3396494.html>
 
-## 23 打包exe文件
+### 23 打包exe文件
 
 1.matlab将M文件直接编译为可独立使用的EXE可执行文件
 
 https://blog.csdn.net/jkhere/article/details/8906124
 
-## 24 差分
+### 24 差分
 
 ```
 diff(x)
@@ -277,15 +277,15 @@ diff(x)
 
 <https://ww2.mathworks.cn/help/matlab/ref/diff.html?s_tid=srchtitle>
 
-## 25 WordsCloud
+### 25 WordsCloud
 
 <https://ww2.mathworks.cn/help/matlab/ref/wordcloud.html?s_tid=srchtitle>
 
-## 26 Try catch
+### 26 Try catch
 
 https://ww2.mathworks.cn/help/matlab/ref/try.html?searchHighlight=try&s_tid=doc_srchtitle
 
-## 27 Java.Robot 实现键鼠控制
+### 27 Java.Robot 实现键鼠控制
 
 1.JVM(Java Virtural Machine)
 
@@ -297,7 +297,7 @@ version -java
 
 <https://blog.csdn.net/u011389706/article/details/57399942>
 
-## 28 Retangle|Viscircles画圆
+### 28 Retangle|Viscircles画圆
 
 <https://blog.csdn.net/ZLK961543260/article/details/70216089>
 
@@ -311,7 +311,7 @@ version -java
 
 <https://blog.csdn.net/nbu2004/article/details/50993093>
 
-## 29 Cell数据操作
+### 29 Cell数据操作
 
 <https://blog.csdn.net/yam_killer/article/details/7964872>
 
@@ -319,17 +319,17 @@ version -java
 
 <https://blog.csdn.net/u010999396/article/details/54386465>
 
-## 30 datenum函数
+### 30 datenum函数
 
 <https://blog.csdn.net/without_scruple/article/details/77352641>
 
 **etime()**
 
-## 31 字符串拆分
+### 31 字符串拆分
 
 <https://blog.csdn.net/gotomic/article/details/7898307>
 
-## 32 文件夹内容
+### 32 文件夹内容
 
 ```matlab
 % 两种方式均能使用reg
@@ -340,7 +340,7 @@ docsearch <string>
 
 ```
 
-## 33 积分
+### 33 积分
 
 《int》
 
@@ -350,7 +350,7 @@ docsearch <string>
 
 <https://ww2.mathworks.cn/help/matlab/ref/trapz.html?requestedDomain=cn>
 
-## 34 APP
+### 34 APP
 
 1.《2018Rb》
 
@@ -382,31 +382,31 @@ https://ww2.mathworks.cn/help/matlab/ref/inputdlg.html?searchHighlight=inputdlg&
 
 https://ww2.mathworks.cn/help/matlab/ref/questdlg.html
 
-## 35 SerialPort
+### 35 SerialPort
 
 《自动识别串口设备并获取其串口号（serial && friendly name）》
 
 <https://blog.csdn.net/u011389706/article/details/78929480>
 
-## 36 RunTime
+### 36 RunTime
 
 《RunTime 文档》
 
 <https://ww2.mathworks.cn/help/compiler/deployment-process.html>
 
-## 37 全屏figure
+### 37 全屏figure
 
 <https://blog.csdn.net/am290333566/article/details/84581313>
 
-## 38 匿名函数
+### 38 匿名函数
 
 https://blog.csdn.net/lqhbupt/article/details/18951311
 
-## 39 回调函数编写
+### 39 回调函数编写
 
 https://blog.csdn.net/whu_shao/article/details/53868956
 
-## 40 Simulink 代数环
+### 40 Simulink 代数环
 
 ```
 一、代数环的问题
@@ -427,37 +427,43 @@ reference:
 https://www.ilovematlab.cn/thread-260304-1-1.html
 ```
 
-## 41 绘图
+### 41 绘图
 
 <https://zhuanlan.zhihu.com/p/23598477>
 
-## 42 Cody
+### 42 Cody
 
 https://www.mathworks.com/matlabcentral/cody/
 
-## 43.Matlab Command Color
+### 43.Matlab Command Color
 
 <http://undocumentedmatlab.com/blog/changing-matlab-command-window-colors/>
 
-## 44.iddata
+### 44.iddata
 
 数据保存类型，相比较于mat文件，可以存储数据的类型，以及相关属性；
 
 https://ww2.mathworks.cn/help/ident/gs/identify-nonlinear-black-box-models-using-the-gui.html
 
-## 45.蕨形树叶
+### 45.蕨形树叶
 
 《蕨形树叶》<https://zhuanlan.zhihu.com/p/24649825>
 
 ---
 
-## 46.地图
+### 46.地图
 
-##### 45.1 地图绘图
+#### 45.1 地图绘图
+
+1.
 
 <https://ww2.mathworks.cn/help/matlab/ref/geoscatter.html?s_tid=doc_ta>
 
-##### 45.2 gca | gcf | shg | clf
+2.《Geobasemap》
+
+<https://ww2.mathworks.cn/help/matlab/ref/geobasemap.html?requestedDomain=cn>
+
+#### 45.2 gca | gcf | shg | clf
 
 **gca：**坐标轴区域图；
 
@@ -469,7 +475,7 @@ https://ww2.mathworks.cn/help/ident/gs/identify-nonlinear-black-box-models-using
 
 
 
-## 47.Simulink 仿真
+### 47.Simulink 仿真
 
 1.<https://blog.csdn.net/zkzfengyi/article/details/80473110>
 
@@ -505,23 +511,13 @@ http://bbs.elecfans.com/jishu_369721_1_1.html
 
 <https://ww2.mathworks.cn/help/simulink/s-function-basics-matlab.html>
 
-## 48.Histogram 
+### 48.Histogram 
 
 1.《Doc-Histogram》
 
 <https://ww2.mathworks.cn/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html>
 
-
-
-## 49.GeoMap
-
-1.《Geobasemap》
-
-<https://ww2.mathworks.cn/help/matlab/ref/geobasemap.html?requestedDomain=cn>
-
-
-
-## 50.Table补全
+### 49.Table补全
 
 ```matlab
 file = 'C:\\User\\Desktop\\file.txt';
@@ -543,3 +539,18 @@ for i = 2:1:table_size(1)
 end
 ```
 
+### 50.信号频谱
+
+1.《使用MATLAB—SIMULINK分析典型信号频谱特性》
+
+https://www.cnblogs.com/cql/archive/2012/12/01/2797821.html
+
+2.《三角波》
+
+<https://www.jianshu.com/p/ea3f9a325801>
+
+
+
+《TD》
+
+<https://zhuanlan.zhihu.com/p/76326861>
