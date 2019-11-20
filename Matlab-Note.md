@@ -560,3 +560,9 @@ https://www.cnblogs.com/cql/archive/2012/12/01/2797821.html
 1.《Official Doc》
 
 <https://ww2.mathworks.cn/help/matlab/matlab_prog/regular-expressions.html>
+
+---
+
+### 52.《matlab dos执行》
+
+1.<https://blog.csdn.net/nupt123456789/article/details/7943910>
