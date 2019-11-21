@@ -566,3 +566,7 @@ https://www.cnblogs.com/cql/archive/2012/12/01/2797821.html
 ### 52.《matlab dos执行》
 
 1.<https://blog.csdn.net/nupt123456789/article/details/7943910>
+
+2.<https://stackoverflow.com/questions/7614292/run-a-matlab-script-from-windows-dos-prompt>
+
+3.<https://ww2.mathworks.cn/matlabcentral/answers/238069-how-to-run-a-m-file-without-showing-command-window>
