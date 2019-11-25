@@ -581,9 +581,34 @@ https://www.cnblogs.com/cql/archive/2012/12/01/2797821.html
 
 ---
 
-### 54. class 设计
+### 54. classdef
 
 1.《Official Doc》
 
 <https://ww2.mathworks.cn/help/matlab/sample-classes.html>
 
+2.《matlab——之class类（详细总结）》
+
+<https://blog.csdn.net/qinze5857/article/details/80545885>
+
+3.《matlab-如何定义类》
+
+<https://www.cnblogs.com/wangduo/p/5908311.html>
+
+4.《Tutorial: Using Matlab compiled classes from within Python》
+
+<http://www.cloud-rocket.com/2016/08/using-matlab-compiled-class-from-python/>
+
+---
+
+### 55.《MATLAB versus Python》
+
+1.《Offical Doc》
+
+<https://ww2.mathworks.cn/products/matlab/matlab-and-python.html>
+
+<https://ww2.mathworks.cn/help/matlab/matlab-engine-for-python.html>
+
+2.《开发类 - 典型工作流 - MATLAB & Simulink - MathWorks 中国.html》
+
+<https://ww2.mathworks.cn/help/matlab/matlab_oop/developing-classes-typical-workflow.html>
