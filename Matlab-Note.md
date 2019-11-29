@@ -612,3 +612,17 @@ https://www.cnblogs.com/cql/archive/2012/12/01/2797821.html
 2.《开发类 - 典型工作流 - MATLAB & Simulink - MathWorks 中国.html》
 
 <https://ww2.mathworks.cn/help/matlab/matlab_oop/developing-classes-typical-workflow.html>
+
+---
+
+### 56.《C调用matlab engine》
+
+1.<https://ww2.mathworks.cn/help/matlab/apiref/engopen.html>
+
+2.《demo - matlab》
+
+```
+//MATLAB//R2018b//extern//examples//eng_mat//engdemo.c
+//MATLAB//R2018b//extern//examples//eng_mat//engdemo.cpp
+```
+
