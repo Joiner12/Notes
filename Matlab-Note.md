@@ -626,3 +626,10 @@ https://www.cnblogs.com/cql/archive/2012/12/01/2797821.html
 //MATLAB//R2018b//extern//examples//eng_mat//engdemo.cpp
 ```
 
+3.《visual 调用MATLAB静态库》
+
+<https://ww2.mathworks.cn/matlabcentral/answers/467518-how-can-i-build-a-c-program-using-matlab-engine-in-visual-studio>
+
+4.《official doc》
+
+<https://ww2.mathworks.cn/help/matlab/matlab_external/compiling-engine-applications-in-an-ide.html>
