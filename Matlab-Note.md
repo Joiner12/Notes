@@ -633,3 +633,54 @@ https://www.cnblogs.com/cql/archive/2012/12/01/2797821.html
 4.《official doc》
 
 <https://ww2.mathworks.cn/help/matlab/matlab_external/compiling-engine-applications-in-an-ide.html>
+
+---
+
+### 57.《Path操作》
+
+1.《指令操作路径》
+
+<https://blog.csdn.net/chaolei3/article/details/83003426>
+
+```matlab
+addpath([path|genpath(path)]);% 添加文件夹|及其子路径
+rmpath([path|genpath(path)]);% 删除文件夹|及其子路径
+
+```
+
+
+
+---
+
+### 58.《范数计算》
+
+<https://blog.csdn.net/wywywy01/article/details/77823003>
+
+```matlab
+norm(a,size1,...sizen,'classdef')
+```
+
+
+
+---
+
+### 59.《Simulink \To WorkSpace模块》
+
+```matlab
+%{
+	To WorkSpace模块输入数据类型：timeseries;
+	e.g:yout
+	>> yout
+	timeseries常见属性：
+		Name:''
+		Time:[]
+		TimeInfo:
+		Data:[]
+		DataInfo:
+	使用方式类似于struct和table
+%}
+yout;% timeseries
+time = yout.time;
+data = yout.data;
+```
+
