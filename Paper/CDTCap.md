@@ -1,12 +1,18 @@
-# 《基于复合微分跟踪器的电容式位置传感器》
+# 基于复合微分跟踪器的电容式位置传感器
 
 《复合微分跟踪器在电容式位置传感器中的应用》
 
-## **Abstract**
+**摘要:** 针对从含有随机扰动的电容式位置传感器中获取位置信息以及速度信号，一般形式微分跟踪器不能很好兼顾信号跟踪相位滞后和噪声放大问题，参数多，调试复杂等问题。在微分跟踪器等效线性分析基础上，将复合形式微分跟踪器应用于位置式电容传感器位置信号跟踪以及速度信号估计，通过MATLAB\SIMULINK仿真以及实验平台测试，结果表明：复合微分跟踪器能光滑逼近原始位置信号，且能够有效提取速度信号，相比较于一般形式微分跟踪器，能更好地兼顾跟踪信号相位滞后以及速度信号噪声。
 
-  针对从含有随机扰动的电容式位置传感器中提取位置信息，以及微分信号提取中，一般形式微分跟踪器不能很好兼顾信号跟踪相位滞后和噪声放大，通过对微分跟踪器进行等效线性分析，将复合形式微分跟踪器应用于位置信号跟踪以及速度估计，通过MATLAB\SIMULINK仿真以及实际测试。结果表明：复合微分跟踪器能光滑逼近原始位置信号，且能够有效提取微分信号，同一般形式微分跟踪器比较，能很好地兼顾相位滞后和噪声放大。
+关键词：电容式位置传感器；复合微分跟踪器；位置跟踪；速度估计
 
-关键词：电容式位置传感器  复合微分跟踪器	位置跟踪	微分信号
+# Capacitive position sensor based on composite differential tracker
+
+## 
+
+**Abstract**:Aiming at obtaining position information and velocity signals from a capacitive position sensor containing random disturbances, the general form of differential tracker cannot well take into account the problems of signal tracking phase lag and noise amplification, many parameters and complicated debugging.Based on the equivalent linear analysis of the differential  tracker, a composite form of differential tracker was applied to position signal tracking and velocity signal estimation of the position capacitive sensor. The simulations and experimental platform tests of MATLAB \ SIMULINK showed that the composite differential tracker can approach the original smoothly. The position signal and the speed signal can be effectively extracted. Compared with the general form differential tracker, the tracking signal phase lag and the speed signal noise can be better taken into account.
+
+Key words: capacitive position sensor；compound differential tracker；position tracking；velocity estimation
 
 
 
@@ -160,30 +166,32 @@ $$
 
 [3]武利强,林浩,韩京清.跟踪微分器滤波性能研究[J].系统仿真学报,2004,16(4):651-652,670.
 
-[4] 王新华,陈增强.一种新型的非线性跟踪-微分器的设计及其稳定性分析[C].
+[4]王新华,陈增强.一种新型的非线性跟踪-微分器的设计及其稳定性分析[C].
 
-[5] 韩京清, 王伟. 非线性跟踪─微分器[J]. 系统科学与数学, 1994(02):177-183.
+[5]韩京清, 王伟. 非线性跟踪─微分器[J]. 系统科学与数学, 1994(02):177-183.
 
-[6] 韩京清, 黄远灿. 二阶跟踪—微分器的频率特性[J]. 数学的实践与认识, 2003(03):72-75.
+[6]韩京清, 黄远灿. 二阶跟踪—微分器的频率特性[J]. 数学的实践与认识, 2003(03):72-75.
 
-[7] 《跟踪微分器》韩京清，王伟
+[7]《跟踪微分器》韩京清，王伟
 
-[8] 武利强, 韩京清. TD滤波器及其应用[J]. 计算技术与自动化, 2004, 22(z1):61-63.
+[8]武利强, 韩京清. TD滤波器及其应用[J]. 计算技术与自动化, 2004, 22(z1):61-63.
 
-[9] 《自抗扰控制技术》 P61
+[9]《自抗扰控制技术》 P61
 
-[10] 劳立明, 陈英龙, 赵玉刚, et al. 跟踪微分器的等效线性分析及优化[J]. 浙江大学学报(工学版), v.52;No.334(2):23-31.
+[10]劳立明, 陈英龙, 赵玉刚, et al. 跟踪微分器的等效线性分析及优化[J]. 浙江大学学报(工学版), v.52;No.334(2):23-31.
 
-[11] 韩京清, 袁露林. 跟踪—微分器的离散形式[J]. 系统科学与数学, 1999, 19(3):268-273.
+[11]韩京清, 袁露林. 跟踪—微分器的离散形式[J]. 系统科学与数学, 1999, 19(3):268-273.
 
-[12]  自抗扰控制技术-估计补偿不确定因素的控制技术 p60-62
+[12] 自抗扰控制技术-估计补偿不确定因素的控制技术 p60-62
 
-[13] Feng H , Li S . A tracking differentiator based on Taylor expansion[J]. Applied Mathematics Letters, 2013, 26(7):735-740.
+[13]Feng H , Li S . A tracking differentiator based on Taylor expansion[J]. Applied Mathematics Letters, 2013, 26(7):735-740.
 
-[14] 史永丽, 侯朝桢. 改进的非线性跟踪微分器设计[J]. 控制与决策, 2008(06):49-52+61. 
+[14]史永丽, 侯朝桢. 改进的非线性跟踪微分器设计[J]. 控制与决策, 2008(06):49-52+61. 
 
-[15] Wang X , Chen Z , Yang G . Finite-Time-Convergent Differentiator Based on Singular Perturbation Technique[J]. IEEE TRANSACTIONS ON AUTOMATIC CONTROL AC, 2007.
+[15]Wang X , Chen Z , Yang G . Finite-Time-Convergent Differentiator Based on Singular Perturbation Technique[J]. IEEE TRANSACTIONS ON AUTOMATIC CONTROL AC, 2007.
 
-[16] 刘延泉, 郭佳颖. 双曲正切跟踪微分器设计及相平面分析[J]. 电力科学与工程, 2017(10):78-82.
+[16]刘延泉, 郭佳颖. 双曲正切跟踪微分器设计及相平面分析[J]. 电力科学与工程, 2017(10):78-82.
 
 [17]葛连正, 陈健, 李瑞峰. 改进的跟踪微分器设计[J]. 吉林大学学报(工学版), v.41;No.157(05):1439-1443.
+
+[18]改进的反正切跟踪微分器设计 SJTU 
