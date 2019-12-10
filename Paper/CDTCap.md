@@ -2,13 +2,11 @@
 
 《复合微分跟踪器在电容式位置传感器中的应用》
 
-**摘要:** 针对从含有随机扰动的电容式位置传感器中获取位置信息以及速度信号，一般形式微分跟踪器不能很好兼顾信号跟踪相位滞后和噪声放大问题，参数多，调试复杂等问题。在微分跟踪器等效线性分析基础上，将复合形式微分跟踪器应用于位置式电容传感器位置信号跟踪以及速度信号估计，通过MATLAB\SIMULINK仿真以及实验平台测试，结果表明：复合微分跟踪器能光滑逼近原始位置信号，且能够有效提取速度信号，相比较于一般形式微分跟踪器，能更好地兼顾跟踪信号相位滞后以及速度信号噪声。
+**摘要:** 针对从含有随机扰动的电容式位置传感器中获取位置信息以及速度信号，一般形式微分跟踪器不能很好兼顾信号跟踪相位滞后和噪声放大，参数多，调试复杂等问题。在微分跟踪器等效线性分析基础上，将复合形式微分跟踪器应用于位置式电容传感器位置信号跟踪以及速度信号估计，通过MATLAB\SIMULINK仿真以及实验平台测试，结果表明：复合微分跟踪器能光滑逼近原始位置信号，且能够有效提取速度信号，相比较于一般形式微分跟踪器，能更好地兼顾跟踪信号相位滞后以及速度信号噪声。
 
 关键词：电容式位置传感器；复合微分跟踪器；位置跟踪；速度估计
 
 # Capacitive position sensor based on composite differential tracker
-
-## 
 
 **Abstract**:Aiming at obtaining position information and velocity signals from a capacitive position sensor containing random disturbances, the general form of differential tracker cannot well take into account the problems of signal tracking phase lag and noise amplification, many parameters and complicated debugging.Based on the equivalent linear analysis of the differential  tracker, a composite form of differential tracker was applied to position signal tracking and velocity signal estimation of the position capacitive sensor. The simulations and experimental platform tests of MATLAB \ SIMULINK showed that the composite differential tracker can approach the original smoothly. The position signal and the speed signal can be effectively extracted. Compared with the general form differential tracker, the tracking signal phase lag and the speed signal noise can be better taken into account.
 
@@ -18,17 +16,21 @@ Key words: capacitive position sensor；compound differential tracker；position
 
 ## **引言**
 
-  电容式位置传感器，一种基于电容极板效应间接测距装置，由于其具有结构简单、检测精度高、灵敏度高、非接触式等优点${^{[1]}}$，广泛应用于激光随动控制系统中，用于实时测量随动头与加工工件距离，并且取得了良好的效果。在实际加工过程中，由于喷渣、极板接地不良、气体扰动、工件表面不平整、电容边缘效应等原因${^{[2]}}$，导致电容位置传感器直接获取的位置信息中存在较大的随机噪声，影响距离测量的精准度。由于激光切割对随动控制系统要求很高，在进行控制系统的设计过程中，还需要对位置微分信号进行有效提取，若采用直接微分（差分）方法进行微分信号提取会将噪声放大，不能有效提取出速度信号${^{[4]}}$，严重情况下导致控制回路抖动，机械异响等问题。微分跟踪器(Tracking Differentiator，TD)${^{[5]}}$最早是由韩京清提出，通过对其频域分析，表明其在含有随机噪声、不连续原始信号逼近、微分信号提取具有很好的性能，此外同使用较多的kalman滤波器相比，计算复杂度更小${^{[6]}}$。典型微分跟踪器，存在原始信号跟踪相位滞后和噪声放大之间不能很好兼顾的问题，本文在等效线性微分跟踪器分析的基础上${^{[10]}}$，将复合微分跟踪器应用于电容式位置传感器中，通过仿真以及实际测试验证结果表明，相对于一般形式的微分跟踪器，复合微分跟踪器在相位滞后、微分信号提取方面具有更好的效果。
+  电容式位置传感器，一种基于电容极板效应的间接测距装置，由于其具有结构简单、检测精度高、灵敏度高、非接触式等优点${^{[1]}}$，广泛应用于激光随动控制系统中，用于实时测量随动头与加工工件距离，并且取得了良好的效果。在实际加工过程中，由于喷渣、极板接地不良、气体扰动、工件表面不平整、电容边缘效应等原因${^{[2]}}$，导致电容位置传感器直接获取的位置信息中存在较大的随机噪声，影响距离测量的精准度。由于激光切割对随动控制系统要求很高，在进行控制系统的设计过程中，还需要对位置微分信号进行有效提取，若采用直接微分（差分）方法进行微分信号提取会将噪声放大，不能有效提取出速度信号${^{[4]}}$，严重情况下导致控制回路抖动，机械异响等问题。微分跟踪器(Tracking Differentiator，TD)${^{[5]}}$最早是由韩京清提出，通过对其频域分析，表明其在含有随机噪声、不连续原始信号逼近、微分信号提取具有很好的性能，此外同使用较多的kalman滤波器相比，计算复杂度更小${^{[6]}}$。典型微分跟踪器，存在原始信号跟踪相位滞后和噪声放大之间不能很好兼顾的问题，本文在等效线性微分跟踪器分析的基础上${^{[10]}}$，将复合微分跟踪器应用于电容式位置传感器中，通过仿真以及实际测试验证结果表明，相比较于一般形式的微分跟踪器，复合微分跟踪器在相位滞后、微分信号提取方面具有更好的效果。
 
 
 
 ## **1.电容式位置传感器原理分析**
 
-  实验平台所采用的传感器类型为变间隙式平行板电容放大器，电容极板分别为感应极板（活动极板）以及加工工件（固定极板）。感应极板为激光切割系统中普遍使用的圆形极板。加工过程中，将电容极板端安装于切割头，随着浮动头一起运动，以实现切割头相对于加工工件位置的实时测量。变间隙式平行板感应极板端截面如果1-1所示。
+  实验平台所采用的传感器类型为变间隙式平行板电容位置传感器，电容极板由感应极板和固定极板两部分构成，感应极板安装于位置式电容传感器下端，待加工工件则作为固定极板。感应极板为激光切割系统中普遍使用的圆形极板。加工过程中，将电容极板端安装于切割头，随着浮动头一起运动，电容位置传感器通过检测固定极板和感应极板间电容信号，并通过电容放大电路，实现切割头相对于加工工件位置的实时测量。使用电容式位置传感器激光切割头示意图如图1-1所示，变间隙式平行板感应极板端截面如图1-2所示。
 
-![](结构电容.png)
 
-​						图1-1 电容极板截面图
+
+
+
+![](电容测距.jpg)
+
+​									图1-2 电容极板截面图
 
 **测距原理**
 $$
