@@ -53,3 +53,21 @@
 2.《pyqt中文教程》
 
  https://maicss.gitbooks.io/pyqt5/content/hello_world.html 
+
+---
+
+### 6.#UTF-8
+
+https://legacy.python.org/dev/peps/pep-0263/
+
+---
+
+### 7.OS库
+
+1.《调用*.sh》
+
+https://www.cnblogs.com/daduryi/p/6856249.html
+
+《重命名os.rename》
+
+https://blog.csdn.net/alicelmx/article/details/79092964
