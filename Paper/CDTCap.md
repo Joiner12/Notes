@@ -24,13 +24,13 @@ Key words: capacitive position sensor；compound differential tracker；position
 
   实验平台所采用的传感器类型为变间隙式平行板电容位置传感器，电容极板由感应极板和固定极板两部分构成，感应极板安装于位置式电容传感器下端，待加工工件则作为固定极板。感应极板为激光切割系统中普遍使用的圆形极板。加工过程中，将电容极板端安装于切割头，随着浮动头一起运动，电容位置传感器通过检测固定极板和感应极板间电容信号，并通过电容放大电路，实现切割头相对于加工工件位置的实时测量。使用电容式位置传感器激光切割头示意图如图1-1所示，变间隙式平行板感应极板端截面如图1-2所示。
 
-<img src="C:\Users\10520\Desktop\Notes\Paper\示意图1副本.jpg"  width="400" height = "400" />
+<img src="../Paper/示意图1副本.jpg"  width="400" height = "400" />
 
-​																				图1-1 切割头示意图
+​							  图1-1 切割头示意
 
-<img src="C:\Users\10520\Desktop\Notes\Paper\电容结构示意图1.jpg"  width="600" height = "300" />
+<img src="../Paper/电容结构示意图1.jpg"  width="600" height = "300" />
 
-​																		图1-2 电容极板截面图
+​										图1-2 电容极板截面图
 
 **测距原理**
 $$
@@ -144,13 +144,13 @@ $$
 
   为了验证复合微分跟踪器在原始信号逼近，以及微分信号提取的有效性，搭建Simulink仿真模型，仿真模型框图如图3-1所示，复合微分跟踪器使用两个微分跟踪器TDA、TDB串联构成，微分跟踪器（TDC）作为对比，前馈补偿输入量为0，微分跟踪器输入带高斯白噪声（均值：0，方差0.04）频率1HZ，幅值1的正弦信号。实验平台通过控制工件进行正弦（频率1Hz，幅值1mm）运动，模拟实际加工过程，实验平台如图3-2所示。
 
-<img src="C:\Users\10520\Desktop\Notes\Paper\仿真截图1.png"  width="600" height = "300" />
+<img src="../Paper/仿真截图1.png"  width="600" height = "300" />
 
 ​																				图3-1 Simulink仿真框图
 
 
 
-<img src="C:\Users\10520\Desktop\Notes\Paper\示意图2实验.jpg"  width="500" height = "400" />
+<img src="../Paper/示意图2实验.jpg"  width="500" height = "400" />
 
 ​																				图3-2 实验示意图
 
