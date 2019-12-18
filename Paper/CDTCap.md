@@ -26,9 +26,9 @@ Key words: position sensor；compound differential tracker；position tracking�
 
 ## **引言**
 
-  电容式位置传感器，是一种基于电容极板效应的间接测距装置，由于其具有结构简单、检测精度高、灵敏度高、非接触式等优点${^{[1]}}$，广泛应用于激光随动控制系统中，用于实时测量随动头与加工工件距离，并且取得了良好的效果。在实际加工过程中，由于喷渣、极板接地不良、气体扰动、工件表面不平整、电容边缘效应等原因，导致电容位置传感器直接获取的位置信息中存在较大的随机噪声，影响距离测量的精准度。为了获得良好的控制品质，在进行控制系统的设计过程中，还需要对位置微分信号进行有效提取${^{[23,27]}}$，若采用直接微分（差分）方法进行微分信号提取，由于噪声扰动不能有效提取出速度信号${^{[30]}}$，严重情况下导致控制回路震颤，机械异响等问题。
+  电容式位置传感器，是一种基于电容极板效应的间接测距装置，由于其具有结构简单、检测精度高、灵敏度高、非接触式等优点[1]，广泛应用于激光随动控制系统中，用于实时测量随动头与加工工件距离，并且取得了良好的效果。在实际加工过程中，由于喷渣、极板接地不良、气体扰动、工件表面不平整、电容边缘效应等原因，导致电容位置传感器直接获取的位置信息中存在较大的随机噪声，影响距离测量的精准度。为了获得良好的控制品质，在进行控制系统的设计过程中，还需要对位置微分信号进行有效提取[11,16 ]，若采用直接微分（差分）方法进行微分信号提取，由于噪声扰动不能有效提取出速度信号[10]，严重情况下导致控制回路震颤，机械异响等问题。因此如何获取高质量的原始信号逼近，以及提取微分信号对于控制品质的提高有着重要的意义。
 
-  跟踪微分器(Tracking Differentiator，TD)${^{[2]}}$，最早是由韩京清提出，通过对其频域分析，表明其在含有随机噪声、不连续原始信号逼近、微分信号提取具有很好的性能${^{[4]}}$，相比较于广泛应用的卡尔曼滤波器${^{^{}[24]}}$计算复杂度更小。跟踪微分器应用于自抗扰控制、信号处理${^{[28]}}$、模式识别等领域。实际使用过程中发现，原始信号跟踪相位滞后和噪声放大之间不能很好兼顾的问题。本文在等效线性跟踪微分器分析的基础上${^{[19]}}​$，将复合跟踪微分器应用于电容式位置传感器中，通过仿真以及实际测试验证结果表明，相比较于经典跟踪微分器，复合跟踪微分器在相位滞后、微分信号提取方面具有更好的效果。
+  跟踪微分器(Differential Tracker，DT)，是由韩京清提出来的一种从不连续或者带有随机噪声的信号中提取连续信号以及微分信号的技术[2]。通过对其频域分析，表明其在含有随机噪声、不连续原始信号逼近、微分信号提取具有很好的性能[17]，相比较于广泛应用的卡尔曼滤波器[12]计算复杂度更小。跟踪微分器应用于自抗扰控制[11]、信号处理[14]、模式识别等领域。为了解决原始信号跟踪相位滞后和噪声放大之间不能很好兼顾的问题。本文在等效线性跟踪微分器分析的基础上[18]，将复合跟踪微分器应用于电容式位置传感器中，通过仿真以及实际测试验证结果表明，相比较于经典跟踪微分器，复合跟踪微分器在相位滞后、微分信号提取方面具有更好的效果。
 
 
 
@@ -63,7 +63,7 @@ $$
 
 ### 2.1 经典跟踪微分器
 
-  跟踪微分器（TD），是由韩京清提出来的一种从不连续或者带有随机噪声的信号中提取连续信号以及微分信号的技术${^{[2]}}​$。控制系统的设计过程中，由于量测单元精度、系统内外部存在干扰等局限性，测量到的数据同系统真实情况存在一定偏差，此外，原始信号的微分信号通常无法通过测量的方式直接获取。因此如何获取高质量的原始信号逼近，及微分信号对于控制品质的提高有着重要的意义${^{[23,27]}}​$。 跟踪微分器具有较好的滤波特性,不仅能含有噪声的测量信号中获取良好的原始信号的逼近，此外还兼具高阶信号的估计作用${^{[15]}}​$。本文研究限于二阶跟踪微分器在原始信号滤波，及微分信号提取中的使用。 
+  跟踪微分器具有较好的滤波特性,不仅能含有噪声的测量信号中获取良好的原始信号的逼近，此外还兼具高阶信号的估计作用[15]。本文研究限于二阶跟踪微分器在原始信号滤波，及微分信号提取中的使用。 
 
 经典跟踪微分器的基本原理如下：
 
@@ -82,7 +82,7 @@ $$
 $$
 其中${x_1,x_2}$是系统的状态变量，${f({.})}$是系统的作用函数。
 
-有如下定理1${^{[5]}}$：
+有如下定理1：
 
 对上述二阶系统，按菲利波夫意义所有解${x_1(t),x_2(t)}$有界且满足如下条件：
 $$
@@ -90,7 +90,7 @@ $$
 \lim_{t\to ∞}x_1(t) = 0; \lim_{t \to ∞}x_2(t) = 0;
 \end{align}
 $$
-则对于任意有界可积信号$v(t),t\in [0,+\infty]及任意常数T>0​$,系统（2）将满足${\lim_{0 \to \infty}(\int_0^{T}|x_1(t) - v(t)|)dt = 0 ,\lim_{t\to+\infty}x_2(t) = 0}​$。
+则对于任意有界可积信号$v(t),t\in [0,+\infty]及任意常数T>0$,系统（2）将满足${\lim_{0 \to \infty}(\int_0^{T}|x_1(t) - v(t)|)dt = 0 ,\lim_{t\to+\infty}x_2(t) = 0}$。
 
 系统（2）：
 $$
@@ -103,15 +103,15 @@ $$
 
 \end{align}
 $$
-结论表明，构造适当的作用函数${f({.})}​$，使得系统(1)渐进稳定，${x_1(t)}​$将平均收敛于${v(t)}​$,${x_2(t)}​$收敛于${x_1(t)}​$的广义导数，系统（2）称为跟踪微分器${^{[9]}}​$,文献[29] 从收敛性的角度对跟踪微分器给出了完整的理论证明。
+结论表明，构造适当的作用函数${f({.})}$，使得系统(1)渐进稳定，${x_1(t)}$将平均收敛于${v(t)}$,${x_2(t)}$收敛于${x_1(t)}$的广义导数，系统（2）称为跟踪微分器,文献[19] 从收敛性的角度对跟踪微分器给出了完整的理论证明。
 
 
 
 ### 2.2 复合跟踪微分器
 
-  在对跟踪微分器的研究中，${f(.)}$跟踪函数对跟踪微分器的滤波特性、跟踪结果相位滞后、微分信号起着决定性作用。现有文献中，跟踪函数${f(.)}$被作为重点研究对象，在解决相位滞后，微分信号提取方面许多学者提出了不同形式跟踪函数。文献${[6]}$中提出的非线性幂次项形式跟踪函数，在平衡点附近为线性，远离平衡点为非线性，证明了跟踪微分器在原始信号逼近，微分信号提取相对于传统小时差近似微分的优异性。文献${[13]}$提出一种基于奇异摄动技术的有限时间收敛微分器。文献${[9]}$在非线性滑模跟踪微分器分析的基础上,提出一种结构简单、易于实现的非线性微分器。文献[11]在综合分析综合控制器属性的基础上提出了双曲正切形式的微分跟踪器，文献[12]对此形式的跟踪微分器进行了相位分析。此外不乏基于sigmoid函数${^{[13]}}$，反正切${^{[14]}}​$等多种形式的跟踪微分器。
+  在对跟踪微分器的研究中，${f(.)}$跟踪函数对跟踪微分器的滤波特性、跟踪结果相位滞后、微分信号起着决定性作用。现有文献中，跟踪函数${f(.)}$被作为重点研究对象，在解决相位滞后，微分信号提取方面许多学者提出了不同形式跟踪函数。文献[3]中提出的非线性幂次项形式跟踪函数，在平衡点附近为线性，远离平衡点为非线性，避免了抖振现象发生。文献[4]在非线性滑模跟踪微分器分析的基础上,提出一种结构简单、易于实现的非线性微分器。文献[5]在综合分析综合控制器属性的基础上提出了双曲正切形式的微分跟踪器，文献[6]对此形式的跟踪微分器进行了相位分析。此外不乏基于sigmoid函数[7]，反正切[8]等其他形式的跟踪微分器。
 
-  针对由不同形式跟踪函数构成的跟踪微分器在分析以及参数调试等方面存在的难点，浙江大学的劳等人对跟踪微分器在平衡点和远离平衡点附近进行了系统性分析，并在得出结论，跟踪微分器性能主要由平衡点附近动态特性决定${^{[28]}}​$ 。在忽略高阶项的前提下，并给出了不同形式跟踪函数的统一形式。并从频域角度对给出了理论分析证明。
+  针对由不同形式跟踪函数构成的跟踪微分器在分析以及参数调试等方面存在的难点，浙江大学的劳等人对跟踪微分器在平衡点和远离平衡点附近进行了系统性分析，并在得出结论，跟踪微分器性能主要由平衡点附近动态特性决定[9] 。在忽略高阶项的前提下，并给出了不同形式跟踪函数的统一形式。并从频域角度对给出了理论分析证明。
 $$
 \begin{align}
 &\begin{cases}
@@ -120,7 +120,7 @@ $$
 &\end{cases}
 \end{align}
 $$
-  ${\alpha_1,\alpha_2,\beta_1,\beta_2}​$的参数在设计过程中，需要保证系统（1）的收敛性${^{[15]}}​$。通过在平衡点附近线性化之后${^{[19，28]}}​$，可以进一步将不同形式的跟踪函数写成如下形式，
+  ${\alpha_1,\alpha_2,\beta_1,\beta_2}$的参数在设计过程中，需要保证系统（1）的收敛性[19]。通过在平衡点附近线性化之后，可以进一步将不同形式的跟踪函数写成如下形式，
 $$
 \begin{align}
 \begin{cases}
@@ -129,7 +129,7 @@ $$
 \end{cases}
 \end{align}
 $$
-​    文献[25]中提出的直接前馈补偿方式，是一种从不同于通过改进跟踪函数提升跟踪微分器的新思路，但是存在不能很好地兼顾相位滞后和滤波性能的问题。本文等效线性跟踪微分器基础上，针对跟踪微分器由于二阶串联积分系统导致的跟踪相位滞后以及降低噪声的影响提出了复合跟踪微分器，将复合跟踪微分器应用于电容位置传感器上，提取位置以及速度信号。仿真和实践证明了复合跟踪微分器的有效性。
+​    文献[13]中提出的直接前馈补偿方式，是一种从不同于通过改进跟踪函数提升跟踪微分器的新思路，但是存在不能很好地兼顾相位滞后和滤波性能的问题。本文等效线性跟踪微分器基础上，针对跟踪微分器由于二阶串联积分系统导致的跟踪相位滞后以及降低噪声的影响提出了复合跟踪微分器，将复合跟踪微分器应用于电容位置传感器上，提取位置以及速度信号。仿真和实践证明了复合跟踪微分器的有效性。
 
   复合跟踪微分器系统框图：
 
@@ -148,7 +148,7 @@ $$
 \end{cases}
 \end{align}
 $$
-  因此采用两个跟踪微分器的串联形式组成复合跟踪微分器，跟踪微分器（i）主要的作用是为跟踪微分器（ii）提供光滑的跟踪信号，作为前馈补偿，跟踪微分器（ii）在复合跟踪微分器中起主导作用，在设计的过程中，应根据原始信号的特性调整相应的参数。满足滤波和微分信号的提取要求。
+  复合跟踪微分器由两个跟踪微分器通过串级形式组成，跟踪微分器（I）主要的作用是从原始信号中提取光滑跟踪信号作为跟踪微分器（II）的补偿量，跟踪微分器（II）在复合跟踪微分器中起主导作用，在设计的过程中，需要根据原始信号的特性分别调整相应跟踪微分器（I）和跟踪微分器（II）的参数。满足滤波和微分信号的提取要求。
 
  
 
@@ -168,7 +168,7 @@ $$
 
 
 
-  复合跟踪微分器是由两个等效线性形式跟踪微分器组成，两个跟踪微分器的作用不一致，决定了其在参数上的差异，通过效线性微分器分析，降低系统的等效阻尼比，可以减小系统的跟踪误差，另一方面，阻尼比过小会导致振荡放大噪声的影响。跟踪器（i）的作用是获取原始的光滑逼近，并将此信号作为跟踪器（ii）的前馈补偿量，因此跟踪微分器（i）的主要作用是对原始信号进行滤波。复合跟踪微分器相比较于经典跟踪微分器，由于引进了前馈补偿的思想，兼顾滤波品质和相位滞后，能获得更好的微分以及跟踪信号。 分别对上述跟踪微分器在MATLAB/SIMULINK平台上进行仿真，并在测试平台上进行实际测试，从仿真和实验平台上的结果看，复合跟踪微分器在电容式位置传感器中，提取原始位置信号以及速度信号估计中优异性能，图3-3，3-4分别为仿真和实测结果。
+  复合跟踪微分器是由两个等效线性形式跟踪微分器组成，两个跟踪微分器的作用不一致，决定了其在参数上的差异，通过效线性微分器分析，降低系统的等效阻尼比，可以减小系统的跟踪误差，另一方面，阻尼比过小会导致振荡放大噪声的影响。跟踪器（I）的作用是获取原始的光滑逼近，并将此信号作为跟踪器（II）的补偿量，因此跟踪微分器（I）的主要作用是对原始信号进行滤波。复合跟踪微分器相比较于经典跟踪微分器，由于引进了前馈补偿的思想，兼顾滤波品质和相位滞后，能获得更好的微分以及跟踪信号。 分别对上述跟踪微分器在MATLAB/SIMULINK平台上进行仿真，并在测试平台上进行实际测试，从仿真和实验平台上的结果看，复合跟踪微分器在电容式位置传感器中，提取原始位置信号以及速度信号估计中优异性能，图3-3，3-4分别为仿真和实测结果。
 
  
 
@@ -190,113 +190,39 @@ $$
 
 [1]王海.电容式激光切割头高度跟随控制系统的研究与实现[D].湖北:华中科技大学,2016.
 
-[2]武利强,林浩,韩京清.跟踪微分器滤波性能研究[J].系统仿真学报,2004,16(4):651-652,670.
+[2]韩京清, 黄远灿. 二阶跟踪—微分器的频率特性[J]. 数学的实践与认识, 2003(03):72-75.
 
-[5]韩京清, 王伟. 非线性跟踪─微分器[J]. 系统科学与数学, 1994(02):177-183.
+[3]王新华，陈增强，袁著祉，全程快速非线性跟踪-微分器，控制理论与应用，2003（06），875-878
 
-[6]韩京清, 黄远灿. 二阶跟踪—微分器的频率特性[J]. 数学的实践与认识, 2003(03):72-75.
+[4]葛连正, 陈健, 李瑞峰. 改进的跟踪微分器设计[J]. 吉林大学学报(工学版), v.41;No.157(05):1439-1443.
 
-[7]武利强, 韩京清. TD滤波器及其应用[J]. 计算技术与自动化, 2004, 22(z1):61-63.
+[5]毛海杰，李炜，冯小林，基于双曲正切的非线性跟踪微分器设计，计算机应用，2016，36（z1），305-309
 
-[8]韩京清.自抗扰控制技术:估计补偿不确定因素的控 制技术[ M] .北京:国防工业出版社, 2008:61
+[6]刘延泉, 郭佳颖. 双曲正切跟踪微分器设计及相平面分析[J]. 电力科学与工程, 2017(10):78-82.
 
-[9]Zhao B , Li Y . Decentralized differential tracker based control of reconfigurable manipulators without velocity sensor[C]// 2014 33rd Chinese Control Conference (CCC). IEEE, 2014.
+[7]邵星灵，王宏伦，基于改进sigmoid函数的非线性跟踪微分器，控制理论与应用，2014，31（8），1116-1122
 
-[10]韩京清, 袁露林. 跟踪—微分器的离散形式[J]. 系统科学与数学, 1999, 19(3):268-273.
+[8]卜祥伟, 吴晓燕, 马震, et al. 改进的反正切跟踪微分器设计[J]. 上海交通大学学报, 2015(02):26-30.
 
-[11]王新华，陈增强，袁著祉，全程快速非线性跟踪-微分器，控制理论与应用，2003（06），875-878
+[9]劳立明, 陈英龙, 赵玉刚, et al. 跟踪微分器的等效线性分析及优化[J]. 浙江大学学报(工学版), 2018, v.52;No.334(02):23-31.
 
-[12]史永丽, 侯朝桢. 改进的非线性跟踪微分器设计[J]. 控制与决策, 2008(06):49-52+61. 
+[10]Wang X , Chen Z , Yang G . Finite-Time-Convergent Differentiator Based on Singular Perturbation Technique[J]. IEEE TRANSACTIONS ON AUTOMATIC CONTROL AC, 2007.
 
-[13]Wang X , Chen Z , Yang G . Finite-Time-Convergent Differentiator Based on Singular Perturbation Technique[J]. IEEE TRANSACTIONS ON AUTOMATIC CONTROL AC, 2007.
+[11]Bu X W , Wu X Y , Chen Y X , et al. Design of a class of new nonlinear disturbance observers based on tracking differentiators for uncertain dynamic systems[J]. International Journal of Control, Automation and Systems, 2015, 13(3):595-602.
 
-[14]赵鹏，姚敏立，陆长捷等，高稳快速非线性-线性跟踪微分器设计，西安交通大学学报，2011，45（08），43-48
+[12]Dulgar O , Gezer R B , Kutay A T . Extended Kalman Filter Based Robust Altitude Controller for Sea Skimming Missiles[C]// AIAA Guidance, Navigation, and Control Conference. 2016.
 
-[15]葛连正, 陈健, 李瑞峰. 改进的跟踪微分器设计[J]. 吉林大学学报(工学版), v.41;No.157(05):1439-1443.
+[13]Tian D P , Shen H H , Dai M . Improving the Rapidity of Nonlinear Tracking Differentiator via Feedforward[J]. IEEE Transactions on Industrial Electronics, 2014, 61(7):3736-3743.
 
-[16]周涛，基于反双曲正弦函数的跟踪微分器，控制与决策，2014，29（06），1139-1142
+[14]Dong C H , Lian X , Wu X H . Research on linear tracking-differentiator to track interference signal[J]. Fangzhi Gaoxiao Jichukexue Xuebao, 2014, 27(4):439-442 and 458.
 
-[17]毛海杰，李炜，冯小林，基于双曲正切的非线性跟踪微分器设计，计算机应用，2016，36（z1），305-309
+[15] Guo B Z , Zhao Z L . On convergence of tracking differentiator and application to frequency estimation of sinusoidal signals[C]// Control Conference. IEEE, 2011.
 
-[18]邵星灵，王宏伦，基于改进sigmoid函数的非线性跟踪微分器，控制理论与应用，2014，31（8），1116-1122
+[16]Zhao B , Li Y . Decentralized differential tracker based control of reconfigurable manipulators without velocity sensor[C]// 2014 33rd Chinese Control Conference (CCC). IEEE, 2014.
 
-[19]Feng H , Li S . A tracking differentiator based on Taylor expansion[J]. Applied Mathematics Letters, 2013, 26(7):735-740.
+[17]Hongwei W , Heping W . A Comparison Study of Advanced Tracking Differentiator Design Techniques[J]. Procedia Engineering, 2015, 99:1005-1013.
 
-[20]刘延泉, 郭佳颖. 双曲正切跟踪微分器设计及相平面分析[J]. 电力科学与工程, 2017(10):78-82.
+[18]Feng H , Li S . A tracking differentiator based on Taylor expansion[J]. Applied Mathematics Letters, 2013, 26(7):735-740.
 
-[21]劳立明, 陈英龙, 赵玉刚, et al. 跟踪微分器的等效线性分析及优化[J]. 浙江大学学报(工学版), 2018, v.52;No.334(02):23-31.
-
-[22]张帆, 徐华中, 罗杰, et al. 一种具有动态边界特征的二阶离散跟踪微分器[J]. 信息与控制, 2018, 47(05):65-74+80.
-
-[23]Bu X W , Wu X Y , Chen Y X , et al. Design of a class of new nonlinear disturbance observers based on tracking differentiators for uncertain dynamic systems[J]. International Journal of Control, Automation and Systems, 2015, 13(3):595-602.
-
-[24]Dulgar O , Gezer R B , Kutay A T . Extended Kalman Filter Based Robust Altitude Controller for Sea Skimming Missiles[C]// AIAA Guidance, Navigation, and Control Conference. 2016.
-
-[25]Tian D P , Shen H H , Dai M . Improving the Rapidity of Nonlinear Tracking Differentiator via Feedforward[J]. IEEE Transactions on Industrial Electronics, 2014, 61(7):3736-3743.
-
-[26]卜祥伟, 吴晓燕, 马震, et al. 改进的反正切跟踪微分器设计[J]. 上海交通大学学报, 2015(02):26-30.
-
-[27]Chunqiang LIU,Guangzhao LUO,Zhe CHENetc., A linear ADRC-based robust high-dynamic double-loop servo system for aircraft electro-mechanical actuators, Chinese Journal of Aeronautics, 2019, 32（9）, 2174-2187
-
-
-
-
-
----
-
-[1]王海.电容式激光切割头高度跟随控制系统的研究与实现[D].湖北:华中科技大学,2016.
-
-[2]韩京清, 王伟. 非线性跟踪─微分器[J]. 系统科学与数学, 1994(02):177-183.
-
-[3]武利强,林浩,韩京清.跟踪微分器滤波性能研究[J].系统仿真学报,2004,16(4):651-652,670.
-
-[4]韩京清, 黄远灿. 二阶跟踪—微分器的频率特性[J]. 数学的实践与认识, 2003(03):72-75.
-
-[5]韩京清.自抗扰控制技术:估计补偿不确定因素的控 制技术[ M] .北京:国防工业出版社, 2008:61
-
-
-
-[10]韩京清, 袁露林. 跟踪—微分器的离散形式[J]. 系统科学与数学, 1999, 19(3):268-273.
-
-[11]王新华，陈增强，袁著祉，全程快速非线性跟踪-微分器，控制理论与应用，2003（06），875-878
-
-[12]史永丽, 侯朝桢. 改进的非线性跟踪微分器设计[J]. 控制与决策, 2008(06):49-52+61. 
-
-
-
-[14]赵鹏，姚敏立，陆长捷等，高稳快速非线性-线性跟踪微分器设计，西安交通大学学报，2011，45（08），43-48
-
-[15]葛连正, 陈健, 李瑞峰. 改进的跟踪微分器设计[J]. 吉林大学学报(工学版), v.41;No.157(05):1439-1443.
-
-[16]周涛，基于反双曲正弦函数的跟踪微分器，控制与决策，2014，29（06），1139-1142
-
-[17]毛海杰，李炜，冯小林，基于双曲正切的非线性跟踪微分器设计，计算机应用，2016，36（z1），305-309
-
-[18]邵星灵，王宏伦，基于改进sigmoid函数的非线性跟踪微分器，控制理论与应用，2014，31（8），1116-1122
-
-[19]Feng H , Li S . A tracking differentiator based on Taylor expansion[J]. Applied Mathematics Letters, 2013, 26(7):735-740.
-
-[20]刘延泉, 郭佳颖. 双曲正切跟踪微分器设计及相平面分析[J]. 电力科学与工程, 2017(10):78-82.
-
-[21]劳立明, 陈英龙, 赵玉刚, et al. 跟踪微分器的等效线性分析及优化[J]. 浙江大学学报(工学版), 2018, v.52;No.334(02):23-31.
-
-[22]张帆, 徐华中, 罗杰, et al. 一种具有动态边界特征的二阶离散跟踪微分器[J]. 信息与控制, 2018, 47(05):65-74+80.
-
-[23]Bu X W , Wu X Y , Chen Y X , et al. Design of a class of new nonlinear disturbance observers based on tracking differentiators for uncertain dynamic systems[J]. International Journal of Control, Automation and Systems, 2015, 13(3):595-602.
-
-[24]Dulgar O , Gezer R B , Kutay A T . Extended Kalman Filter Based Robust Altitude Controller for Sea Skimming Missiles[C]// AIAA Guidance, Navigation, and Control Conference. 2016.
-
-[25]Tian D P , Shen H H , Dai M . Improving the Rapidity of Nonlinear Tracking Differentiator via Feedforward[J]. IEEE Transactions on Industrial Electronics, 2014, 61(7):3736-3743.
-
-[26]卜祥伟, 吴晓燕, 马震, et al. 改进的反正切跟踪微分器设计[J]. 上海交通大学学报, 2015(02):26-30.
-
-[27]Chunqiang LIU,Guangzhao LUO,Zhe CHENetc., A linear ADRC-based robust high-dynamic double-loop servo system for aircraft electro-mechanical actuators, Chinese Journal of Aeronautics, 2019, 32（9）, 2174-2187
-
-[28]Dong C H , Lian X , Wu X H . Research on linear tracking-differentiator to track interference signal[J]. Fangzhi Gaoxiao Jichukexue Xuebao, 2014, 27(4):439-442 and 458.
-
-[29] Guo B Z , Zhao Z L . On convergence of tracking differentiator and application to frequency estimation of sinusoidal signals[C]// Control Conference. IEEE, 2011.
-
-[9]Zhao B , Li Y . Decentralized differential tracker based control of reconfigurable manipulators without velocity sensor[C]// 2014 33rd Chinese Control Conference (CCC). IEEE, 2014.
-
-[13]Wang X , Chen Z , Yang G . Finite-Time-Convergent Differentiator Based on Singular Perturbation Technique[J]. IEEE TRANSACTIONS ON AUTOMATIC CONTROL AC, 2007.
+[19]Bao-Zhu Guo,Zhi-Liang Zhao, On convergence of tracking differentiator, International Journal of Control, 2011, 84（4）, 693-701
 
