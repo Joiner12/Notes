@@ -71,3 +71,13 @@ https://www.cnblogs.com/daduryi/p/6856249.html
 《重命名os.rename》
 
 https://blog.csdn.net/alicelmx/article/details/79092964
+
+---
+
+### 8.turtle库
+
+1.<https://blog.csdn.net/xiamoyanyulrq/article/details/81842604>
+
+2./cry
+
+<https://blog.csdn.net/qq_36369267/article/details/82831767>
