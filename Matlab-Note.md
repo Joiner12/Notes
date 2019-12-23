@@ -696,3 +696,24 @@ time = yout.time;
 data = yout.data;
 ```
 
+---
+
+### 60.fimplicit 隐函数绘图
+
+1.《Official Doc》
+
+ <https://ww2.mathworks.cn/help/matlab/ref/fimplicit.html>
+
+---
+
+### 61.色块图
+
+<https://blog.csdn.net/zzx2016zzx/article/details/80635840>
+
+---
+
+### 62.局部放大
+
+<https://blog.csdn.net/schwein_van/article/details/78513908>
+
+<https://ww2.mathworks.cn/matlabcentral/fileexchange/5961-magnify>
