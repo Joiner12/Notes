@@ -717,3 +717,29 @@ data = yout.data;
 <https://blog.csdn.net/schwein_van/article/details/78513908>
 
 <https://ww2.mathworks.cn/matlabcentral/fileexchange/5961-magnify>
+
+---
+
+### 63.Levenshtein Distance 
+
+<https://blogs.mathworks.com/cleve/2017/08/14/levenshtein-edit-distance-between-strings/>
+
+---
+
+### 64.figure handle
+
+<https://www.cnblogs.com/BlueMountain-HaggenDazs/p/4306865.html>
+
+---
+
+### 65.Inverted Pendulum Simulator
+
+  Simulink 实现倒立摆可视化；
+
+1.倒立摆数学模型
+
+<https://blog.csdn.net/yin_bu_feng/article/details/89100188>
+
+2.Roy Featherstone's Website
+
+<http://royfeatherstone.org/>
