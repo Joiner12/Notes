@@ -76,6 +76,10 @@ https://www.cnblogs.com/daduryi/p/6856249.html
 
 https://blog.csdn.net/alicelmx/article/details/79092964
 
+2.《python执行系统命令四种方法比较》
+
+https://blog.csdn.net/luckytanggu/article/details/51793218
+
 ---
 
 ### 8.turtle库
@@ -86,9 +90,13 @@ https://blog.csdn.net/alicelmx/article/details/79092964
 
 <https://blog.csdn.net/qq_36369267/article/details/82831767>
 
+---
+
 ### 9. syntax 
 
 ##### 9.1 self
 
 <https://www.cnblogs.com/jessonluo/p/4717140.html>
+
+### 
 
