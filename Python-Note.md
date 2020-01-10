@@ -54,6 +54,10 @@
 
  https://maicss.gitbooks.io/pyqt5/content/hello_world.html 
 
+3.《PyQt5 reference》
+
+<https://www.riverbankcomputing.com/static/Docs/PyQt5/>
+
 ---
 
 ### 6.#UTF-8
@@ -81,3 +85,10 @@ https://blog.csdn.net/alicelmx/article/details/79092964
 2./cry
 
 <https://blog.csdn.net/qq_36369267/article/details/82831767>
+
+### 9. syntax 
+
+##### 9.1 self
+
+<https://www.cnblogs.com/jessonluo/p/4717140.html>
+
