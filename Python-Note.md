@@ -98,5 +98,60 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 <https://www.cnblogs.com/jessonluo/p/4717140.html>
 
-### 
 
+
+### 10.路径操作
+
+1.Official Doc - Path
+
+<https://docs.python.org/2/library/os.path.html#os.path.realpath>
+
+2.《绝对路径|相对路径》
+
+<https://www.cnblogs.com/wangyanyan/p/7440685.html>
+
+3.文件路径操作
+
+<https://www.cnblogs.com/yanglang/p/7610838.html>
+
+4.获取上一级文件路径
+
+<https://blog.csdn.net/leorx01/article/details/71141643>
+
+
+
+### 12.ICON
+
+<https://zhuanlan.zhihu.com/p/27493719>
+
+
+
+### 13.设置窗口背景
+
+1.PyQt5图形和特效之设置窗口背景（六）
+
+<https://blog.csdn.net/jia666666/article/details/81874045>
+
+2.禁止窗口大小调整
+
+<https://blog.csdn.net/sollor525/article/details/39316065>
+
+3.PyQt：无边框自定义标题栏及最大化最小化窗体大小调整
+
+<https://www.cnblogs.com/jyroy/p/9461317.html>
+
+
+
+### 14.PyQt时钟
+
+1.基本时钟功能
+
+<https://blog.csdn.net/Kprogram/article/details/83623079>
+
+2.桌面时钟（透明）
+
+<https://cloud.tencent.com/developer/article/1124715>
+
+3.时钟带表盘
+
+<https://blog.csdn.net/liang19890820/article/details/52064169>
