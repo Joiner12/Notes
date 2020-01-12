@@ -155,3 +155,19 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 3.时钟带表盘
 
 <https://blog.csdn.net/liang19890820/article/details/52064169>
+
+4.获取系统时间
+
+<https://blog.csdn.net/laozhuxinlu/article/details/70217090>
+
+<https://blog.csdn.net/zong596568821xp/article/details/82996945>
+
+
+
+---
+
+### 15.无边框
+
+1.PyQt实现无边框
+
+<https://www.cnblogs.com/codeAB/p/5019439.html>
