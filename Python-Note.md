@@ -171,3 +171,23 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 1.PyQt实现无边框
 
 <https://www.cnblogs.com/codeAB/p/5019439.html>
+
+---
+
+### 16.进度条
+
+1.嵌入状态栏进度条
+
+<https://blog.csdn.net/higher80/article/details/82703532>
+
+2.波浪形进度条
+
+<https://blog.csdn.net/wang13342322203/article/details/82116286>
+
+3.动态进度条
+
+<https://blog.csdn.net/weixin_34378969/article/details/93306790>
+
+4.loading界面
+
+<https://blog.csdn.net/weixin_40273809/article/details/81514646>

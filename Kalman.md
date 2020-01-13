@@ -38,6 +38,14 @@
 
 <https://www.cnblogs.com/HaoQChen/p/11048610.html>
 
+[10]  Kalman Filter Method
+
+<http://www.sherrytowers.com/kalman_filter_method.pdf>
+
+[11]浅谈KALMAN滤波
+
+<https://blog.csdn.net/baidu_21807307/article/details/51843079>
+
 ## 2.CODE
 
 **MATLAB**
