@@ -191,3 +191,9 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 4.loading界面
 
 <https://blog.csdn.net/weixin_40273809/article/details/81514646>
+
+
+
+### 17.PyQt类继承关系
+
+<https://www.cnblogs.com/tongchengbin/p/pyqt5.html>
