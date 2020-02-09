@@ -98,6 +98,16 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 <https://www.cnblogs.com/jessonluo/p/4717140.html>
 
+##### 9.2 Break & Return & Continue
+
+1.对整个循环的控制作用；
+
+2.对break、return、continue后面语句的影响；
+
+[1] https://stackoverflow.com/questions/28854988/what-is-the-difference-between-return-and-break-in-python
+
+[2] https://blog.csdn.net/Moniicoo/article/details/79990612
+
 
 
 ### 10.路径操作
