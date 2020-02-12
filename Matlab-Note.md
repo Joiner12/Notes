@@ -743,3 +743,20 @@ data = yout.data;
 2.Roy Featherstone's Website
 
 <http://royfeatherstone.org/>
+
+
+
+### 66.数组操作
+
+#### (1)找出复合条件的数
+
+```matlab
+a = 100*rand(1,100);
+b = a;
+b(a>50)=0;
+```
+
+[1] https://blog.csdn.net/u014636245/article/details/102575785
+
+
+
