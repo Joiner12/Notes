@@ -237,6 +237,8 @@ save方式
 
 1.<https://www.ilovematlab.cn/thread-506910-1-1.html>
 
+---
+
 ### 19. figure属性操作|Print保存图片
 
 1.《figure属性操作》
@@ -246,6 +248,8 @@ save方式
 2.《print保存图片》
 
 <https://www.cnblogs.com/stxs/p/8808971.html>
+
+---
 
 ### 20. matlab书籍资源
 
@@ -259,9 +263,21 @@ https://blog.csdn.net/u012210613/article/details/52346842
 
 ```
 
+---
+
 ### 22 高级绘图
 
 1.<https://www.cnblogs.com/jeromeblog/p/3396494.html>
+
+2.MATLAB的Gui对象关系
+
+https://blog.csdn.net/yangguangqizhi/article/details/53815382
+
+3.set函数用法
+
+https://blog.csdn.net/weixin_41554884/article/details/79913272
+
+---
 
 ### 23 打包exe文件
 
