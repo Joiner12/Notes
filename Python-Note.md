@@ -202,8 +202,34 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 <https://blog.csdn.net/weixin_40273809/article/details/81514646>
 
-
+---
 
 ### 17.PyQt类继承关系
 
 <https://www.cnblogs.com/tongchengbin/p/pyqt5.html>
+
+---
+
+### 18.PyQt&Anaconda&Pycharm环境配置
+
+目的：类似MATLAB进行拖拽编程，加快进程。
+
+1.搭建Python开发环境，用Anaconda + PyQt + Pycharm https://zhuanlan.zhihu.com/p/30261406
+
+2.Python制作小软件——1. 安装并使用PyQt5进行界面设计 https://blog.csdn.net/weixin_41929524/article/details/81456308
+
+3.python3.6+pyqt5+pycharm5界面编程实例 https://blog.csdn.net/m0_37606112/article/details/78556683
+
+4.python3+PyQt5+Qt designer+pycharm安装及配置+将ui文件转py文件
+
+https://blog.csdn.net/lyzwjaa/article/details/79429901
+
+https://www.cnblogs.com/JackyXu2018/p/8722703.html
+
+5.搭建Anaconda+pyCharm环境（NumPy，SciPy ）https://www.jianshu.com/p/916362ca16a6
+
+---
+
+### 19.基于QT编码
+
+https://www.jianshu.com/p/962b572a216c
