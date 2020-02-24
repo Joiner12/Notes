@@ -258,3 +258,14 @@ random.random()
 [1]https://www.jianshu.com/p/36a4bbb5536e
 
 [2]https://www.cnblogs.com/yd1227/archive/2011/03/18/1988015.html
+
+---
+
+### 21.QMainWindow和QWidget的区别
+
+主要区别在于，QMainWindow创建的是一个复合窗口，包括状态栏、菜单栏等。QWidget创建的是单一的页面。
+
+[1]<https://blog.csdn.net/superhcq/article/details/53509183>
+
+
+
