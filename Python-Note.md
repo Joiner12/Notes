@@ -269,3 +269,11 @@ random.random()
 
 
 
+### 22.布局管理
+
+1.嵌套布局  <https://www.cnblogs.com/hhh5460/p/5173645.html>
+
+2.<https://blog.51cto.com/9291927/2423303>
+
+3.堆叠布局  <https://zhuanlan.zhihu.com/p/61621705>
+
