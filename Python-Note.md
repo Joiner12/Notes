@@ -273,7 +273,13 @@ random.random()
 
 1.嵌套布局  <https://www.cnblogs.com/hhh5460/p/5173645.html>
 
-2.<https://blog.51cto.com/9291927/2423303>
+2.PyQt5布局管理<https://blog.51cto.com/9291927/2423303>
 
-3.堆叠布局  <https://zhuanlan.zhihu.com/p/61621705>
+3.堆叠布局  https://blog.csdn.net/jia666666/article/details/81669425
+
+https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+
+4.QFrame控件 https://blog.csdn.net/fanyun_01/article/details/53282676?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+
+6.快速掌握PyQT5 https://blog.csdn.net/La_vie_est_belle/article/details/82316745
 
