@@ -182,6 +182,8 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 <https://www.cnblogs.com/codeAB/p/5019439.html>
 
+https://www.cnblogs.com/jyroy/p/9461317.html
+
 ---
 
 ### 16.进度条
@@ -283,3 +285,4 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 6.快速掌握PyQT5 https://blog.csdn.net/La_vie_est_belle/article/details/82316745
 
+7.高级布局 https://muyuuuu.github.io/2019/10/19/pyqt-layout/
