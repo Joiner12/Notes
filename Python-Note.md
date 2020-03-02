@@ -22,6 +22,10 @@
 
 <https://blog.csdn.net/qq_39657585/article/details/82667450>
 
+2.《本地安装》
+
+<https://blog.csdn.net/weixin_41782111/article/details/82818319?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task>
+
 ---
 
 ### 4.串口-Python
@@ -286,3 +290,17 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 6.快速掌握PyQT5 https://blog.csdn.net/La_vie_est_belle/article/details/82316745
 
 7.高级布局 https://muyuuuu.github.io/2019/10/19/pyqt-layout/
+
+8.tutorialspoint <https://www.tutorialspoint.com/pyqt/index.htm>
+
+9.设置QListWidget <https://blog.csdn.net/u011125673/article/details/51753997>
+
+
+
+---
+
+### 23.打包EXE
+
+1.<https://blog.csdn.net/zengxiantao1994/article/details/76578421>
+
+开关线 <https://blog.csdn.net/stk10/article/details/41947563>
