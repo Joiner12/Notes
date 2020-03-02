@@ -295,7 +295,7 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 9.设置QListWidget <https://blog.csdn.net/u011125673/article/details/51753997>
 
-
+10.实战！在Python中制作精美的图形用户界面 https://zhuanlan.zhihu.com/p/44146707
 
 ---
 
@@ -304,3 +304,4 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 1.<https://blog.csdn.net/zengxiantao1994/article/details/76578421>
 
 开关线 <https://blog.csdn.net/stk10/article/details/41947563>
+
