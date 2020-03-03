@@ -305,3 +305,9 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 开关线 <https://blog.csdn.net/stk10/article/details/41947563>
 
+---
+
+### 24.滚动显示
+
+1.[PyQt] 在QLabel上用drawText实现文字滚动 https://blog.csdn.net/wn0112/article/details/47086597
+
