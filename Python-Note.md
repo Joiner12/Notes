@@ -311,3 +311,5 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 1.[PyQt] 在QLabel上用drawText实现文字滚动 https://blog.csdn.net/wn0112/article/details/47086597
 
+2.Qt 实现上下滚动字幕 https://blog.csdn.net/douzhq/article/details/80891144?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+
