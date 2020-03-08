@@ -778,6 +778,14 @@ b(a>50)=0;
 
 ### 67.微分处理
 
+```matlab
+% 符号函数实用
+t = sym('t'); % syms t;
+y = t^2 + sqrt(t);
+diff_y = diff(y);
+
+```
+
 <https://www.yiibai.com/matlab/matlab_differential.html>
 
 
