@@ -323,22 +323,47 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 2.<https://blog.csdn.net/sbjqiaoqiao/article/details/80713029?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task>
 
+3.多维数组
 
+<https://blog.csdn.net/972301/article/details/54895814>
 
-### 26.python help 操作
+<https://blog.csdn.net/u012505432/article/details/52218392>
+
+---
+
+### 26.python help 
 
 <https://blog.csdn.net/u013810296/article/details/55509284>
 
+---
+
+### 27.Signal & Slot
+
+1.【PyQt5-Qt Designer】pyqtSignal()-高级自定义信号与槽] https://www.cnblogs.com/XJT2018/p/10222981.html
+
+2.《Office tutorial》https://www.riverbankcomputing.com/static/Docs/PyQt5/signals_slots.html#connecting-signals-using-keyword-arguments
+
+3.《PyQt5 信号与槽高级用法》http://www.broadview.com.cn/article/824
+
+---
+
+### 28.字符串操作
+
+1.read|readline|readlines <https://www.cnblogs.com/xiugeng/p/8635862.html>
+
+---
+
+### 29.Try except
+
+1.try expect else finally <https://www.cnblogs.com/Lival/p/6203111.html>
+
+---
 
 
-## 2020-3-13 13:03:02
 
-1.多维数组<https://blog.csdn.net/972301/article/details/54895814>
+### 30.Date & Time
 
-2.<https://blog.csdn.net/u012505432/article/details/52218392>
+1.time datetime moudles <https://www.cnblogs.com/Lival/p/6203111.html>
 
-read|readline|readlines <https://www.cnblogs.com/xiugeng/p/8635862.html>
 
-try expect else finally <https://www.cnblogs.com/Lival/p/6203111.html>
 
-3.time datetime moudles <https://www.cnblogs.com/Lival/p/6203111.html>
