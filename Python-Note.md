@@ -305,6 +305,8 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 开关线 <https://blog.csdn.net/stk10/article/details/41947563>
 
+
+
 ---
 
 ### 24.滚动显示
@@ -313,3 +315,30 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 2.Qt 实现上下滚动字幕 https://blog.csdn.net/douzhq/article/details/80891144?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
 
+
+
+### 25.数据结构
+
+1.<https://blog.csdn.net/haiyu94/article/details/79684792>
+
+2.<https://blog.csdn.net/sbjqiaoqiao/article/details/80713029?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task>
+
+
+
+### 26.python help 操作
+
+<https://blog.csdn.net/u013810296/article/details/55509284>
+
+
+
+## 2020-3-13 13:03:02
+
+1.多维数组<https://blog.csdn.net/972301/article/details/54895814>
+
+2.<https://blog.csdn.net/u012505432/article/details/52218392>
+
+read|readline|readlines <https://www.cnblogs.com/xiugeng/p/8635862.html>
+
+try expect else finally <https://www.cnblogs.com/Lival/p/6203111.html>
+
+3.time datetime moudles <https://www.cnblogs.com/Lival/p/6203111.html>
