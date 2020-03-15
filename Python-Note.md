@@ -273,7 +273,7 @@ random.random()
 
 [1]<https://blog.csdn.net/superhcq/article/details/53509183>
 
-
+---
 
 ### 22.布局管理
 
@@ -315,7 +315,7 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 2.Qt 实现上下滚动字幕 https://blog.csdn.net/douzhq/article/details/80891144?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
 
-
+---
 
 ### 25.数据结构
 
@@ -363,7 +363,12 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 ### 30.Date & Time
 
-1.time datetime moudles <https://www.cnblogs.com/Lival/p/6203111.html>
+1.time datetime moudles  https://www.cnblogs.com/tkqasn/p/6001134.html
 
+---
 
+### 31.数据可视化
 
+1.MoviePy  使用https://zhuanlan.zhihu.com/p/36727011
+
+2.PyQtGraph参考http://www.pyqtgraph.org/documentation/index.html
