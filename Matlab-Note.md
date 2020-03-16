@@ -794,9 +794,11 @@ diff_y = diff(y);
 
 <https://ww2.mathworks.cn/help/matlab/ref/patch.html>
 
+---
+
+### 69.Matlab数字信号处理函数（波形）
+
+1.Signal Generator https://ww2.mathworks.cn/help/signal/waveform-generation.html
 
 
-### todoList
-
-1.figure-oop
 
