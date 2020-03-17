@@ -356,6 +356,8 @@ docsearch <string>
 
 ```
 
+---
+
 ### 33 积分
 
 《int》
@@ -364,7 +366,11 @@ docsearch <string>
 
 《trapz》
 
-<https://ww2.mathworks.cn/help/matlab/ref/trapz.html?requestedDomain=cn>
+<https://ww2.mathworks.cn/help/matlab/ref/trapz.html?requestedDomain=cn
+
+《b数值积分方法》
+
+<https://zhuanlan.zhihu.com/p/82459587>
 
 ### 34 APP
 
