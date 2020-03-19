@@ -808,3 +808,8 @@ diff_y = diff(y);
 
 
 
+---
+
+### 70.进制转换
+
+<https://ww2.mathworks.cn/help/matlab/ref/dec2hex.html>
