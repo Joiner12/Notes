@@ -14,6 +14,14 @@
 
 <https://www.cnblogs.com/jhao/p/7243043.html>
 
+2.Python读写文本三种方式 https://zhuanlan.zhihu.com/p/21347291
+
+3.Python读写txt文本文件 https://www.cnblogs.com/hackpig/p/8215786.html
+
+4.打开文件https://blog.csdn.net/humanking7/article/details/80546728
+
+5.python运行其他程序方式https://blog.csdn.net/Jerry_1126/article/details/46584179
+
 ---
 
 ### 3.Anaconda
@@ -297,6 +305,10 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 10.实战！在Python中制作精美的图形用户界面 https://zhuanlan.zhihu.com/p/44146707
 
+11.Layout https://www.learnpyqt.com/courses/start/layouts/
+
+12.PyQt的Layout的比例化分块 https://blog.csdn.net/weixin_33995481/article/details/86275539
+
 ---
 
 ### 23.打包EXE
@@ -323,11 +335,25 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 2.<https://blog.csdn.net/sbjqiaoqiao/article/details/80713029?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task>
 
-3.多维数组
+3.多维数组创建&遍历
 
-<https://blog.csdn.net/972301/article/details/54895814>
+```python
+# 创建二维数组
+[[0 for i in range(cols )] for j in range(rows)]
+
+# 利用句柄的方式遍历
+for j in list_a:
+    for k in j:
+        pass
+```
+
+
 
 <https://blog.csdn.net/u012505432/article/details/52218392>
+
+<https://zhuanlan.zhihu.com/p/88197389>
+
+<https://blog.csdn.net/qq_27261889/article/details/80422528?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task>
 
 ---
 
@@ -344,6 +370,8 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 2.《Office tutorial》https://www.riverbankcomputing.com/static/Docs/PyQt5/signals_slots.html#connecting-signals-using-keyword-arguments
 
 3.《PyQt5 信号与槽高级用法》http://www.broadview.com.cn/article/824
+
+4.PyQt信号与槽之多窗口数据传递（七）https://blog.csdn.net/jia666666/article/details/81781697
 
 ---
 
@@ -365,6 +393,14 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 1.time datetime moudles  https://www.cnblogs.com/tkqasn/p/6001134.html
 
+2.计算时间差 https://www.cnblogs.com/SophiaTang/archive/2012/03/25/2417031.html
+
+3.python--利用datetime模块计算时间差https://blog.csdn.net/wo1182929447/article/details/77841529?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+
+4.python datetime处理时间 https://www.cnblogs.com/lhj588/archive/2012/04/23/2466653.html
+
+  
+
 ---
 
 ### 31.数据可视化
@@ -372,3 +408,77 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 1.MoviePy  使用https://zhuanlan.zhihu.com/p/36727011
 
 2.PyQtGraph参考http://www.pyqtgraph.org/documentation/index.html
+
+---
+
+### 32.QCombobox
+
+<https://doc.qt.io/qtforpython/PySide2/QtWidgets/QComboBox.html>
+
+<https://zhuanlan.zhihu.com/p/36691866>
+
+---
+
+### 33.修改样式
+
+1.setstylesheet <https://www.cnblogs.com/aheng123/p/5630761.html>
+
+2.设置QListWidget透明背景—stylesheet  https://blog.csdn.net/liyan728/article/details/8955634
+
+3.QListWidget 设置样式 https://www.bbsmax.com/A/KE5QOlL0zL/
+
+
+
+---
+
+### 34.QLabel Widget
+
+1.PyQt - QLabel Widget https://www.tutorialspoint.com/pyqt/pyqt_qlabel_widget.htm
+
+2.PyQt中QLabel背景与字体的一些设置 https://blog.csdn.net/jiuzuidongpo/article/details/45485127
+
+3.QPalette https://doc.qt.io/qtforpython/PySide2/QtGui/QPalette.html
+
+4.qss样式表之QPushButton https://blog.csdn.net/aiwangtingyun/article/details/94462976
+
+5.setStyleSheet 一些QSS设置的集合https://www.cnblogs.com/xj626852095/p/3648112.html
+
+---
+
+### 35.PyQt & Matplotlib
+
+1.nested pie chartshttps://matplotlib.org/3.2.0/gallery/pie_and_polar_charts/nested_pie.html#sphx-glr-gallery-pie-and-polar-charts-nested-pie-py
+
+2.pie https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.pie.html
+
+3.中文显示乱码https://www.jianshu.com/p/b5138e48fefa
+
+4.embedin pyqt https://matplotlib.org/gallery/user_interfaces/embedding_in_qt_sgskip.html?highlight=pyqt
+
+---
+
+### 36.QLCDNumber
+
+1.Qt 之 QLCDNumber https://blog.csdn.net/liang19890820/article/details/50917205
+
+2.qLCDnumber https://www.riverbankcomputing.com/static/Docs/PyQt4/qLCDnumber.html
+
+3.pyqt实现时钟效果 https://www.pythontab.com/html/2013/pythongui_0703/474.html
+
+4.pyqt实现简易时钟 https://blog.csdn.net/Kprogram/article/details/83623079
+
+5.QLCDNumber使用https://blog.csdn.net/xuancailinggan/article/details/77487705
+
+---
+
+### 37.QSpliter 
+
+1.PyQt5布局管理之QSplitter（六）https://blog.csdn.net/jia666666/article/details/81705675
+
+2.QSplitter 分割线 https://blog.csdn.net/skykingf/article/details/8247593
+
+---
+
+### 38.QDialog
+
+1.PyQt5系列教程（8）：标准输入对话框https://zhuanlan.zhihu.com/p/29101077
