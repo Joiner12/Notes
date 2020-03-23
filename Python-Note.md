@@ -315,9 +315,9 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 1.<https://blog.csdn.net/zengxiantao1994/article/details/76578421>
 
-开关线 <https://blog.csdn.net/stk10/article/details/41947563>
+2.` 'utf-8' codec` <https://www.cnblogs.com/q735613050/p/10017394.html>
 
-
+3.打包文件过大<https://frostime.github.io/2019/05/24/%E7%94%A8-Pyinstaller-%E6%9D%A5%E6%89%93%E5%8C%85-%E8%A7%A3%E5%86%B3%E6%89%93%E5%8C%85%E7%BB%93%E6%9E%9C%E8%BF%87%E5%A4%A7%E9%97%AE%E9%A2%98/>
 
 ---
 
@@ -482,3 +482,4 @@ for j in list_a:
 ### 38.QDialog
 
 1.PyQt5系列教程（8）：标准输入对话框https://zhuanlan.zhihu.com/p/29101077
+
