@@ -455,6 +455,10 @@ for j in list_a:
 
 4.embedin pyqt https://matplotlib.org/gallery/user_interfaces/embedding_in_qt_sgskip.html?highlight=pyqt
 
+5.Matplotlib可视化50个图表https://www.jiqizhixin.com/articles/2019-01-15-11
+
+6.https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.figure.Figure.html
+
 ---
 
 ### 36.QLCDNumber
