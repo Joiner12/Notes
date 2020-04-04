@@ -487,3 +487,7 @@ for j in list_a:
 
 1.PyQt5系列教程（8）：标准输入对话框https://zhuanlan.zhihu.com/p/29101077
 
+---
+
+### 39.conda创建单独环境
+
