@@ -46,6 +46,10 @@
 
 <https://blog.csdn.net/baidu_21807307/article/details/51843079>
 
+http://robotsforroboticists.com/kalman-filtering/
+
+http://www.cs.unc.edu/~welch/kalman/
+
 ## 2.CODE
 
 **MATLAB**
