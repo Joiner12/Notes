@@ -150,3 +150,7 @@ http://graphics.stanford.edu/~seander/bithacks.html#BitReverseObvious
 [20] Laplace Transforms &Transfer Functions
 
 <http://www.me.utexas.edu/~bryant/courses/me344/DownloadFiles/LectureNotes/Laplace+TransferFunctions.pdf>
+
+[21]python fft 
+
+<https://docs.scipy.org/doc/numpy/reference/generated/numpy.fft.fft.html#numpy.fft.fft>
