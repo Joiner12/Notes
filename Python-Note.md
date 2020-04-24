@@ -491,3 +491,16 @@ for j in list_a:
 
 ### 39.conda创建单独环境
 
+--
+
+### 40.函数式编程
+
+1.函数式编程
+
+<https://www.liaoxuefeng.com/wiki/1016959663602400/1017451662295584>
+
+### 41.Projects
+
+1.地球实时图片
+
+https://www.jianshu.com/p/4b0dbdb837f6

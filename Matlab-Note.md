@@ -813,3 +813,26 @@ diff_y = diff(y);
 ### 70.进制转换
 
 <https://ww2.mathworks.cn/help/matlab/ref/dec2hex.html>
+
+
+
+### 71.SimMechanics
+
+#### 1.模型搭建
+
+实体（bodies）、铰（joints）、外力（forces）
+
+Rigid Transform：定义相对位置
+
+Revolute Joint：定义ZX平面运动
+
+World Frame：绝对坐标系
+
+使用SimMechanics Link 导入CAD模型和数据
+
+```matlab
+smimport %导入xml文件
+```
+
+content preview
+

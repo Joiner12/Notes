@@ -75,11 +75,13 @@ e.g:
 
 
 
+## 2.Theme
 
 
-点击跳转
 
-</a>
+
+
+
 
 ### Reference:
 
@@ -90,3 +92,9 @@ e.g:
 [3] <a name="😀"> </a>实现内部跳转 https://blog.csdn.net/u013502146/article/details/103171825
 
 [4] typora-数学符号 https://blog.csdn.net/wait_for_eva/article/details/84307306
+
+[5] 设置主题
+
+ <https://zhuanlan.zhihu.com/p/44088802>
+
+<https://theme.typora.io/doc/Write-Custom-Theme/>
