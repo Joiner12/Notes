@@ -806,7 +806,13 @@ diff_y = diff(y);
 
 1.Signal Generator https://ww2.mathworks.cn/help/signal/waveform-generation.html
 
+2.tripuls
 
+<https://blog.csdn.net/Nan_qi_de_ming_zi/article/details/88076592>
+
+3.逻辑判断（矩阵）生成典型信号
+
+<https://www.mathworks.com/help/signal/gs/impulse-step-and-ramp-functions.html>
 
 ---
 
@@ -816,7 +822,7 @@ diff_y = diff(y);
 
 
 
-### 71.SimMechanics
+### 72.SimMechanics
 
 #### 1.模型搭建
 

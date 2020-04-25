@@ -1,6 +1,6 @@
 # Python Note
 
-### 1.Lib-datetime
+## 1.Lib-datetime
 
 1.python 时间库
 
@@ -8,7 +8,7 @@
 
 ---
 
-### 2.文件操作
+## 2.文件操作
 
 1.检查路径是否存在
 
@@ -24,7 +24,7 @@
 
 ---
 
-### 3.Anaconda
+## 3.Anaconda
 
 1.《anaconda离线安装第三方包》
 
@@ -36,7 +36,7 @@
 
 ---
 
-### 4.串口-Python
+## 4.串口-Python
 
 1.串口操作
 
@@ -54,7 +54,7 @@
 
 ---
 
-### 5.GUI-PY
+5.GUI-PY
 
 1.pycharm + pyqt Gui
 
@@ -72,13 +72,13 @@
 
 ---
 
-### 6.#UTF-8
+## 6.#UTF-8
 
 https://legacy.python.org/dev/peps/pep-0263/
 
 ---
 
-### 7.OS库
+## 7.OS库
 
 1.《调用*.sh》
 
@@ -94,7 +94,7 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 ---
 
-### 8.turtle库
+## 8.turtle库
 
 1.<https://blog.csdn.net/xiamoyanyulrq/article/details/81842604>
 
@@ -104,13 +104,13 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 ---
 
-### 9. syntax 
+## 9. syntax 
 
-##### 9.1 self
+### 9.1 self
 
 <https://www.cnblogs.com/jessonluo/p/4717140.html>
 
-##### 9.2 Break & Return & Continue
+### 9.2 Break & Return & Continue
 
 1.对整个循环的控制作用；
 
@@ -122,7 +122,7 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 
 
-### 10.路径操作
+## 10.路径操作
 
 1.Official Doc - Path
 
@@ -142,13 +142,13 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 
 
-### 12.ICON
+## 12.ICON
 
 <https://zhuanlan.zhihu.com/p/27493719>
 
 
 
-### 13.设置窗口背景
+## 13.设置窗口背景
 
 1.PyQt5图形和特效之设置窗口背景（六）
 
@@ -164,7 +164,7 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 
 
-### 14.PyQt时钟
+## 14.PyQt时钟
 
 1.基本时钟功能
 
@@ -188,7 +188,7 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 ---
 
-### 15.无边框
+## 15.无边框
 
 1.PyQt实现无边框
 
@@ -198,7 +198,7 @@ https://www.cnblogs.com/jyroy/p/9461317.html
 
 ---
 
-### 16.进度条
+## 16.进度条
 
 1.嵌入状态栏进度条
 
@@ -218,13 +218,13 @@ https://www.cnblogs.com/jyroy/p/9461317.html
 
 ---
 
-### 17.PyQt类继承关系
+## 17.PyQt类继承关系
 
 <https://www.cnblogs.com/tongchengbin/p/pyqt5.html>
 
 ---
 
-### 18.PyQt&Anaconda&Pycharm环境配置
+18.PyQt&Anaconda&Pycharm环境配置
 
 ```python
 # designer.exe 配置
@@ -256,11 +256,11 @@ Working directionary:$FileDir$
 
 ---
 
-### 19.基于QT编码
+## 19.基于QT编码
 
 https://www.jianshu.com/p/962b572a216c
 
-### 20.Random函数
+## 20.Random函数
 
 ```python
 import random
@@ -275,7 +275,7 @@ random.random()
 
 ---
 
-### 21.QMainWindow和QWidget的区别
+## 21.QMainWindow和QWidget的区别
 
 主要区别在于，QMainWindow创建的是一个复合窗口，包括状态栏、菜单栏等。QWidget创建的是单一的页面。
 
@@ -283,7 +283,7 @@ random.random()
 
 ---
 
-### 22.布局管理
+## 22.布局管理
 
 1.嵌套布局  <https://www.cnblogs.com/hhh5460/p/5173645.html>
 
@@ -311,7 +311,7 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 ---
 
-### 23.打包EXE
+## 23.打包EXE
 
 1.<https://blog.csdn.net/zengxiantao1994/article/details/76578421>
 
@@ -321,7 +321,7 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 ---
 
-### 24.滚动显示
+## 24.滚动显示
 
 1.[PyQt] 在QLabel上用drawText实现文字滚动 https://blog.csdn.net/wn0112/article/details/47086597
 
@@ -329,7 +329,7 @@ https://blog.csdn.net/gan19951101/article/details/79978033?depth_1-utm_source=di
 
 ---
 
-### 25.数据结构
+## 25.数据结构
 
 1.<https://blog.csdn.net/haiyu94/article/details/79684792>
 
@@ -357,13 +357,13 @@ for j in list_a:
 
 ---
 
-### 26.python help 
+## 26.python help 
 
 <https://blog.csdn.net/u013810296/article/details/55509284>
 
 ---
 
-### 27.Signal & Slot
+## 27.Signal & Slot
 
 1.【PyQt5-Qt Designer】pyqtSignal()-高级自定义信号与槽] https://www.cnblogs.com/XJT2018/p/10222981.html
 
@@ -375,13 +375,13 @@ for j in list_a:
 
 ---
 
-### 28.字符串操作
+## 28.字符串操作
 
 1.read|readline|readlines <https://www.cnblogs.com/xiugeng/p/8635862.html>
 
 ---
 
-### 29.Try except
+## 29.Try except
 
 1.try expect else finally <https://www.cnblogs.com/Lival/p/6203111.html>
 
@@ -389,7 +389,7 @@ for j in list_a:
 
 
 
-### 30.Date & Time
+## 30.Date & Time
 
 1.time datetime moudles  https://www.cnblogs.com/tkqasn/p/6001134.html
 
@@ -403,15 +403,25 @@ for j in list_a:
 
 ---
 
-### 31.数据可视化
+## 31.数据可视化
+
+`KEYS:信息传递`
 
 1.MoviePy  使用https://zhuanlan.zhihu.com/p/36727011
 
 2.PyQtGraph参考http://www.pyqtgraph.org/documentation/index.html
 
+3.社区 网站
+
+<https://infovis-wiki.net/wiki/Main_Page>
+
+<http://www.visualcomplexity.com/vc/>
+
+<https://www.visualizing.org/>
+
 ---
 
-### 32.QCombobox
+## 32.QCombobox
 
 <https://doc.qt.io/qtforpython/PySide2/QtWidgets/QComboBox.html>
 
@@ -419,7 +429,7 @@ for j in list_a:
 
 ---
 
-### 33.修改样式
+## 33.修改样式
 
 1.setstylesheet <https://www.cnblogs.com/aheng123/p/5630761.html>
 
@@ -431,7 +441,7 @@ for j in list_a:
 
 ---
 
-### 34.QLabel Widget
+## 34.QLabel Widget
 
 1.PyQt - QLabel Widget https://www.tutorialspoint.com/pyqt/pyqt_qlabel_widget.htm
 
@@ -445,7 +455,7 @@ for j in list_a:
 
 ---
 
-### 35.PyQt & Matplotlib
+## 35.PyQt & Matplotlib
 
 1.nested pie chartshttps://matplotlib.org/3.2.0/gallery/pie_and_polar_charts/nested_pie.html#sphx-glr-gallery-pie-and-polar-charts-nested-pie-py
 
@@ -461,7 +471,7 @@ for j in list_a:
 
 ---
 
-### 36.QLCDNumber
+## 36.QLCDNumber
 
 1.Qt 之 QLCDNumber https://blog.csdn.net/liang19890820/article/details/50917205
 
@@ -475,7 +485,7 @@ for j in list_a:
 
 ---
 
-### 37.QSpliter 
+## 37.QSpliter 
 
 1.PyQt5布局管理之QSplitter（六）https://blog.csdn.net/jia666666/article/details/81705675
 
@@ -483,24 +493,120 @@ for j in list_a:
 
 ---
 
-### 38.QDialog
+## 38.QDialog
 
 1.PyQt5系列教程（8）：标准输入对话框https://zhuanlan.zhihu.com/p/29101077
 
 ---
 
-### 39.conda创建单独环境
+## 39.conda创建单独环境
 
---
+1.anaconda 环境配置
 
-### 40.函数式编程
+<https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>
+
+<https://blog.csdn.net/a380331382/article/details/84951086>
+
+## 40.函数式编程
 
 1.函数式编程
 
 <https://www.liaoxuefeng.com/wiki/1016959663602400/1017451662295584>
 
-### 41.Projects
+## 41.Projects
 
 1.地球实时图片
 
 https://www.jianshu.com/p/4b0dbdb837f6
+
+
+
+## 42.list操作
+
+1.+ | append | like array
+
+<https://zhuanlan.zhihu.com/p/76184970>
+
+2.matrix & list
+
+<https://blog.csdn.net/flying_sfeng/article/details/66478616>
+
+
+
+## 43.Matplotlib 继承关系
+
+1.一些差异
+
+<https://zhuanlan.zhihu.com/p/54131038>
+
+2.查找
+
+https://www.geeksforgeeks.org/bisect-algorithm-functions-in-python/
+
+https://blog.csdn.net/wudiyi815/article/details/7775549
+
+3.matplotlb figure  ax 类从属关系
+
+<https://www.cnblogs.com/vamei/archive/2013/01/30/2879700.html>
+
+## 44.动态绘图
+
+1.animation
+
+<https://blog.csdn.net/u013180339/article/details/77002254>
+
+
+
+## 45.Python 书籍
+
+<https://pan.baidu.com/s/1Kcutb0Fzg8gU5R4nONDCyg>流畅的python
+
+Python学习手册（第4版）
+
+Python Cookbook 中文版
+
+《流畅的Python》
+
+## 46.背景图-matplot
+
+1.全屏https://www.cnblogs.com/linuxAndMcu/p/11533636.html
+
+2.matplotlib 背景图
+
+[http://www.huaxiaozhuan.com/%E5%B7%A5%E5%85%B7/matplotlib/chapters/matplotlib.html](http://www.huaxiaozhuan.com/工具/matplotlib/chapters/matplotlib.html)
+
+https://github.com/matplotlib/matplotlib/issues/9019
+
+https://www.cnblogs.com/kallan/p/7337035.html
+
+
+
+## 47.Python多线程
+
+1.线程定时器
+
+<https://zhuanlan.zhihu.com/p/32094690>
+
+
+
+## 48.音乐播放器
+
+1.音乐播放器
+
+https://zhuanlan.zhihu.com/p/60907386
+
+2.pyaudio https://zhuanlan.zhihu.com/p/71235612
+
+可视化https://blog.csdn.net/See_Star/article/details/104797734
+
+https://blog.csdn.net/weixin_43800510/article/details/100052775
+
+https://blog.csdn.net/baidu_29198395/article/details/86694365
+
+3.音频处理
+
+<https://github.com/xitu/gold-miner/blob/master/TODO/fingerprinting-and-audio-recognition-with-python.md>
+
+<https://documentation.help/py-science-zh/wave_pyaudio.html>
+
+https://cloud.tencent.com/developer/section/1369728
