@@ -95,5 +95,16 @@ char tp[];// tp自身就是地址
 
 ## 第六章 运动的诗章：运行时数据结构
 
-1.a.out（Assembler Output）汇编输出，实际是连接器输出；
+### 1.a.out
 
+a.out（Assembler Output）汇编输出，实际是连接器输出；
+
+### 2.IntelX86和 Unix段（Segment）的区别
+
+Intelx86中，内存模型设计为64kb大小的模块，一个模块就是一个段。
+
+Unix表示一个二进制文件相关的块；
+
+### 3.Unix 段内容
+
+ Unix段：数据段、bbs段、文本段；
