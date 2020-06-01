@@ -324,6 +324,30 @@ int (*sqush)[5];// 类型为int数组（长度为5）的指针
 
 
 
+## 第十一章 你懂得C，所以C++不在话下
+
+### 11.1 OOP(object-oriented paradigm)概念
+
+| 术语                  | 定义 |      |
+| --------------------- | ---- | ---- |
+| 抽象(abstraction)     |      |      |
+| 类（class)            |      |      |
+| 对象（object）        |      |      |
+| 封装（encapsulation） |      |      |
+| 继承(inheritance)     |      |      |
+
+### 11.2 访问控制
+
+| 控制字    | 描述 |      |
+| --------- | ---- | ---- |
+| public    |      |      |
+| protected |      |      |
+| private   |      |      |
+| friend    |      |      |
+| virtual   |      |      |
+
+
+
 # 利用Python进行数据分析
 
 ## 第一章 准备工作
