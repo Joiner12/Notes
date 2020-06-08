@@ -610,3 +610,33 @@ https://blog.csdn.net/baidu_29198395/article/details/86694365
 <https://documentation.help/py-science-zh/wave_pyaudio.html>
 
 https://cloud.tencent.com/developer/section/1369728
+
+
+
+## 49.Package Install
+
+### 1.文件格式
+
+1. 源文件（一般是`.tar.gz`或`.zip`文件，用`pip`安装，与机器架构无关，但某些package可能涉及到C/C++编译）
+2. wheel文件（二进制文件，拓展名为`.whl`，用`pip`安装，无需编译，但与机器架构相关）
+3. `.egg`文件（二进制文件，用`easy_install`安装，无需编译，但与机器架构相关）
+
+### 2.Reference
+
+1.pip doc
+
+<https://pip.pypa.io/en/stable/quickstart/>
+
+2.*.wheel *.tar.gz
+
+<https://blog.csdn.net/m511655654/article/details/85274861>
+
+3.环境变量
+
+```shell
+# 添加环境变量
+path = %path%; d:\conda
+# 查看环境变量
+echo %path%
+```
+
