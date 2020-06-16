@@ -853,3 +853,14 @@ content preview
 2.matlab Mobil
 
 <https://zhuanlan.zhihu.com/p/27346710>
+
+
+
+### 74.cellfun
+
+1.cellfun
+
+<https://ww2.mathworks.cn/help/matlab/ref/cellfun.html>
+
+### 75.MATLAB向量化
+
