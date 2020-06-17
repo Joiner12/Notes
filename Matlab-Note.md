@@ -862,5 +862,20 @@ content preview
 
 <https://ww2.mathworks.cn/help/matlab/ref/cellfun.html>
 
-### 75.MATLAB向量化
+2.arrayfun & cellfun & bsxfun
 
+<http://chuan92.com/2016/01/17/bsxfun-cellfun-and-arrayfun-in-matlab>
+
+3.eval函数
+
+<https://www.mathworks.com/help/matlab/ref/eval.html>
+
+
+
+### 75.Map 
+
+1.调用GoogleMAP API
+
+<https://www.mathworks.com/matlabcentral/fileexchange/27627-zoharby-plot_google_map>
+
+Cq426153#
