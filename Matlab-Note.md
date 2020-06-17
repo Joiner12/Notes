@@ -878,4 +878,10 @@ content preview
 
 <https://www.mathworks.com/matlabcentral/fileexchange/27627-zoharby-plot_google_map>
 
-Cq426153#
+2.Matlab Mobile高逼格实时记录GPS运动轨迹（各项参数统计计算）
+
+https://zhuanlan.zhihu.com/p/126242819
+
+3.获取传感器数据
+
+https://zhuanlan.zhihu.com/p/128968603
