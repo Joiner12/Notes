@@ -681,3 +681,17 @@ https://blog.csdn.net/qq_16234613/article/details/52235082
 
 
 **https://web.stanford.edu/class/cs97si/**
+
+## 2.非符号运算加
+
+1.异或&同或
+
+${a⊙b = ab + a'b'}$
+
+$a $^$ b = a'b + b'a$
+
+2.位运算
+
+https://blog.nowcoder.net/n/dcbca76d214744a9a1644ae54a183549
+
+https://segmentfault.com/a/1190000015796106
