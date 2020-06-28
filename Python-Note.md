@@ -640,3 +640,32 @@ path = %path%; d:\conda
 echo %path%
 ```
 
+
+
+## 50.osmnx-Note
+
+### 1.osmnx.graph module
+
+#### 1.1 graph_from_address
+
+从OSM在某个地址的某个距离内创建一个图
+
+#### 1.2 graph_from_bbox
+
+在某个边界框内从OSM创建图形。
+
+#### 1.3 graph_from_place
+
+从OSM在某些地理可编码地方的边界内创建图形。
+
+#### 1.4 graph_from_point
+
+从 OSM 在一些(lat，lng)点的距离内创建一个图形。
+
+#### 1.5 graph_from_polygon
+
+在某些形状多边形的边界内从OSM创建图形。
+
+#### 1.6 graph_from_xml
+
+从OSM格式的XML文件中的数据创建图形。
