@@ -688,7 +688,7 @@ https://blog.csdn.net/qq_16234613/article/details/52235082
 
 ${a⊙b = ab + a'b'}$
 
-$a $^$ b = a'b + b'a$
+$a $^$ b = a'b + b'a​$
 
 2.位运算
 
@@ -704,4 +704,3 @@ https://segmentfault.com/a/1190000015796106
 
 2.https://www.cnblogs.com/edisonchou/p/4823213.html
 
-http://it-ebooks.flygon.net/
