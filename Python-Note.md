@@ -669,3 +669,11 @@ echo %path%
 #### 1.6 graph_from_xml
 
 从OSM格式的XML文件中的数据创建图形。
+
+
+
+## 51.屏幕设置
+
+1.显示器信息
+
+https://blog.csdn.net/weixin_43945855/article/details/103526490
