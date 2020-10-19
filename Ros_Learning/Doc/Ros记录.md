@@ -60,9 +60,11 @@ http://www.ee.surrey.ac.uk/Teaching/Unix/
 
 
 
-```bash
-Q&A
-配置文件.bashrc
-虚拟机&宿主共享文件夹
-```
+## 4.Vim
+
+1.reference manual 
+
+https://github.com/yianwillis/vimcdoc/releases
+
+
 
