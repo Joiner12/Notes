@@ -140,7 +140,9 @@ https://blog.csdn.net/luckytanggu/article/details/51793218
 
 <https://blog.csdn.net/leorx01/article/details/71141643>
 
+5.path split
 
+https://blog.csdn.net/T1243_3/article/details/80170006
 
 ## 12.ICON
 
@@ -677,3 +679,19 @@ echo %path%
 1.显示器信息
 
 https://blog.csdn.net/weixin_43945855/article/details/103526490
+
+
+
+## 52.文件操作
+
+1.文件拷贝
+
+https://zhuanlan.zhihu.com/p/35725217
+
+
+
+## 53.scrapy
+
+https://www.runoob.com/w3cnote/scrapy-detail.html
+
+https://www.pythonf.cn/read/120182
