@@ -905,3 +905,9 @@ https://zhuanlan.zhihu.com/p/128968603
 ### 77.图像句柄
 
 1.《获取图像句柄》https://zhuanlan.zhihu.com/p/99011207
+
+
+
+### 78.图像处理
+
+1.泊松融合算法 https://www.mathworks.com/matlabcentral/fileexchange/62287-poisson-image-editing
