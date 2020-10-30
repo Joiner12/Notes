@@ -42,17 +42,13 @@
 
 <http://www.sherrytowers.com/kalman_filter_method.pdf>
 
-[11]浅谈KALMAN滤波
-
-<https://blog.csdn.net/baidu_21807307/article/details/51843079>
-
-[12] kalman
-
-https://zhuanlan.zhihu.com/p/36745755
-
 [13]kalman tutorial
 
 https://www.kalmanfilter.net/default.aspx
+
+[14]
+
+https://zhuanlan.zhihu.com/p/151818920
 
 ## 2.CODE
 
