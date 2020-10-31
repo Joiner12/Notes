@@ -22,6 +22,10 @@
 
 5.python运行其他程序方式https://blog.csdn.net/Jerry_1126/article/details/46584179
 
+6.文件拷贝
+
+https://zhuanlan.zhihu.com/p/35725217
+
 ---
 
 ## 3.Anaconda
@@ -682,13 +686,17 @@ https://blog.csdn.net/weixin_43945855/article/details/103526490
 
 
 
-## 52.文件操作
+## 52.pygame
 
-1.文件拷贝
+https://zhuanlan.zhihu.com/p/76628440
 
-https://zhuanlan.zhihu.com/p/35725217
+2.practic
 
-2.
+https://blog.csdn.net/sinat_39013092/article/details/81388991
+
+3.精灵
+
+https://blog.csdn.net/sinat_39013092/article/details/81869401
 
 ## 53.scrapy
 
