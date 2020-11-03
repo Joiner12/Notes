@@ -698,6 +698,10 @@ https://blog.csdn.net/sinat_39013092/article/details/81388991
 
 https://blog.csdn.net/sinat_39013092/article/details/81869401
 
+4.指南
+
+https://eyehere.net/2011/python-pygame-novice-professional-index/
+
 ## 53.scrapy
 
 https://www.runoob.com/w3cnote/scrapy-detail.html

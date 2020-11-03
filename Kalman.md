@@ -50,10 +50,6 @@ https://www.kalmanfilter.net/default.aspx
 
 https://zhuanlan.zhihu.com/p/151818920
 
-[15]
-
-https://www.zhihu.com/question/30775584/answer/544115892
-
 [16]
 
 https://zhuanlan.zhihu.com/p/36374943
