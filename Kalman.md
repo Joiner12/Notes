@@ -50,6 +50,26 @@ https://www.kalmanfilter.net/default.aspx
 
 https://zhuanlan.zhihu.com/p/151818920
 
+[15]
+
+https://www.zhihu.com/question/30775584/answer/544115892
+
+[16]
+
+https://zhuanlan.zhihu.com/p/36374943
+
+Fundamentals of Kalman Filtering A Practical Approach.pdf
+
+https://zhuanlan.zhihu.com/p/125554723
+
+
+
+https://blog.csdn.net/qq_33835307/article/details/82935682
+
+https://blog.csdn.net/u010703122/article/details/49074297
+
+https://zhuanlan.zhihu.com/p/59681380
+
 ## 2.CODE
 
 **MATLAB**
