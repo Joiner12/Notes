@@ -10,6 +10,10 @@
 
 syms sys
 
+符号函数
+
+http://gr.xjtu.edu.cn/c/document_library/get_file?folderId=1791932&name=DLFE-85954.pdf
+
 ### 2.S函数
 
 《S函数介绍》
