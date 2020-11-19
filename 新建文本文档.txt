@@ -1,0 +1,18 @@
+机器人理论（1）旋转矩阵：物体的三维空间信息描述
+https://www.guyuehome.com/16681
+机器人理论（2）齐次坐标矩阵：旋转矩阵与角度的相互转化
+https://www.guyuehome.com/17014
+
+机器人理论（3）DH表达法：解析关节轴之间的关系
+https://www.guyuehome.com/16757
+机器人理论（4）逆向运动学：已知物体位置反推关轴角度
+https://www.guyuehome.com/17504
+机器人理论（5）轨迹规划 ：拟合曲线让机械臂连续运动
+https://www.guyuehome.com/17761
+
+
+
+机械臂的动力学（一）：牛顿欧拉法
+https://www.guyuehome.com/5916
+机械臂的动力学（二）：拉格朗日法
+https://www.guyuehome.com/5955
