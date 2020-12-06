@@ -688,7 +688,7 @@ https://blog.csdn.net/qq_16234613/article/details/52235082
 
 ${a⊙b = ab + a'b'}$
 
-$a $^$ b = a'b + b'a​$
+$a $^$ b = a'b + b'a$
 
 2.位运算
 
@@ -1081,24 +1081,26 @@ $$
 #### 4.3 KF
 
 $$
-X(k) = A*X(K-1) + B*U(K-1) + \delta (k) \\
-Z(k) = H*X(k) + \epsilon (k)\\
+\begin{align}
+&X(k) = A*X(K-1) + B*U(K-1) + \delta (k) \\
+&Z(k) = H*X(k) + \epsilon (k)\\
 
-**Predication**\\
-1.状态预测\\
-X(k|k-1) = A*X(k|k) + B*u(k|k)\\
-2.预测协方差矩阵\\
-P(k|k-1) = A*P(k|k)*A' + R(k)...R(k)：过程噪声方差\\
-**Corection**\\
-3.Kalman增益\\
-K(k|k) = P(k|k-1)*H(k)'*(H(k)*P(k|k-1) + Q(K))^{-1}\\
-4.基于观测值的状态更新\\
-X(k|k) = X(k|k-1) + k(k|k)*(Z(k) - H(k)*X(k|k-1))\\
-5.更新状态的方差矩阵\\
-P(k|k) = (I - k(k|k)*H(k))*P(k|k)\\
+&**Predication**\\
+&1.状态预测\\
+&X(k|k-1) = A*X(k|k) + B*u(k|k)\\
+&2.预测协方差矩阵\\
+&P(k|k-1) = A*P(k|k)*A' + R(k)...R(k)：过程噪声方差\\
+&**Corection**\\
+&3.Kalman增益\\
+&K(k|k) = P(k|k-1)*H(k)'*(H(k)*P(k|k-1) + Q(K))^{-1}\\
+&4.基于观测值的状态更新\\
+&X(k|k) = X(k|k-1) + k(k|k)*(Z(k) - H(k)*X(k|k-1))\\
+&5.更新状态的方差矩阵\\
+&P(k|k) = (I - k(k|k)*H(k))*P(k|k)\\
+\end{align}
 $$
 
 
 
-
+​	
 
