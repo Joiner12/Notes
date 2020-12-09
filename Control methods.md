@@ -2,7 +2,7 @@
 
 ## 1.离散（数字）控制系统
 
-关键参数：${T_s}$ 采样周期
+关键参数：$T_s$ 采样周期
 
 拉斯算子：${s = e^{j\omega + \delta}}$
 
@@ -42,9 +42,9 @@ $$
 
 2.3.1 从系数量纲的角度看？
 
-  （Ⅰ）式中，K单位${（HZ）(\frac{1}{s})}$,${T_i}$积分时间常数，${T_d}$微分时间常数；
+  （Ⅰ）式中，K单位$（HZ）(\frac{1}{s})$ ,  $T_i$积分时间常数，$T_d$微分时间常数；
 
-  （Ⅱ）式中，${K_p}$单位${（HZ）(\frac{1}{s})}$,${K_i}$ 单位（${\frac{1}{s^2}}$），${K_d}$无量纲；
+  （Ⅱ）式中，${K_p}$单位${（HZ）(\frac{1}{s})}$ , ${K_i}$ 单位（${\frac{1}{s^2}}$），${K_d}$无量纲；
 
 2.3.2 从整定方式看。
 
@@ -70,7 +70,7 @@ $$
 
 #### 3.1.1 被控对象（Continuous System Transform Function）
 
-以${Gs = \frac{1}{s^3+1}}$被控对象为例，
+以$Gs = \frac{1}{s^3+1}$被控对象为例，
 
 ```matlab
 s = tf('s');
@@ -103,9 +103,9 @@ $$
 &e.g^{^{[2]}}:\\
 &采样周期（Sample Period）:T_s\\
 &\frac{1}{s}离散方式:\\
-&Forward Euler: \frac{K_iT_s}{z-1}\\
-&Backward Euler:\frac{K_iT_sz}{z-1}\\
-&Trapezoidal:\frac{K_iT_s(z+1)}{z-1}\\
+&Forward Euler: \frac{T_s}{z-1}\\
+&Backward Euler:\frac{T_sz}{z-1}\\
+&Trapezoidal:\frac{T_s(z+1)}{z-1}\\
 \end{align}
 $$
 
