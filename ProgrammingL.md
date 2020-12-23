@@ -1806,3 +1806,128 @@ https://eyehere.net/2011/python-pygame-novice-professional-index/
 https://www.runoob.com/w3cnote/scrapy-detail.html
 
 https://www.pythonf.cn/read/120182
+
+<hr>
+
+# Git笔记
+
+#### Git Bash 显示中文为数字
+
+<https://blog.csdn.net/zhujiangtaotaise/article/details/74424157>
+
+```git
+git config --global core.quotepath false//注意是2个"-"
+```
+
+#### Updates were rejected because the tip of your current branch is behind
+
+<https://www.cnblogs.com/code-changeworld/p/4779145.html>
+
+   本地与远程冲突
+
+```
+git push -u origin master -f 
+```
+
+#### 修改字体配色
+
+<https://www.cnblogs.com/yongdaimi/p/9771143.html>
+
+#### git push --set-upstream origin master
+
+Git 提示error:src refspec master does not match any
+
+原因是本地目录内没有内容。
+
+<https://www.jianshu.com/p/e1f440a9f313>
+
+<https://blog.csdn.net/tozeroblog/article/details/79423807>
+
+#### 解决Git中fatal: refusing to merge unrelated histories
+
+<https://blog.csdn.net/wd2014610/article/details/80854807>
+
+#### 远程分支与本地分支合并
+
+<https://blog.csdn.net/xiasohuai/article/details/81980112>
+
+#### 远程库和本地库比较
+
+```
+git fetch origin
+git diff master origin/master
+```
+
+#### 撤销
+
+https://blog.csdn.net/hudashi/article/details/7664429
+
+```json
+# 删除文件
+git rm -f *.*
+
+# 删除缓存修改
+git rm --cached *file.format*
+
+# revert 子命令
+git add -i 
+
+# 
+git checkout<文件名>
+```
+
+#### git branch 使用方式
+
+<https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6>
+
+#### git - official
+
+[Git 官方指南](<https://git-scm.com/docs>)
+
+#### Work Flow
+
+<http://www.ruanyifeng.com/blog/2015/12/git-workflow.html>
+
+#### Merge is Dangerous
+
+<https://zhuanlan.zhihu.com/p/72946397>
+
+#### 修改已经提交的注释
+
+```css
+# 修改上一次提交注释
+# ↓
+git commit --amend
+# ↓
+i #进入修改模式
+# ↓
+:wq #保存
+
+# 修改多次注释
+git rebase -i HEAD~2
+
+```
+
+[1] https://www.jianshu.com/p/098d85a58bf1
+
+
+
+####  gui 编码问题
+
+编码方式不统一，导致GUI显示数字内容。解决方式
+
+```CSS
+config 文件
+[gui]
+encoding:GBK  (此处编方式同文件原始编码方式一致)
+
+```
+
+[1] <http://xstarcd.github.io/wiki/shell/git_chinese.html>
+
+#### 6.14 Cherry-Pick
+
+合并commit
+
+<https://juejin.im/post/5925a2d9a22b9d0058b0fd9b>
+
