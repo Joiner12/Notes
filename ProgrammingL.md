@@ -1097,6 +1097,22 @@ https://zhuanlan.zhihu.com/p/128968603
 
 3.https://blog.csdn.net/qq_35644234/article/details/60870719
 
+### 77.continue & break & return
+
+- **continue**
+
+将控制权交换给for或者whlie的下一迭代；跳过当前循环中剩下的语句，进入到下一次循环迭代中；
+
+- **break**
+
+终止执行for或while循环；将控制权交还给循环end后的程序；
+
+- **return**
+
+终止函数；将控制权交还给主调函数；
+
+---
+
 # Python
 
 ## 1.Lib-datetime
