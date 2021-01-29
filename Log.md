@@ -1,6 +1,6 @@
 ## Log📍
 
-1.continue  & break & 是 ✔
+1.continue  & break & return✔
 
 2.try catch ✔
 
@@ -15,4 +15,8 @@
 -g 
 具体使用
 ```
+
+## Log:pineapple:
+
+1.蓝牙通信采集数据特征；
 
