@@ -28,3 +28,4 @@
 
 1.git下载单个文件 https://www.zhihu.com/question/25369412
 
+2.matlab参数检查方式
