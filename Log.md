@@ -29,3 +29,13 @@
 1.git下载单个文件 https://www.zhihu.com/question/25369412
 
 2.matlab参数检查方式
+
+3.git绘图类继承关系（获取各个属性）
+
+```matlab
+get
+set
+```
+
+
+
