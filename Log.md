@@ -37,5 +37,18 @@ get
 set
 ```
 
+4.scatter colormap sz c
 
+5.why matlab figure uglier than matplot
 
+## Log:2nd_place_medal:
+
+PyTicker
+
+1. pyqt 表盘时钟效果实现；
+
+https://www.cnblogs.com/zach0812/p/13121523.html
+
+1. 使用https://www.wiz.cn/zh-cn markdown文件分析时间
+2. colorpicker https://colorpicker.me/#6a63cb
+3. 首次使用需要进行配置
