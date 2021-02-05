@@ -43,12 +43,54 @@ set
 
 ## Log:2nd_place_medal:
 
-PyTicker
 
-1. pyqt 表盘时钟效果实现；
 
-https://www.cnblogs.com/zach0812/p/13121523.html
+# Painting in PyQt5
 
-1. 使用https://www.wiz.cn/zh-cn markdown文件分析时间
-2. colorpicker https://colorpicker.me/#6a63cb
-3. 首次使用需要进行配置
+#### PyQt之窗口绘图类控件(QPainter、Qpen、QBrush)
+
+PyQt5绘画系统能够呈现矢量图形，图像和轮廓基于字体的文本。当我们想要更改或增强现有的小部件，或者从头开始创建自定义小部件时，应用程序中需要绘画。 要进行绘制，我们使用PyQt5工具包提供的绘制API。 
+
+
+
+## QPainter
+
+ QPainter在小部件和其他绘画设备上执行低级绘画。 它可以绘制从简单的线条到复杂形状的所有内容。
+
+## The paintEvent method
+
+绘画是在paintEvent方法中完成的。 绘画代码位于QPainter对象的begin和end方法之间。 它在小部件和其他绘画设备上执行低级绘画。 
+
+## PyQt5 draw text
+
+#### drawText
+
+...
+
+#### drawPoints
+
+...
+
+
+
+颜色是代表红色，绿色和蓝色（RGB）强度值的组合的对象。 有效的RGB值在0到255之间。我们可以通过多种方式定义颜色。 最常见的是RGB十进制值或十六进制值。 我们还可以使用代表红色，绿色，蓝色和Alpha的RGBA值。 在这里，我们添加了一些有关透明度的额外信息。 Alpha值为255表示完全不透明，0表示完全透明，例如 颜色不可见。 
+
+
+
+## PyQt5 draw points
+
+
+
+https://zetcode.com/gui/pyqt5/painting/
+
+开发文档 https://blog.csdn.net/wowocpp/article/details/105199080
+
+开发文档-1https://www.riverbankcomputing.com/static/Docs/PyQt5/sip-classes.html
+
+https://zetcode.com/gui/pyqt5/painting/
+
+## Log:kissing:
+
+1. 最小二乘求解
+2. 。。。
+
