@@ -91,6 +91,27 @@ https://zetcode.com/gui/pyqt5/painting/
 
 ## Log:kissing:
 
-1. 最小二乘求解
-2. 。。。
+1. 最小二乘法https://zhuanlan.zhihu.com/p/38128785
+2. gauss filter 
+3. matlab画阴影面 
+
+
+
+# Gaussian Filtering
+
+高斯滤波器是一种线性滤波器，能够有效的抑制噪声，平滑图像。其作用原理和均值滤波器类似—窗口内数据的线性组合之和做为输出。其窗口模板的系数和均值滤波器不同，均值滤波器的模板系数都是相同的为$1/n$ ，n为窗口大小；而高斯滤波器的模板系数，则随着距离模板中心的增大而系数减小。所以，高斯滤波器相比于均值滤波器对图像个模糊程度较小。
+
+一维高斯函数：
+
+
+
+## 高斯函数：
+
+高斯函数的标准偏差在其行为中起着重要作用。
+
+
+
+
+
+https://www.cnblogs.com/wangguchangqing/p/6407717.html
 

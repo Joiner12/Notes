@@ -1,0 +1,41 @@
+﻿.newscontent_s,.newscontent_s p,.newscontent_s div,.newscontent_s td,.newscontent_s br,.newscontent_s span,.newscontent_s strong,.newscontent_s li
+{
+    font-size: 12px;
+}                                                                        
+.newscontent_m,.newscontent_m p,.newscontent_m div,.newscontent_m td,.newscontent_m br,.newscontent_m span,.newscontent_m strong,.newscontent_m li 
+{
+    font-size: 14px;
+}                                                                        
+.newscontent_l,.newscontent_l p,.newscontent_l div,.newscontent_l td,.newscontent_l br,.newscontent_l span,.newscontent_l strong,.newscontent_l li 
+{
+    font-size: 16px;
+}                                                                        
+.title_keyw1
+{
+    border-bottom:2px dotted blue;color:blue;
+}
+.title_keyw1:hover
+{
+    border-bottom:2px solid blue
+}
+.title_keyw2
+{
+    border-bottom:2px dotted #0000cc;color:#0000cc;
+}
+.title_keyw2:hover
+{
+    border-bottom:2px solid #0000cc
+}
+
+.title_govinfocaption
+{
+    font-size:12px;
+    font-weight:normal;
+    line-height:120%;
+}
+.title_govinfocontent
+{
+    font-size:12px;
+    font-weight:normal;
+    line-height:120%;
+}
