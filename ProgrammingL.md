@@ -1823,6 +1823,17 @@ https://www.runoob.com/w3cnote/scrapy-detail.html
 
 https://www.pythonf.cn/read/120182
 
+## 54.Qpainter
+
+[painter](https://doc.qt.io/qt-5/qpainter.html)
+
+[painting in pyqt5](https://zetcode.com/gui/pyqt5/painting/)
+
+
+
+
+
+
 <hr>
 
 # Git笔记
