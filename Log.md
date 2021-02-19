@@ -115,3 +115,31 @@ https://zetcode.com/gui/pyqt5/painting/
 
 https://www.cnblogs.com/wangguchangqing/p/6407717.html
 
+## Log:point_up_2:
+
+1. 修改时间格式https://blog.walterlv.com/ime/2017/09/18/date-time-format-using-microsoft-pinyin.html
+
+```python
+# date
+%yyyy%-%MM%-%dd% %HH%:%mm%
+
+# 日期
+%yyyy%-%MM%-%dd%
+
+# 时间
+%HH%:%mm%
+ 
+
+```
+
+2. 翻译并实现三边定位算法
+
+https://www.cnblogs.com/sddai/p/5663463.html
+
+[Calculating the intersection area of 3+ circles](http://www.benfrederickson.com/calculating-the-intersection-of-3-or-more-circles/)
+
+基于rssi的三点定位算法
+
+3. bash启动程序详细
+4. excel数据处理—甘特图
+
