@@ -1823,6 +1823,17 @@ https://www.runoob.com/w3cnote/scrapy-detail.html
 
 https://www.pythonf.cn/read/120182
 
+## 54.Qpainter
+
+[painter](https://doc.qt.io/qt-5/qpainter.html)
+
+[painting in pyqt5](https://zetcode.com/gui/pyqt5/painting/)
+
+
+
+
+
+
 <hr>
 
 # Git笔记
@@ -1946,4 +1957,27 @@ encoding:GBK  (此处编方式同文件原始编码方式一致)
 合并commit
 
 <https://juejin.im/post/5925a2d9a22b9d0058b0fd9b>
+
+#### 下载repo部分文件
+
+```bash
+#使用sparse checkout模式能够实现此功能
+# 创建并初始化本地仓库
+mkdir NewFolder
+cd NewFolder
+git init
+
+# 将远程仓链接添加到本地
+git remote add origin -f <url>
+# 设置sparse checkout模式
+git config core.sparsecheckout true
+
+# 将需要check out 的文件(夹)作为列表保存在.git/info/sparse-checkout文件中。
+echo "libs">>.git/info/sparse-checkout 
+echo "path/files">>.git/info/sparse-checkout
+
+
+```
+
+
 
