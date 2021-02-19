@@ -129,7 +129,6 @@ https://www.cnblogs.com/wangguchangqing/p/6407717.html
 # 时间
 %HH%:%mm%
  
-
 ```
 
 2. 翻译并实现三边定位算法
@@ -141,5 +140,5 @@ https://www.cnblogs.com/sddai/p/5663463.html
 基于rssi的三点定位算法
 
 3. bash启动程序详细
-4. excel数据处理—甘特图
+4. excel数据处理—甘特图 √
 5. git 同时输入两条指令
