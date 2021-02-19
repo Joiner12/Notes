@@ -142,4 +142,4 @@ https://www.cnblogs.com/sddai/p/5663463.html
 
 3. bash启动程序详细
 4. excel数据处理—甘特图
-
+5. git 同时输入两条指令
