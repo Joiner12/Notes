@@ -56,3 +56,5 @@ $$
 ## Reference
 
 1.https://www.cnblogs.com/sddai/p/5663463.html
+
+2.最小二乘 https://zhuanlan.zhihu.com/p/38128785

@@ -142,3 +142,18 @@ https://www.cnblogs.com/sddai/p/5663463.html
 3. bash启动程序详细
 4. excel数据处理—甘特图 √
 5. git 同时输入两条指令
+
+
+
+## Log:four:
+
+1. 最小二乘求解
+
+https://blog.csdn.net/summer_dew/article/details/79901654
+
+https://zhuanlan.zhihu.com/p/113946848
+
+https://zhuanlan.zhihu.com/p/113946848
+
+2.  matlab绘图配色标准
+3. 专业书：kindle
