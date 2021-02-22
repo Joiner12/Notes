@@ -157,3 +157,13 @@ https://zhuanlan.zhihu.com/p/113946848
 
 2.  matlab绘图配色标准
 3. 专业书：kindle
+
+
+
+## Log:five:
+
+1. conda install && pip install
+2. numel
+3. add remote repo
+4. ...
+

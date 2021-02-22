@@ -51,10 +51,15 @@ $$
 
 <img src="figure/linear lms-1.png" style="zoom:75%;" />
 
-
+$@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher = {电子工业出版社}, year = {2017}, author = {高翔 and 张涛 and 刘毅 and 颜沁睿}, lang = {zh} }$
 
 ## Reference
 
-1.https://www.cnblogs.com/sddai/p/5663463.html
-
-2.最小二乘 https://zhuanlan.zhihu.com/p/38128785
+1. [Trilateration三边测量定位算法](https://www.cnblogs.com/sddai/p/5663463.html)
+2. 最小二乘 https://zhuanlan.zhihu.com/p/38128785
+3. [最小二乘问题的四种解法——牛顿法，梯度下降法，高斯牛顿法和列文伯格-马夸特法的区别和联系](https://zhuanlan.zhihu.com/p/113946848)
+4. 最小二乘法定位（2）——定位算法+仿真程序https://blog.csdn.net/qq_30093417/article/details/88944169
+5. 最小二乘法节点定位（1）——小知识：非线性方程线性化https://blog.csdn.net/qq_30093417/article/details/86681364
+6. 使用三边定位算法进行室内定位https://blog.csdn.net/huangzhichang13/article/details/76076958
+7. 使用三邊定位演算法進行室內定位https://www.itread01.com/content/1546576765.html
+8. 采用三边定位算法对未知节点进行估算https://www.cnblogs.com/Aaron12/p/7646841.html
