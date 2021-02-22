@@ -149,7 +149,7 @@ https://www.cnblogs.com/sddai/p/5663463.html
 
 1. 最小二乘求解
 
-https://blog.csdn.net/summer_dew/article/details/79901654
+https://mp.weixin.qq.com/s/MSswKzWuziBHEvbZbEkeVw
 
 https://zhuanlan.zhihu.com/p/113946848
 
@@ -158,12 +158,12 @@ https://zhuanlan.zhihu.com/p/113946848
 2.  matlab绘图配色标准
 3. 专业书：kindle
 
-
+https://search.pandown.cn/api/query?surl=https://pan.baidu.com/share/init?surl=UAf3I3nk1J1SicuCJN712A
 
 ## Log:five:
 
 1. conda install && pip install
-2. numel
-3. add remote repo
-4. ...
+2. numel 
+3. add remote repo √
+4. MATLAB 地图工具箱[Mapping Toolbox](https://localhost:31516/static/help/map/index.html) > [Geometric Geodesy](https://localhost:31516/static/help/map/coordinates-geodesy-and-projections.html)
 
