@@ -167,3 +167,18 @@ https://search.pandown.cn/api/query?surl=https://pan.baidu.com/share/init?surl=U
 3. add remote repo √
 4. MATLAB 地图工具箱[Mapping Toolbox](https://localhost:31516/static/help/map/index.html) > [Geometric Geodesy](https://localhost:31516/static/help/map/coordinates-geodesy-and-projections.html)
 
+
+
+## Log:six:
+
+1. miui最简系统
+2. search  path-cmd
+   - 添加folder 及 child folder
+   - 保存path添加
+3. UIFIGURE 总结
+4. 对象管理
+5. [使用 App 设计工具](https://www.mathworks.com/help/releases/R2018b/matlab/creating_guis/ways-to-build-matlab-guis.html#bu7g5rw-1)
+6. [使用 GUIDE](https://www.mathworks.com/help/releases/R2018b/matlab/creating_guis/ways-to-build-matlab-guis.html#bu7g5rr)
+7. [以编程方式使用 MATLAB 函数创建 App](https://www.mathworks.com/help/releases/R2018b/matlab/creating_guis/ways-to-build-matlab-guis.html#bu7g5rv-1)
+8. matlab **global** 总结、
+9. strcmpi、strncmp、find、uigetfile（参数设置）
