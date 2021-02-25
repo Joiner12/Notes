@@ -182,3 +182,26 @@ https://search.pandown.cn/api/query?surl=https://pan.baidu.com/share/init?surl=U
 7. [以编程方式使用 MATLAB 函数创建 App](https://www.mathworks.com/help/releases/R2018b/matlab/creating_guis/ways-to-build-matlab-guis.html#bu7g5rv-1)
 8. matlab **global** 总结、
 9. strcmpi、strncmp、find、uigetfile（参数设置）
+
+## Log:seven:
+
+1.  加载文件的方式：load read readtable fopen
+2. 使用正则表达式替换文本https://ww2.mathworks.cn/help/matlab/ref/regexprep.html
+3. 组件间共享数据https://ww2.mathworks.cn/help/matlab/creating_guis/share-data-among-callbacks.html
+
+
+
+## Log:eight:
+
+1. 嵌套函数
+2. 回调函数http://blog.sina.com.cn/s/blog_6163bdeb0100i2id.html
+
+https://ww2.mathworks.cn/help/matlab/creating_plots/callback-definition.html
+
+
+
+## 回调-matlab
+
+定义:
+
+当图形界面发生特殊事件时，GUI 传递将要执行的函数代码到M文件中，以对响应相对时间，做出响应的函数。
