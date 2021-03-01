@@ -196,3 +196,14 @@ https://search.pandown.cn/api/query?surl=https://pan.baidu.com/share/init?surl=U
 定义:
 
 当图形界面发生特殊事件时，GUI 传递将要执行的函数代码到M文件中，以对响应相对事件，做出响应的函数。
+
+
+
+## Log:one:
+
+1.字符串做变量名；
+
+https://cloud.tencent.com/developer/article/1596326
+
+
+
