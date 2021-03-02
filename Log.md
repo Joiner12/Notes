@@ -207,3 +207,18 @@ https://cloud.tencent.com/developer/article/1596326
 
 
 
+## Log:two:
+
+1.统计信息
+
+https://blog.csdn.net/u010186354/article/details/104100303
+
+https://ww2.mathworks.cn/help/stats/statistical-visualization.html
+
+2.root color
+
+3.方差分析
+
+https://zhuanlan.zhihu.com/p/30323106
+
+https://www.cnblogs.com/HuZihu/p/9442316.html
