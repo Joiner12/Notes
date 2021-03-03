@@ -222,3 +222,15 @@ https://ww2.mathworks.cn/help/stats/statistical-visualization.html
 https://zhuanlan.zhihu.com/p/30323106
 
 https://www.cnblogs.com/HuZihu/p/9442316.html
+
+https://zhuanlan.zhihu.com/p/53184516
+
+https://blog.csdn.net/qq_33039859/article/details/85248430
+
+4.匿名函数绘图
+
+5.matlab找出重写plot函数-参数检查
+
+6.Gaussian滤波
+
+https://loopvoid.github.io/2017/03/04/%E4%B8%80%E7%BB%B4%E4%BF%A1%E5%8F%B7%E7%9A%84%E9%AB%98%E6%96%AF%E6%BB%A4%E6%B3%A2/
