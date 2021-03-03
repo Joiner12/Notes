@@ -109,10 +109,6 @@ https://zetcode.com/gui/pyqt5/painting/
 
 高斯函数的标准偏差在其行为中起着重要作用。
 
-
-
-
-
 https://www.cnblogs.com/wangguchangqing/p/6407717.html
 
 ## Log:point_up_2:
@@ -141,4 +137,100 @@ https://www.cnblogs.com/sddai/p/5663463.html
 
 3. bash启动程序详细
 4. excel数据处理—甘特图 √
-5. git 同时输入两条指令
+5. git 同时输入两条指令 √
+
+
+
+## Log:four:
+
+1. 最小二乘求解
+
+https://mp.weixin.qq.com/s/MSswKzWuziBHEvbZbEkeVw
+
+https://zhuanlan.zhihu.com/p/113946848
+
+https://zhuanlan.zhihu.com/p/113946848
+
+2.  matlab绘图配色标准
+3. 专业书：kindle
+
+https://search.pandown.cn/api/query?surl=https://pan.baidu.com/share/init?surl=UAf3I3nk1J1SicuCJN712A
+
+## Log:five:
+
+1. conda install && pip install
+2. numel 
+3. add remote repo √
+4. MATLAB 地图工具箱[Mapping Toolbox](https://localhost:31516/static/help/map/index.html) > [Geometric Geodesy](https://localhost:31516/static/help/map/coordinates-geodesy-and-projections.html)
+
+
+
+## Log:six:
+
+1. miui最简系统
+2. search  path-cmd
+   - 添加folder 及 child folder √
+   - 保存path添加
+3. UIFIGURE 总结
+4. 对象管理
+5. [使用 App 设计工具](https://www.mathworks.com/help/releases/R2018b/matlab/creating_guis/ways-to-build-matlab-guis.html#bu7g5rw-1)
+6. [使用 GUIDE](https://www.mathworks.com/help/releases/R2018b/matlab/creating_guis/ways-to-build-matlab-guis.html#bu7g5rr)
+7. [以编程方式使用 MATLAB 函数创建 App](https://www.mathworks.com/help/releases/R2018b/matlab/creating_guis/ways-to-build-matlab-guis.html#bu7g5rv-1)
+8. matlab **global** 总结、
+9. strcmpi、strncmp、find、uigetfile（参数设置）
+
+## Log:seven:
+
+1.  加载文件的方式：load read readtable fopen
+2. 使用正则表达式替换文本https://ww2.mathworks.cn/help/matlab/ref/regexprep.html
+3. 组件间共享数据https://ww2.mathworks.cn/help/matlab/creating_guis/share-data-among-callbacks.html √
+
+## Log:eight:
+
+1. 嵌套函数 √ 
+
+
+
+## 回调-matlab
+
+定义:
+
+当图形界面发生特殊事件时，GUI 传递将要执行的函数代码到M文件中，以对响应相对事件，做出响应的函数。
+
+
+
+## Log:one:
+
+1.字符串做变量名；
+
+https://cloud.tencent.com/developer/article/1596326
+
+
+
+## Log:two:
+
+1.统计信息
+
+https://blog.csdn.net/u010186354/article/details/104100303
+
+https://ww2.mathworks.cn/help/stats/statistical-visualization.html
+
+2.root color
+
+3.方差分析
+
+https://zhuanlan.zhihu.com/p/30323106
+
+https://www.cnblogs.com/HuZihu/p/9442316.html
+
+https://zhuanlan.zhihu.com/p/53184516
+
+https://blog.csdn.net/qq_33039859/article/details/85248430
+
+4.匿名函数绘图
+
+5.matlab找出重写plot函数-参数检查
+
+6.Gaussian滤波
+
+https://loopvoid.github.io/2017/03/04/%E4%B8%80%E7%BB%B4%E4%BF%A1%E5%8F%B7%E7%9A%84%E9%AB%98%E6%96%AF%E6%BB%A4%E6%B3%A2/
