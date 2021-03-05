@@ -35,9 +35,15 @@ $$
 
 但是如果存在较大噪声干扰下， 坐标估计值与真实坐标偏差会受到较大影响；
 
+三边定位法计算方法：
+
+![](figure/理想三边定位计算方法-1.png)
+
+
+
 ## LS（least square）
 
-​	用LS进行多边定位是为了最大程度地减少估计位置$(\hat{x}_0 ,\hat{y}_0)$与节点的实际位置${(x_0,y_0)}$之间的差异。该方法通常涉及迭代搜索技术，例如梯度下降或牛顿法。为了避免出现局部最小值，LS必须以不同的初始起点多次运算，这会导致计算消耗大。 此外，它很容易受到位置偏移的影响，因为它试图在所有样本（包括那些大偏差样本）上实现全局最优。
+​	基于均方误差最小化来进行模型求解的方法称 为"最小二乘法" (least squqare method)。用LS进行多边定位是为了最大程度地减少估计位置$(\hat{x}_0 ,\hat{y}_0)$与节点的实际位置${(x_0,y_0)}$之间的差异。该方法通常涉及迭代搜索技术，例如梯度下降或牛顿法。为了避免出现局部最小值，LS必须以不同的初始起点多次运算，这会导致计算消耗大。 此外，它很容易受到位置偏移的影响，因为它试图在所有样本（包括那些大偏差样本）上实现全局最优。
 
 ![](figure/ls-1.png)
 
@@ -63,3 +69,6 @@ $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher 
 6. 使用三边定位算法进行室内定位https://blog.csdn.net/huangzhichang13/article/details/76076958
 7. 使用三邊定位演算法進行室內定位https://www.itread01.com/content/1546576765.html
 8. 采用三边定位算法对未知节点进行估算https://www.cnblogs.com/Aaron12/p/7646841.html
+9. [数值分析](http://www.math.ecnu.edu.cn/~jypan/Teaching/NA/index.html)
+10. IndoorPos https://codechina.csdn.net/mirrors/megagao/indoorpos?utm_source=csdn_github_accelerator
+11. An Algebraic Solution to the Multilateration Problem https://www.researchgate.net/publication/275027725_An_Algebraic_Solution_to_the_Multilateration_Problem
