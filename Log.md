@@ -275,3 +275,19 @@ To choose either option permanently, see push.default in 'git help config'.
 
 3.理想三边定位结果
 
+
+
+## log:three:
+
+1.bash copy
+
+https://www.jb51.net/article/18981.htm
+
+2.雅各比、海塞矩阵
+
+3.Googleplay https://www.moerats.com/archives/112/
+
+4.429 response
+
+
+
