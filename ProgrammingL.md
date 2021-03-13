@@ -1980,5 +1980,6 @@ git pull origin master
 
 ```
 
+#### 17、删除远程分支
 
-
+https://www.cnblogs.com/luosongchao/p/3408365.html

@@ -145,10 +145,6 @@ https://www.cnblogs.com/sddai/p/5663463.html
 
 1. 最小二乘求解
 
-https://mp.weixin.qq.com/s/MSswKzWuziBHEvbZbEkeVw
-
-https://zhuanlan.zhihu.com/p/113946848
-
 https://zhuanlan.zhihu.com/p/113946848
 
 2.  matlab绘图配色标准
@@ -215,6 +211,24 @@ https://blog.csdn.net/u010186354/article/details/104100303
 
 https://ww2.mathworks.cn/help/stats/statistical-visualization.html
 
+```matlab
+clc;
+tcf;
+m_1_copy = m_1;
+m_1_copy = sort(m_1_copy,'descend');
+tbl = tabulate(m_1_copy);
+subplot(3,3,1)
+bar(tbl(:,1),tbl(:,2))
+
+subplot(3,3,2)
+x = 0:1:10;
+y = x+rand(size(x));
+scatter(x,y,'o','filled')
+refline
+```
+
+
+
 2.root color
 
 3.方差分析
@@ -234,3 +248,58 @@ https://blog.csdn.net/qq_33039859/article/details/85248430
 6.Gaussian滤波
 
 https://loopvoid.github.io/2017/03/04/%E4%B8%80%E7%BB%B4%E4%BF%A1%E5%8F%B7%E7%9A%84%E9%AB%98%E6%96%AF%E6%BB%A4%E6%B3%A2/
+
+https://www.jianshu.com/p/961490ea0458
+
+## Log:five:
+
+1.git push 
+
+```bash
+$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push main HEAD:master
+
+To push to the branch of the same name on the remote, use
+
+    git push main HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
+
+```
+
+2.todo:set --upstream-to 
+
+3.理想三边定位结果
+
+
+
+## log:three:
+
+1.bash copy
+
+https://www.jb51.net/article/18981.htm
+
+2.雅各比、海塞矩阵
+
+3.Googleplay https://www.moerats.com/archives/112/
+
+4.429 response
+
+
+
+## Log:four:
+
+1.R语言
+
+2.自动驾驶技术栈
+
+3.git push time out 429
+
+4.数据结构设计
+
+
+
