@@ -303,3 +303,12 @@ https://www.jb51.net/article/18981.htm
 
 
 
+## Log:two:
+
+1.matlab数学公式 
+
+https://blog.csdn.net/weixin_45026882/article/details/102521477
+
+2.fit曲线拟合
+
+https://www.cnblogs.com/CherryWull/p/5574277.html
