@@ -312,3 +312,20 @@ https://blog.csdn.net/weixin_45026882/article/details/102521477
 2.fit曲线拟合
 
 https://www.cnblogs.com/CherryWull/p/5574277.html
+
+## Log:three:
+
+1.matlab 求解方程
+
+https://www.yiibai.com/matlab/matlab_algebra.html
+
+2.自适应KALMAN
+
+https://zhuanlan.zhihu.com/p/100074040
+
+3.EXCEL制作甘特图
+
+https://www.zhihu.com/question/20995941
+
+4.dbscan聚类算法
+
