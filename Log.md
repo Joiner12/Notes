@@ -334,3 +334,17 @@ https://www.zhihu.com/question/20995941
 **1.房价信息监视**
 
 2.
+
+## Log:five:
+
+1.git搭建局域网
+
+https://segmentfault.com/a/1190000020433824
+
+https://blog.csdn.net/likai503819723/article/details/79704841?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.baidujs&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.baidujs
+
+2.支持向量机(SVM)
+
+https://zhuanlan.zhihu.com/p/31886934
+
+3.heatmap
