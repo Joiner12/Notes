@@ -348,3 +348,33 @@ https://blog.csdn.net/likai503819723/article/details/79704841?utm_medium=distrib
 https://zhuanlan.zhihu.com/p/31886934
 
 3.heatmap
+
+## Log:one:
+
+1.matlab解析函数求解
+
+2.Gaussian-Lg模型
+
+3.emoji in matlab
+
+ https://www.mathworks.com/help/textanalytics/ug/analyze-test-data-using-emojis.html
+
+https://ww2.mathworks.cn/matlabcentral/discussions/highlights/134287-happy-st-patrick-s-day-simple-emoticon-animation-demo
+
+https://tool.chinaz.com/tools/unicode.aspx
+
+
+
+## Log:two:
+
+1.github & gitlab
+
+https://www.yiibai.com/gitlab/gitlab_introduction.html 教程
+
+2.basemap
+
+https://ww2.mathworks.cn/help/map/ref/addcustombasemap.html
+
+3.geo转换Cartesian 
+
+横轴墨卡托投影，将地图经纬度转换为平面直角坐标(BL to UTM)
