@@ -378,3 +378,16 @@ https://ww2.mathworks.cn/help/map/ref/addcustombasemap.html
 3.geo转换Cartesian 
 
 横轴墨卡托投影，将地图经纬度转换为平面直角坐标(BL to UTM)
+
+## Log:three:
+
+1.matlab 匿名函数绘图
+
+https://ww2.mathworks.cn/help/matlab/ref/fplot.html#bu6xntj-1-f
+
+2.拟合过程调整
+
+3.获取wallpaper实时修改壁纸
+
+4.git合并多条提交
+
