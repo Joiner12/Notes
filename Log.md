@@ -391,3 +391,12 @@ https://ww2.mathworks.cn/help/matlab/ref/fplot.html#bu6xntj-1-f
 
 4.git合并多条提交
 
+5.geobase
+
+https://www.eoas.ubc.ca/~rich/map.html#3._Stereographic_projection_of_North
+
+https://www.shuzhiduo.com/A/6pdDQbkqzw/
+
+6.github ssh有什么用
+
+https://docs.github.com/cn/github/authenticating-to-github/connecting-to-github-with-ssh
