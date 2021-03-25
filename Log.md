@@ -400,3 +400,15 @@ https://www.shuzhiduo.com/A/6pdDQbkqzw/
 6.github ssh有什么用
 
 https://docs.github.com/cn/github/authenticating-to-github/connecting-to-github-with-ssh
+
+## Log:four:
+
+1.键盘-touchpad
+
+2.circlem https://ww2.mathworks.cn/help/map/generate-small-circles.html
+
+https://itectec.com/matlab/matlab-how-to-create-a-map-of-uk-with-circles-plotted-at-certain-locations/
+
+3.https://bbs.rainmeter.cn/thread-117875-1-1.html 
+
+4.环境因子
