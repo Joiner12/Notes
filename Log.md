@@ -303,3 +303,112 @@ https://www.jb51.net/article/18981.htm
 
 
 
+## Log:two:
+
+1.matlab数学公式 
+
+https://blog.csdn.net/weixin_45026882/article/details/102521477
+
+2.fit曲线拟合
+
+https://www.cnblogs.com/CherryWull/p/5574277.html
+
+## Log:three:
+
+1.matlab 求解方程
+
+https://www.yiibai.com/matlab/matlab_algebra.html
+
+2.自适应KALMAN
+
+https://zhuanlan.zhihu.com/p/100074040
+
+3.EXCEL制作甘特图
+
+https://www.zhihu.com/question/20995941
+
+4.dbscan聚类算法
+
+## Log:four:
+
+**1.房价信息监视**
+
+2.
+
+## Log:five:
+
+1.git搭建局域网
+
+https://segmentfault.com/a/1190000020433824
+
+https://blog.csdn.net/likai503819723/article/details/79704841?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.baidujs&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.baidujs
+
+2.支持向量机(SVM)
+
+https://zhuanlan.zhihu.com/p/31886934
+
+3.heatmap
+
+## Log:one:
+
+1.matlab解析函数求解
+
+2.Gaussian-Lg模型
+
+3.emoji in matlab
+
+ https://www.mathworks.com/help/textanalytics/ug/analyze-test-data-using-emojis.html
+
+https://ww2.mathworks.cn/matlabcentral/discussions/highlights/134287-happy-st-patrick-s-day-simple-emoticon-animation-demo
+
+https://tool.chinaz.com/tools/unicode.aspx
+
+
+
+## Log:two:
+
+1.github & gitlab
+
+https://www.yiibai.com/gitlab/gitlab_introduction.html 教程
+
+2.basemap
+
+https://ww2.mathworks.cn/help/map/ref/addcustombasemap.html
+
+3.geo转换Cartesian 
+
+横轴墨卡托投影，将地图经纬度转换为平面直角坐标(BL to UTM)
+
+## Log:three:
+
+1.matlab 匿名函数绘图
+
+https://ww2.mathworks.cn/help/matlab/ref/fplot.html#bu6xntj-1-f
+
+2.拟合过程调整
+
+3.获取wallpaper实时修改壁纸
+
+4.git合并多条提交
+
+5.geobase
+
+https://www.eoas.ubc.ca/~rich/map.html#3._Stereographic_projection_of_North
+
+https://www.shuzhiduo.com/A/6pdDQbkqzw/
+
+6.github ssh有什么用
+
+https://docs.github.com/cn/github/authenticating-to-github/connecting-to-github-with-ssh
+
+## Log:four:
+
+1.键盘-touchpad
+
+2.circlem https://ww2.mathworks.cn/help/map/generate-small-circles.html
+
+https://itectec.com/matlab/matlab-how-to-create-a-map-of-uk-with-circles-plotted-at-certain-locations/
+
+3.https://bbs.rainmeter.cn/thread-117875-1-1.html 
+
+4.环境因子
