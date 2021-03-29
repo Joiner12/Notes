@@ -414,3 +414,19 @@ https://itectec.com/matlab/matlab-how-to-create-a-map-of-uk-with-circles-plotted
 4.环境因子
 
 **硬盘备份**
+
+
+
+## Log:one:
+
+1.加权最小二乘法
+
+https://blog.csdn.net/weixin_44194909/article/details/105123867
+
+2.数据拷贝（matlab | python）
+
+https://zhuanlan.zhihu.com/p/35725217
+
+3.爬虫
+
+https://china-testing.github.io/scrap_books.html
