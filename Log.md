@@ -430,3 +430,10 @@ https://zhuanlan.zhihu.com/p/35725217
 3.爬虫
 
 https://china-testing.github.io/scrap_books.html
+
+## Log:two:
+
+1.cep圆概率误差
+
+2.gscatter
+
