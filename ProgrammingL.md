@@ -1983,3 +1983,7 @@ git pull origin master
 #### 17、删除远程分支
 
 https://www.cnblogs.com/luosongchao/p/3408365.html
+
+#### 18、解决push每次输入密码
+
+https://blog.csdn.net/xiecheng1995/article/details/107226818
