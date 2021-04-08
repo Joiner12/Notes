@@ -460,3 +460,13 @@ https://www.cnblogs.com/fanling999/p/4592740.html
 ## Log:three:
 
 1.geopy
+
+## Log:four:
+
+1.find
+
+2.table是否要求每列长度相同
+
+3.bluetooth
+
+https://stackoverflow.com/questions/1863092/bluetooth-discover-devices-type-question
