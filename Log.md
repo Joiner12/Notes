@@ -470,3 +470,24 @@ https://www.cnblogs.com/fanling999/p/4592740.html
 3.bluetooth
 
 https://stackoverflow.com/questions/1863092/bluetooth-discover-devices-type-question
+
+https://blog.csdn.net/wangzhen209/article/details/50250321
+
+api doc https://docs.microsoft.com/zh-cn/windows/win32/api/BluetoothAPIs/
+
+https://blog.csdn.net/wangzhen209/article/details/49204771
+
+https://blog.csdn.net/guotianqing/article/details/104224439
+
+bluez http://www.bluez.org/
+
+https://www.jb51.net/article/163875.htm
+
+https://www.elinux.org/RPi_Bluetooth_LE
+
+## Log:five:
+
+1.linux 
+
+查看进程 ps https://blog.csdn.net/yihanzhi/article/details/82351243
+
