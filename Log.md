@@ -485,9 +485,19 @@ https://www.jb51.net/article/163875.htm
 
 https://www.elinux.org/RPi_Bluetooth_LE
 
+
+
 ## Log:five:
 
 1.linux 
 
 查看进程 ps https://blog.csdn.net/yihanzhi/article/details/82351243
+
+重启
+
+http://c.biancheng.net/view/793.html
+
+## Log:one:
+
+1.meal to eat
 
