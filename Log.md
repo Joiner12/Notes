@@ -501,3 +501,8 @@ http://c.biancheng.net/view/793.html
 
 1.meal to eat
 
+## Log:two:
+
+1.获取键盘输入
+
+https://blog.csdn.net/shuwenting/article/details/79711869
