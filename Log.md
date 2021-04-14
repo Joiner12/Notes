@@ -497,6 +497,10 @@ https://www.elinux.org/RPi_Bluetooth_LE
 
 http://c.biancheng.net/view/793.html
 
+系统使用
+
+https://blog.csdn.net/albenxie/article/details/72885951
+
 ## Log:one:
 
 1.meal to eat
