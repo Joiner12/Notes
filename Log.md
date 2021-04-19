@@ -517,3 +517,16 @@ https://blog.csdn.net/shuwenting/article/details/79711869
 
 https://blogs.mathworks.com/steve/2019/02/22/making-your-plot-lines-thicker/?s_tid=mlc_recom_leaf
 
+## Log:one:
+
+1.matlab动图
+
+https://blog.csdn.net/zengxiantao1994/article/details/77482852
+
+2.share data among callbacks 
+
+https://www.mathworks.com/help/matlab/creating_guis/share-data-among-callbacks.html
+
+3.按键推出
+
+https://blog.csdn.net/u010186001/article/details/73335385
