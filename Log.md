@@ -552,3 +552,9 @@ https://blog.csdn.net/xsz591541060/article/details/107782376
 1.kalman
 
 https://blog.csdn.net/qq_43499622/article/details/103055593
+
+## Log:five:
+
+1.fitfist algorithm
+
+[对数据进行概率分布对象拟合 - MATLAB fitdist - MathWorks 中国](https://ww2.mathworks.cn/help/stats/fitdist.html)
