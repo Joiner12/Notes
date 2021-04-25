@@ -558,3 +558,11 @@ https://blog.csdn.net/qq_43499622/article/details/103055593
 1.fitfist algorithm
 
 [对数据进行概率分布对象拟合 - MATLAB fitdist - MathWorks 中国](https://ww2.mathworks.cn/help/stats/fitdist.html)
+
+
+
+## log:seven:
+
+1.[卡尔曼滤波：从入门到精通 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/36745755)
+
+2.[室内定位系列（五）——目标跟踪（卡尔曼滤波） - rubbninja - 博客园 (cnblogs.com)](https://www.cnblogs.com/rubbninja/p/6220284.html)
