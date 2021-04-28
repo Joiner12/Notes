@@ -83,9 +83,9 @@ $$
 
 ### #1 OLS假设
 
-​	标准的线性回归假定残差满足Gauss-Markov假设即：${Var(\epsilon_i) = \delta^2,i=1...n.}$。然后，实际存在以下情况：
+​	标准的线性回归假定残差满足Gauss-Markov假设即：${Var(\epsilon_i) = \delta^2,i=1...n.}$（同方差）。然而，实际存在以下情况：
 
-${Var(Y|X=x_i)=Var(\epsilon_i) = \frac{\delta^2}{\omega_i}}$，其中${\omega_i}$ 为正常数。加权最小二乘是一种估计方法，它将与观测值的误差方差的倒数成比例的方式对观测值进行加权，从而克服了异方差的问题。
+${Var(Y|X=x_i)=Var(\epsilon_i) = \frac{\delta^2}{\omega_i}}$，其中${\omega_i}$ 为正常数。加权最小二乘是一种估计方法，它将与观测值的误差方差的倒数成比例的方式对观测值进行加权，从而解决异方差的问题。
 
 ### #2 WLS简单回归
 
@@ -96,7 +96,7 @@ $$
 & 其中，\epsilon_i~N(0,\delta^2/\omega_i)，且\omega_i为**已知**常量；
 \end{align}
 $$
-β0和β1的加权最小二乘估计使得其最小：
+β0和β1的加权最小二乘估计使得目标最小：
 $$
 \begin{align}
 & S_w(\beta_0,\beta_1) = \sum_{i=1}^n\omega_i(y_i-\beta_0-\beta_1x_i)^2\\
@@ -113,7 +113,13 @@ $$
 
 加权最小二乘同样是无偏估计。
 
-### #3 WLS一般解法
+接下来讨论参数估计结果的方差：
+
+![wls-6](figure/wls-6.png)
+
+由于估算结果可以用正态随机变量来表示，因此采样分布仍然是正态的。加权误差均方${S_w(\hat{\beta_0},\hat{\beta_1})/(n-2) }$ 是${\delta^2}$ 的无偏估计。
+
+### #3 WLS常规解法
 
 ​	${W}$ 是对角元数为${w_1,...w_n}$的对角矩阵。加权残差平方和定义为：
 
@@ -125,18 +131,48 @@ $$
 
 
 
-### #4 加权最小二乘变换
+### #4 加权最小二乘不同变换形式
 
+回顾上一章的模型，
 
+![](figure/wls-7.png)
+
+我们可以通过如下变化将其转化为一般最小二乘问题：
+
+![](figure/wls-8.png)
+
+![](figure/wls-9.png)
+
+转换后模型的残差平方和为：
+
+![](figure/wls-10.png)
+
+残差平方和权重系数为${w_i=1/x_i^2}$，因此，加权最小二乘解与变换模式的常规最小二乘解相同。
+
+一般形式线性模型：
+
+![](figure/wls-11.png)
+
+${W^{1/2}}$ 为元素为${\sqrt{w_i}}$ 的对角矩阵，则${Var(W^{1/2}\epsilon) = \delta^2I_n}$ 。
+
+因此，将其变换为
+
+![wls-12](figure/wls-12.png)
+
+这样就变成一般最小二乘的形式：
+
+![wls-13](figure/wls-13.png)
+
+根据一般最小二乘法结论，其解为：
+
+![wls-14](figure/wls-14.png)
 
 ### #5 加权最小二乘的优点
 
-- 在转换后的模型中，系数估计的可能很困难。 在加权最小二乘中，解释与以前相同。
+- 在转换后的模型中，系数估计的可能很困难。 在加权最小二乘中，可以通过转换后进行求解；
 - 在转换后的模型中，通常不会出现截距，这意味着F检验和R平方值相当不同。 在加权最小二乘中，我们通常包括保留对这些数量的通常解释的截距。
 - 加权最小二乘设置权重等于0，为我们提供了一种从模型中删除一个观测值的简便方法。
-- 我们还可以降低异常值或有影响力的点，以减少它们对整体模式的影响。
-
-
+- 还可以降低异常值或有影响力的点，以减少它们对整体模式的影响。
 
 ### #6 权重系数
 
@@ -148,11 +184,15 @@ $$
 
 因此，我们将使用加权的最小二乘法系数为${w_i=n_i}$；这种情况通常发生在集群调查中（ `cluster surveys`）。
 
-
-
 ### #7 未知权重
 
-​	在许多现实情况中，先验权重是未知的，在这种情况下，我们需要估计权重才能使用加权最小二乘。当协变量向量的每个值都有多个重复的观测值时，一种可行的方法。这在设计实验中通常是可能的，在该实验中，对于协变量向量的每个设置值，都会观察到许多重复。然后，我们可以估计每个固定协变量向量的Y的方差，并使用它来估计权重。
+​	在许多现实情况中，先验权重是未知的，在这种情况下，我们需要估计权重才能使用加权最小二乘。通过统计的方法求其方差，作为其权重。
+
+### #8  迭代算法与加权最小二乘
+
+适用性方法：从目标函数出发的方法，Gauss-Newton法、梯度下降法；
+
+
 
 ## LS（least square）
 
@@ -184,7 +224,6 @@ $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher 
 8. 采用三边定位算法对未知节点进行估算https://www.cnblogs.com/Aaron12/p/7646841.html
 9. [数值分析](http://www.math.ecnu.edu.cn/~jypan/Teaching/NA/index.html)
 10. IndoorPos https://codechina.csdn.net/mirrors/megagao/indoorpos?utm_source=csdn_github_accelerator
-11. An Algebraic Solution to the Multilateration Problem https://www.researchgate.net/publication/275027725_An_Algebraic_Solution_to_the_Multilateration_Problem
 12. matlab优化工具箱 https://ww2.mathworks.cn/help/optim/index.html?s_cid=doc_ftr
 13. [梯度下降法(梯度下降法，牛顿法，高斯牛顿法，Levenberg-Marquardt算法)](https://www.cnblogs.com/zhizhan/p/5279672.html)
 14. 高斯牛顿算法 https://en.m.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm 
@@ -196,3 +235,4 @@ $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher 
 20. wls[Lectures7.pdf (mcmaster.ca)](https://ms.mcmaster.ca/canty/teaching/stat3a03/Lectures7.pdf)
 21. [Welcome to STAT 501! | STAT 501 (psu.edu)](https://online.stat.psu.edu/stat501/lesson/welcome-stat-501)
 22. [[数值计算] 数据拟合——非线性最小二乘法](https://zhuanlan.zhihu.com/p/83320557)
+
