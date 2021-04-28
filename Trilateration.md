@@ -179,7 +179,7 @@ $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher 
 3. [最小二乘问题的四种解法——牛顿法，梯度下降法，高斯牛顿法和列文伯格-马夸特法的区别和联系](https://zhuanlan.zhihu.com/p/113946848)
 4. 最小二乘法定位（2）——定位算法+仿真程序https://blog.csdn.net/qq_30093417/article/details/88944169
 5. 最小二乘法节点定位（1）——小知识：非线性方程线性化https://blog.csdn.net/qq_30093417/article/details/86681364
-6. 使用三边定位算法进行室内定位https://blog.csdn.net/huangzhichang13/article/details/76076958
+6. [使用三边定位算法进行室内定位](https://blog.csdn.net/huangzhichang13/article/details/76076958)
 7. 使用三邊定位演算法進行室內定位https://www.itread01.com/content/1546576765.html
 8. 采用三边定位算法对未知节点进行估算https://www.cnblogs.com/Aaron12/p/7646841.html
 9. [数值分析](http://www.math.ecnu.edu.cn/~jypan/Teaching/NA/index.html)
@@ -195,3 +195,4 @@ $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher 
 19. [高斯-马尔可夫定理 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/高斯-马尔可夫定理)
 20. wls[Lectures7.pdf (mcmaster.ca)](https://ms.mcmaster.ca/canty/teaching/stat3a03/Lectures7.pdf)
 21. [Welcome to STAT 501! | STAT 501 (psu.edu)](https://online.stat.psu.edu/stat501/lesson/welcome-stat-501)
+22. [[数值计算] 数据拟合——非线性最小二乘法](https://zhuanlan.zhihu.com/p/83320557)

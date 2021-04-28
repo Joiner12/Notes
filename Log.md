@@ -569,5 +569,5 @@ https://blog.csdn.net/qq_43499622/article/details/103055593
 
 ## Log:one:
 
-
+方差&协方差https://zhuanlan.zhihu.com/p/37609917
 
