@@ -39,6 +39,37 @@ $$
 
 ![](figure/理想三边定位计算方法-1.png)
 
+### 线性化方法
+
+在估计点附近进行泰勒展开，忽略高阶项：
+
+![wls-15](figure/wls-15.png)
+
+前向减后项法：
+
+已知节点与未知节点的距离方程如下，
+
+![wls-16](figure/wls-16.png)
+
+用前n-1项减去第n项则得到满足${AX=b}$的线性回归模型，
+
+![wls-16](figure/wls-17.png)
+
+则可以套用线性最小二乘公式的结果：
+
+![wls-16](figure/wls-18.png)
+$$
+\begin{align}
+&A = \left[ \begin{matrix}
+2(x_1-x_3)&2(y_1-y_3)\\
+2(x_2-x_3)&2(y_2-y_3)
+\end{matrix}\right]\\
+&b = \left[ \begin{matrix}
+x_1^2-x_3^2+y_1^2-y_3^2+d_3^2-d_1^2\\
+x_2^2-x_3^2+y_2^2-y_3^2+d_3^2-d_2^2
+\end{matrix}\right]
+\end{align}
+$$
 
 
 ## OLS（ordinary least square）
@@ -64,7 +95,7 @@ $$
 $$
 \begin{align}
 & \hat{\beta} = argmin_{\beta}S(\beta)\\
-&	S(\beta) = \sum_{i=1}^m|y_i - \sum_{j=1}^nx_{ij}\beta_j|^2=||y-X\beta^T||^2
+&	S(\beta) = \sum_{i=1}^m|y_i - \sum_{j=1}^nx_{ij}\beta_j|^2=||Y-X\beta^T||^2
 \end{align}
 $$
 
