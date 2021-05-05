@@ -576,3 +576,5 @@ https://blog.csdn.net/qq_43499622/article/details/103055593
 1.加权非线性最小二乘
 
 https://ww2.mathworks.cn/help/stats/weighted-nonlinear-regression.html
+
+2.
