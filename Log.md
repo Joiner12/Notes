@@ -446,3 +446,135 @@ https://blog.csdn.net/huacha__/article/details/81094891
 ## Log:five:
 
 1.table使用
+
+
+
+## Log:two:
+
+1.鼠标、键盘事件监控
+
+https://docs.microsoft.com/en-us/windows/win32/winmsg/using-hooks#installing-and-releasing-hook-procedures
+
+https://www.cnblogs.com/fanling999/p/4592740.html
+
+## Log:three:
+
+1.geopy
+
+## Log:four:
+
+1.find
+
+2.table是否要求每列长度相同
+
+3.bluetooth
+
+https://stackoverflow.com/questions/1863092/bluetooth-discover-devices-type-question
+
+https://blog.csdn.net/wangzhen209/article/details/50250321
+
+api doc https://docs.microsoft.com/zh-cn/windows/win32/api/BluetoothAPIs/
+
+https://blog.csdn.net/wangzhen209/article/details/49204771
+
+https://blog.csdn.net/guotianqing/article/details/104224439
+
+bluez http://www.bluez.org/
+
+https://www.jb51.net/article/163875.htm
+
+https://www.elinux.org/RPi_Bluetooth_LE
+
+
+
+## Log:five:
+
+1.linux 
+
+查看进程 ps https://blog.csdn.net/yihanzhi/article/details/82351243
+
+重启
+
+http://c.biancheng.net/view/793.html
+
+系统使用
+
+https://blog.csdn.net/albenxie/article/details/72885951
+
+## Log:one:
+
+1.meal to eat
+
+## Log:two:
+
+1.获取键盘输入
+
+https://blog.csdn.net/shuwenting/article/details/79711869
+
+## Log:five:
+
+1.groot
+
+https://blogs.mathworks.com/steve/2019/02/22/making-your-plot-lines-thicker/?s_tid=mlc_recom_leaf
+
+## Log:one:
+
+1.matlab动图
+
+https://blog.csdn.net/zengxiantao1994/article/details/77482852
+
+2.share data among callbacks 
+
+https://www.mathworks.com/help/matlab/creating_guis/share-data-among-callbacks.html
+
+3.按键推出
+
+https://blog.csdn.net/u010186001/article/details/73335385
+
+## Log:two:
+
+滤波器|经典高低通滤波器推导
+
+https://blog.csdn.net/piaoxuezhong/article/details/78619150
+
+## Log:three:
+
+1.bp神经网络
+
+https://zhuanlan.zhihu.com/p/45190898
+
+2.matlab图像操作
+
+https://blog.csdn.net/xsz591541060/article/details/107782376
+
+## Log:four:
+
+1.kalman
+
+https://blog.csdn.net/qq_43499622/article/details/103055593
+
+## Log:five:
+
+1.fitfist algorithm
+
+[对数据进行概率分布对象拟合 - MATLAB fitdist - MathWorks 中国](https://ww2.mathworks.cn/help/stats/fitdist.html)
+
+
+
+## log:seven:
+
+1.[卡尔曼滤波：从入门到精通 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/36745755)
+
+2.[室内定位系列（五）——目标跟踪（卡尔曼滤波） - rubbninja - 博客园 (cnblogs.com)](https://www.cnblogs.com/rubbninja/p/6220284.html)
+
+## Log:one:
+
+方差&协方差https://zhuanlan.zhihu.com/p/37609917
+
+## Log:five:
+
+1.加权非线性最小二乘
+
+https://ww2.mathworks.cn/help/stats/weighted-nonlinear-regression.html
+
+2.
