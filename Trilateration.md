@@ -262,6 +262,61 @@ $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher 
 
 ​	单变量函数，在定义某点上的梯度就是其微分，代表着函数在某个给定点的切线的斜率；对于多变量函数而言，在某点的梯度为各自变量的偏导数的向量，向量有方向，梯度的方向就指出了函数在给定点的上升最快的方向。
 
+$$
+\begin{align}
+&目标函数：F(x_1,x_2,...,x_n)\\
+&梯度：∇F = [\frac{∂F}{∂x_1},\frac{∂F}{∂x_2}...,\frac{∂F}{∂x_n}]
+\end{align}
+$$
+三边定位模型（加权损失函数-loss function）：
+
+![](figure/ls-1.png)
+$$
+\begin{align}
+&(\hat{x}_0,\hat{y}_0) = arg min\sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2\\
+& 其中 \omega_i 是权重系数；
+\end{align}
+$$
+
+### 梯度下降法
+
+$$
+\begin{align}
+&目标函数：F(x_1,x_2,...,x_n)\\
+&梯度：∇F = [\frac{∂F}{∂x_1},\frac{∂F}{∂x_2}...,\frac{∂F}{∂x_n}]\\
+& x_{k+1} = x_{k} - \alpha∇F(x_k)\\
+& \alpha:步长(学习率)\\
+\end{align}
+$$
+
+
+
+### 三边定位算法
+
+$$
+\begin{align}
+&(\hat{x}_0,\hat{y}_0) = arg min\sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2\\
+& 其中 \omega_i 是权重系数；\\
+& 目标函数：
+F = \sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2...(1)\\
+&F = \sum_{i=1}^{N}\omega_i[(x_i-x_0)^2+(y_i-y_0)^2-2d_i\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}+d_i^2]...(2)\\
+&\frac{∂F}{∂x_0} = \sum\omega_i[2*(x_0-x_i)-\frac{4d_i(x_0-x_i)}{\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}}]...(3)\\
+&\frac{∂F}{∂y_0} = \sum\omega_i[2*(y_0-y_i)-\frac{4d_i(y_0-y_i)}{\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}}]...(4)\\
+&∇F = (\frac{∂F}{∂x_0},\frac{∂F}{∂y_0})...(5)\\
+&负梯度方向：-∇F = -(\frac{∂F}{∂x_0},\frac{∂F}{∂y_0})...(6)\\
+\end{align}
+$$
+
+
+
+**伪代码**
+
+```
+1.初始化位置(x0,y0)——质心;
+2.X(k+1)=X(K)-alpha*∇F(Xk),alpha为步长(学习率)；
+3.|X(k+1)-x(k)| < delta 结束否则转到步骤2；
+```
+
 
 
 ## Reference
@@ -289,6 +344,6 @@ $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher 
 21. [[数值计算] 数据拟合——非线性最小二乘法](https://zhuanlan.zhihu.com/p/83320557)
 22. [线性回归和局部加权线性回归](https://www.cnblogs.com/MrLJC/p/4147697.html)
 23. [最小二乘法—多项式拟合非线性函数 - 简书 (jianshu.com)](https://www.jianshu.com/p/af0a4f71c05a)
-24. [深入浅出--梯度下降法及其实现 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/33321183)
-25. [直观理解梯度，以及偏导数、方向导数和法向量等 - shine-lee - 博客园 (cnblogs.com)](https://www.cnblogs.com/shine-lee/p/11715033.html)
-
+24. [直观理解梯度，以及偏导数、方向导数和法向量等 - shine-lee - 博客园 (cnblogs.com)](https://www.cnblogs.com/shine-lee/p/11715033.html)
+25. [常用的梯度下降优化算法 | 明天探索者 (seanlee97.github.io)](https://seanlee97.github.io/2018/10/01/常用的梯度下降优化算法/)
+26. [梯度下降算法 线性回归拟合（附Python/Matlab/Julia源代码） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/63799123)
