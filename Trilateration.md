@@ -72,7 +72,7 @@ x_2^2-x_3^2+y_2^2-y_3^2+d_3^2-d_2^2
 $$
 
 
-## OLS（ordinary least square）
+## 普通最小二乘（ordinary least square）
 
 线性回归模型：
 $$
@@ -110,7 +110,7 @@ $$
 $$
 残差的期望为0，协方差是单位矩阵，与自变量的协方差为0。
 
-## WLS(weighted least squares)
+## 加权最小二乘(weighted least squares)
 
 ### #1 OLS假设
 
@@ -256,6 +256,14 @@ $$
 
 $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher = {电子工业出版社}, year = {2017}, author = {高翔 and 张涛 and 刘毅 and 颜沁睿}, lang = {zh} }$
 
+## 梯度下降法(gradient descent)
+
+### 梯度（微分）
+
+​	单变量函数，在定义某点上的梯度就是其微分，代表着函数在某个给定点的切线的斜率；对于多变量函数而言，在某点的梯度为各自变量的偏导数的向量，向量有方向，梯度的方向就指出了函数在给定点的上升最快的方向。
+
+
+
 ## Reference
 
 1. [Trilateration三边测量定位算法](https://www.cnblogs.com/sddai/p/5663463.html)
@@ -281,4 +289,6 @@ $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher 
 21. [[数值计算] 数据拟合——非线性最小二乘法](https://zhuanlan.zhihu.com/p/83320557)
 22. [线性回归和局部加权线性回归](https://www.cnblogs.com/MrLJC/p/4147697.html)
 23. [最小二乘法—多项式拟合非线性函数 - 简书 (jianshu.com)](https://www.jianshu.com/p/af0a4f71c05a)
+24. [深入浅出--梯度下降法及其实现 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/33321183)
+25. [直观理解梯度，以及偏导数、方向导数和法向量等 - shine-lee - 博客园 (cnblogs.com)](https://www.cnblogs.com/shine-lee/p/11715033.html)
 

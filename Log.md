@@ -577,4 +577,26 @@ https://blog.csdn.net/qq_43499622/article/details/103055593
 
 https://ww2.mathworks.cn/help/stats/weighted-nonlinear-regression.html
 
-2.
+## Log:four:
+
+[类构造函数方法 - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/matlab_oop/class-constructor-methods.html)
+
+[matlab 转义字符_#+!-CSDN博客_matlab转义字符](https://blog.csdn.net/colddie/article/details/7248651)
+
+```
+
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 104.95 MiB | 1.11 MiB/s, done.
+Total 12 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: warning: See http://git.io/iEPt8g for more information.
+remote: warning: File Doc/MATLAB面向对象编程 13662949.pdf is 64.40 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+To github.com:Joiner12/ArchivedNote.git
+   09eff24..5a8a30d  master -> master
+
+```
+
