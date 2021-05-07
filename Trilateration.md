@@ -39,7 +39,7 @@ $$
 
 ![](figure/理想三边定位计算方法-1.png)
 
-### 线性化方法
+## 线性化方法
 
 在估计点附近进行泰勒展开，忽略高阶项：
 
@@ -159,6 +159,10 @@ $$
 加权最小二乘可通过最小化平方和来找到β的估计值，其解为：
 
 ![wls-4](figure/wls-4.png)
+
+通过线性化方式转换后的三边定位算法矩阵表达式如下：
+
+
 
 
 
@@ -295,13 +299,13 @@ $$
 
 $$
 \begin{align}
-&(\hat{x}_0,\hat{y}_0) = arg min\sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2\\
+&(\hat{x}_0,\hat{y}_0) = arg min\frac{1}{2}\sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2\\
 & 其中 \omega_i 是权重系数；\\
 & 目标函数：
-F = \sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2...(1)\\
+F = \frac{1}{2}\sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2...(1)\\
 &F = \sum_{i=1}^{N}\omega_i[(x_i-x_0)^2+(y_i-y_0)^2-2d_i\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}+d_i^2]...(2)\\
-&\frac{∂F}{∂x_0} = \sum\omega_i[2*(x_0-x_i)-\frac{4d_i(x_0-x_i)}{\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}}]...(3)\\
-&\frac{∂F}{∂y_0} = \sum\omega_i[2*(y_0-y_i)-\frac{4d_i(y_0-y_i)}{\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}}]...(4)\\
+&\frac{∂F}{∂x_0} = \sum\omega_i[(x_0-x_i)-\frac{d_i(x_0-x_i)}{\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}}]...(3)\\
+&\frac{∂F}{∂y_0} = \sum\omega_i[(y_0-y_i)-\frac{d_i(y_0-y_i)}{\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}}]...(4)\\
 &∇F = (\frac{∂F}{∂x_0},\frac{∂F}{∂y_0})...(5)\\
 &负梯度方向：-∇F = -(\frac{∂F}{∂x_0},\frac{∂F}{∂y_0})...(6)\\
 \end{align}
@@ -347,3 +351,5 @@ $$
 24. [直观理解梯度，以及偏导数、方向导数和法向量等 - shine-lee - 博客园 (cnblogs.com)](https://www.cnblogs.com/shine-lee/p/11715033.html)
 25. [常用的梯度下降优化算法 | 明天探索者 (seanlee97.github.io)](https://seanlee97.github.io/2018/10/01/常用的梯度下降优化算法/)
 26. [梯度下降算法 线性回归拟合（附Python/Matlab/Julia源代码） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/63799123)
+27. [[数值计算\] 数据拟合——非线性最小二乘法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/83320557)
+
