@@ -321,6 +321,14 @@ $$
 3.|X(k+1)-x(k)| < delta 结束否则转到步骤2；
 ```
 
+## 加权高斯-牛顿（Weighted Gauss-Newton）
+
+![](figure/wls-19.png)
+
+![](figure/wls-20.png)
+
+![](figure/jacobian.jpg)
+
 
 
 ## Reference
@@ -352,4 +360,9 @@ $$
 25. [常用的梯度下降优化算法 | 明天探索者 (seanlee97.github.io)](https://seanlee97.github.io/2018/10/01/常用的梯度下降优化算法/)
 26. [梯度下降算法 线性回归拟合（附Python/Matlab/Julia源代码） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/63799123)
 27. [[数值计算\] 数据拟合——非线性最小二乘法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/83320557)
+28. [Nonlinear Least-Squares Fitting — GSL 2.6 documentation (gnu.org)](https://www.gnu.org/software/gsl/doc/html/nls.html?highlight=levenberg marquardt algorithm#:~:text=Weighted nonlinear least-squares fitting minimizes the function where,in the same form as the unweighted case.)
+29. [2.2 - Weighted Gauss-Newton Optimization on Lie-Manifolds · LSD-SLAM : 基于直接法的大范围单目同步定位和地图构建方法 (gitbooks.io)](https://stormtiti.gitbooks.io/lsd-slam/content/preliminaires/2.2-weighted-gauss-newton-optimization-on-lie-manifolds.html)
+30. [Gauss-Newton算法学习_Where there is life, there is hope-CSDN博客](https://blog.csdn.net/jinshengtao/article/details/51615162)
+31. [最优化理论与算法------牛顿法（附Matlab实现）： - YuhuaStone - 博客园 (cnblogs.com)](https://www.cnblogs.com/yuhuastone/p/12814752.html)
+32. [数字信号处理４——高斯牛顿法与matlab实例_qinze5857的博客-CSDN博客](https://blog.csdn.net/qinze5857/article/details/109483432)
 
