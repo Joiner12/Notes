@@ -617,3 +617,9 @@ To github.com:Joiner12/ArchivedNote.git
 [MATLAB 高级数据结构连载 1：金融时间序列Financial Time Series (Part A) - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/21409091)
 
 [MATLAB映射表数据结构-技术专栏-MATLAB中文论坛 (ilovematlab.cn)](https://www.ilovematlab.cn/article-56-1.html)
+
+## Log:three:
+
+[C 和 C++ 的矩阵库评估和比较 Meschach、Cooperware 矩阵和 Blitz_Steven_Sunny的专栏-CSDN博客](https://blog.csdn.net/sunnyxidian/article/details/8916861)
+
+[矩阵的逆 C 语言 算法一 - 忽而今夏 - 博客园 (cnblogs.com)](https://www.cnblogs.com/tianzhenyun/p/4527742.html)
