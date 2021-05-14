@@ -623,3 +623,10 @@ To github.com:Joiner12/ArchivedNote.git
 [C 和 C++ 的矩阵库评估和比较 Meschach、Cooperware 矩阵和 Blitz_Steven_Sunny的专栏-CSDN博客](https://blog.csdn.net/sunnyxidian/article/details/8916861)
 
 [矩阵的逆 C 语言 算法一 - 忽而今夏 - 博客园 (cnblogs.com)](https://www.cnblogs.com/tianzhenyun/p/4527742.html)
+
+## Log:four:
+
+[（数学概念）矩阵的逆、伪逆、左右逆，最小二乘，投影矩阵 - AndyJee - 博客园 (cnblogs.com)](https://www.cnblogs.com/AndyJee/p/5082508.html#:~:text=一、矩阵的逆、伪逆、左右逆 1 矩阵A可逆的充要条件是A的行列式不等于0。 2 可逆矩阵一定是方阵。 3 如果矩阵A是可逆的，A的逆矩阵是唯一的。,4 可逆矩阵也被称为非奇异矩阵、满秩矩阵。 5 两个可逆矩阵的乘积依然可逆。 6 可逆矩阵的转置矩阵也可逆。 7 矩阵可逆当且仅当它是满秩矩阵。)
+
+[extern "C"：实现C++和C的混合编程 (biancheng.net)](http://c.biancheng.net/view/8064.html)
+
