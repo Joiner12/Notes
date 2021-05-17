@@ -630,3 +630,6 @@ To github.com:Joiner12/ArchivedNote.git
 
 [extern "C"：实现C++和C的混合编程 (biancheng.net)](http://c.biancheng.net/view/8064.html)
 
+## Log:one:
+
+[[总结\]C语言二维数组作为函数的参数 - Rabbit_Dale - 博客园 (cnblogs.com)](https://www.cnblogs.com/Anker/archive/2013/03/09/2951878.html)
