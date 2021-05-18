@@ -633,3 +633,14 @@ To github.com:Joiner12/ArchivedNote.git
 ## Log:one:
 
 [[总结\]C语言二维数组作为函数的参数 - Rabbit_Dale - 博客园 (cnblogs.com)](https://www.cnblogs.com/Anker/archive/2013/03/09/2951878.html)
+
+## Log:two:
+
+[Moore-Penrose伪逆（Moore-Penrose广义逆）_狂想者-CSDN博客](https://blog.csdn.net/a15779627836/article/details/116804713)
+
+[Moore-Penrose广义逆（加号广义逆）定义及相关性质_liu_0823的博客-CSDN博客_moore-penrose广义逆](https://blog.csdn.net/qq_44718438/article/details/106166106)
+
+[Moore-Penrose广义逆：可解决MATLAB报错“矩阵接近奇异值，或者缩放错误。结果可能不准确”_Yancy的博客-CSDN博客_矩阵接近奇异值或缩放错误如何解决](https://blog.csdn.net/lyxleft/article/details/83998246)
+
+[matlab中struct为空判断_u010247905的博客-CSDN博客](https://blog.csdn.net/u010247905/article/details/51356797)
+
