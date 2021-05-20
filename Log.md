@@ -654,6 +654,8 @@ ope_minv_lf_row(weight, weight, 3, weight);
 
 局部变量——全局变量——堆栈
 
+[malloc、calloc、realloc的区别 - DoubleLi - 博客园 (cnblogs.com)](https://www.cnblogs.com/lidabo/p/4611411.html)
+
 [不要说你会用搜索引擎（谷歌百度必应） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/110511356)
 
 取地址符号'&' 和 引用'&'
