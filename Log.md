@@ -644,3 +644,17 @@ To github.com:Joiner12/ArchivedNote.git
 
 [matlab中struct为空判断_u010247905的博客-CSDN博客](https://blog.csdn.net/u010247905/article/details/51356797)
 
+## Log:four:
+
+```c
+ope_minv_lf_row(weight, weight, 3, weight);
+```
+
+[C语言矩阵连乘 (动态规划)详解 / 张生荣 (zhangshengrong.com)](https://www.zhangshengrong.com/p/ERNn7QnX5W/)
+
+局部变量——全局变量——堆栈
+
+[不要说你会用搜索引擎（谷歌百度必应） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/110511356)
+
+取地址符号'&' 和 引用'&'
+
