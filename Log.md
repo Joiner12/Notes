@@ -544,3 +544,12 @@ ope_minv_lf_row(weight, weight, 3, weight);
 ## Log:one:
 
 [Python爬取比特币数据（含有API接口）含有开盘价，收盘价，最高价，最低价_抱朴守拙是阿南的博客-CSDN博客](https://blog.csdn.net/weixin_45934622/article/details/115499701)
+
+## Log:two:
+
+[快搜 - 搜索快人一步 - 电子书 (chongbuluo.com)](https://search.chongbuluo.com/)
+
+[贝叶斯滤波（Bayesian filtering） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/139215491)
+
+[概率机器人——贝叶斯滤波 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/37028239)
+
