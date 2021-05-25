@@ -523,10 +523,6 @@ To github.com:Joiner12/ArchivedNote.git
 
 ## Log:four:
 
-```c
-ope_minv_lf_row(weight, weight, 3, weight);
-```
-
 [C语言矩阵连乘 (动态规划)详解 / 张生荣 (zhangshengrong.com)](https://www.zhangshengrong.com/p/ERNn7QnX5W/)
 
 局部变量——全局变量——堆栈
@@ -547,9 +543,6 @@ ope_minv_lf_row(weight, weight, 3, weight);
 
 ## Log:two:
 
-[快搜 - 搜索快人一步 - 电子书 (chongbuluo.com)](https://search.chongbuluo.com/)
+[Bayes Filter (aandds.com)](http://aandds.com/blog/bayes-filter.html#非线性动态系统的状态空间模型-org0000000)
 
-[贝叶斯滤波（Bayesian filtering） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/139215491)
-
-[概率机器人——贝叶斯滤波 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/37028239)
-
+[（一）：细说贝叶斯滤波：Bayes filters - 王永才 - 博客园 (cnblogs.com)](https://www.cnblogs.com/ycwang16/p/5995702.html)
