@@ -546,3 +546,22 @@ To github.com:Joiner12/ArchivedNote.git
 [Bayes Filter (aandds.com)](http://aandds.com/blog/bayes-filter.html#非线性动态系统的状态空间模型-org0000000)
 
 [（一）：细说贝叶斯滤波：Bayes filters - 王永才 - 博客园 (cnblogs.com)](https://www.cnblogs.com/ycwang16/p/5995702.html)
+
+## Log:three:
+
+[html、css、js之间的关系是什么？ - html中文网](https://www.html.cn/qa/html5/16523.html)
+
+[python爬虫+网页点击事件+selenium模拟浏览器，爬取选股宝内容_伍啊哥的博客-CSDN博客_python爬虫模拟点击](https://blog.csdn.net/weixin_42551465/article/details/80817552?utm_term=python爬虫按钮&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-0-80817552&spm=3001.4430)
+
+[python上手--selenium+webdriver爬虫技术 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/94545914)
+
+[Python+Selenium基础入门及实践 - 简书 (jianshu.com)](https://www.jianshu.com/p/1531e12f8852)
+
+[Python Selenium定位html元素|find_element_by_class-name-id-tag-css-xpath-text (pythonf.cn)](https://www.pythonf.cn/read/38#:~:text=1.find_element_by_class_name通过class name定位元素 我们拿Pythonfree网站来举例，点击右上角的搜索框。鼠标右击搜索图标，然后选择检查 可以看到搜索标签的class name是,btn btn-default 所以find_element_by_class_name方法里的参数就填 btn ：)
+
+[Pandas: 强大的 Python 数据分析支持库 | Pandas 中文 (pypandas.cn)](https://www.pypandas.cn/docs/)
+
+[NumPy 用户指南 | NumPy 中文](https://www.numpy.org.cn/user/)
+
+[(*´∇｀*) 欢迎回来！ (cnblogs.com)](https://www.cnblogs.com/huny/p/14154763.html)
+
