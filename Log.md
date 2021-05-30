@@ -572,12 +572,3 @@ To github.com:Joiner12/ArchivedNote.git
 [karpathy/char-rnn: Multi-layer Recurrent Neural Networks (LSTM, GRU, RNN) for character-level language models in Torch (github.com)](https://github.com/karpathy/char-rnn)
 
 [基于tensorflow的CNN和LSTM文本情感分析对比（附完整代码）_一路狂奔的猪的博客-CSDN博客](https://blog.csdn.net/qq_33547191/article/details/86075275?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-2.control)
-
-[fxsjy/jieba: 结巴中文分词 (github.com)](https://github.com/fxsjy/jieba)
-
-[WordCloud for Python documentation — wordcloud 1.8.1 documentation (amueller.github.io)](https://amueller.github.io/word_cloud/index.html)
-
-[python词云库wordCloud使用方法详解(解决中文乱码)_python_脚本之家 (jb51.net)](https://www.jb51.net/article/180600.htm)
-
-[微微一笑很倾城\]实战_m0_46568930的博客-CSDN博客](https://blog.csdn.net/m0_46568930/article/details/111305723)
-
