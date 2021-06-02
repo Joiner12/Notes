@@ -572,3 +572,22 @@ To github.com:Joiner12/ArchivedNote.git
 [karpathy/char-rnn: Multi-layer Recurrent Neural Networks (LSTM, GRU, RNN) for character-level language models in Torch (github.com)](https://github.com/karpathy/char-rnn)
 
 [基于tensorflow的CNN和LSTM文本情感分析对比（附完整代码）_一路狂奔的猪的博客-CSDN博客](https://blog.csdn.net/qq_33547191/article/details/86075275?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-2.control)
+
+## Log:three:
+
+[卡尔曼滤波（Kalman Filter）原理与公式推导 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/48876718)
+
+[Particle Filter Tutorial 粒子滤波：从推导到应用（一）_知行合一-CSDN博客_粒子滤波](https://blog.csdn.net/heyijia0327/article/details/40899819)
+
+```matlab
+ figure('name', 'kalman-1', 'color', 'white');
+        hold on
+        subplot(2, 2, 1)
+        plot()
+        % hold on
+       
+```
+
+matlat 
+
+zeros('like',A)
