@@ -594,7 +594,7 @@ To github.com:Joiner12/ArchivedNote.git
 
 2.[Sensors | Free Full-Text | Human Body Parts Tracking and Kinematic Features Assessment Based on RSSI and Inertial Sensor Measurements | HTML (mdpi.com)](https://www.mdpi.com/1424-8220/13/9/11289/htm)
 
-3.组合投资（爬虫）
+3.组合投资（爬虫）d'd'd
 
 [Big data based stock trend prediction using deep CNN with reinforcement-LSTM model | SpringerLink](https://link.springer.com/article/10.1007%2Fs13198-021-01074-2)
 
