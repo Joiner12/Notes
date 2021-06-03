@@ -39,7 +39,7 @@ $$
 
 ![](figure/理想三边定位计算方法-1.png)
 
-### 线性化方法
+## 线性化方法
 
 在估计点附近进行泰勒展开，忽略高阶项：
 
@@ -72,7 +72,7 @@ x_2^2-x_3^2+y_2^2-y_3^2+d_3^2-d_2^2
 $$
 
 
-## OLS（ordinary least square）
+## 普通最小二乘（ordinary least square）
 
 线性回归模型：
 $$
@@ -110,7 +110,7 @@ $$
 $$
 残差的期望为0，协方差是单位矩阵，与自变量的协方差为0。
 
-## WLS(weighted least squares)
+## 加权最小二乘(weighted least squares)
 
 ### #1 OLS假设
 
@@ -159,6 +159,10 @@ $$
 加权最小二乘可通过最小化平方和来找到β的估计值，其解为：
 
 ![wls-4](figure/wls-4.png)
+
+通过线性化方式转换后的三边定位算法矩阵表达式如下：
+
+
 
 
 
@@ -256,6 +260,77 @@ $$
 
 $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher = {电子工业出版社}, year = {2017}, author = {高翔 and 张涛 and 刘毅 and 颜沁睿}, lang = {zh} }$
 
+## 梯度下降法(gradient descent)
+
+### 梯度（微分）
+
+​	单变量函数，在定义某点上的梯度就是其微分，代表着函数在某个给定点的切线的斜率；对于多变量函数而言，在某点的梯度为各自变量的偏导数的向量，向量有方向，梯度的方向就指出了函数在给定点的上升最快的方向。
+
+$$
+\begin{align}
+&目标函数：F(x_1,x_2,...,x_n)\\
+&梯度：∇F = [\frac{∂F}{∂x_1},\frac{∂F}{∂x_2}...,\frac{∂F}{∂x_n}]
+\end{align}
+$$
+三边定位模型（加权损失函数-loss function）：
+
+![](figure/ls-1.png)
+$$
+\begin{align}
+&(\hat{x}_0,\hat{y}_0) = arg min\sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2\\
+& 其中 \omega_i 是权重系数；
+\end{align}
+$$
+
+### 梯度下降法
+
+$$
+\begin{align}
+&目标函数：F(x_1,x_2,...,x_n)\\
+&梯度：∇F = [\frac{∂F}{∂x_1},\frac{∂F}{∂x_2}...,\frac{∂F}{∂x_n}]\\
+& x_{k+1} = x_{k} - \alpha∇F(x_k)\\
+& \alpha:步长(学习率)\\
+\end{align}
+$$
+
+
+
+### 三边定位算法
+
+$$
+\begin{align}
+&(\hat{x}_0,\hat{y}_0) = arg min\frac{1}{2}\sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2\\
+& 其中 \omega_i 是权重系数；\\
+& 目标函数：
+F = \frac{1}{2}\sum_{i=1}^{N}\omega_i[\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}-d_i]^2...(1)\\
+&F = \sum_{i=1}^{N}\omega_i[(x_i-x_0)^2+(y_i-y_0)^2-2d_i\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}+d_i^2]...(2)\\
+&\frac{∂F}{∂x_0} = \sum\omega_i[(x_0-x_i)-\frac{d_i(x_0-x_i)}{\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}}]...(3)\\
+&\frac{∂F}{∂y_0} = \sum\omega_i[(y_0-y_i)-\frac{d_i(y_0-y_i)}{\sqrt{(x_i-x_0)^2+(y_i-y_0)^2}}]...(4)\\
+&∇F = (\frac{∂F}{∂x_0},\frac{∂F}{∂y_0})...(5)\\
+&负梯度方向：-∇F = -(\frac{∂F}{∂x_0},\frac{∂F}{∂y_0})...(6)\\
+\end{align}
+$$
+
+
+
+**伪代码**
+
+```
+1.初始化位置(x0,y0)——质心;
+2.X(k+1)=X(K)-alpha*∇F(Xk),alpha为步长(学习率)；
+3.|X(k+1)-x(k)| < delta 结束否则转到步骤2；
+```
+
+## 加权高斯-牛顿（Weighted Gauss-Newton）
+
+![](figure/wls-19.png)
+
+![](figure/wls-20.png)
+
+![](figure/jacobian.jpg)
+
+
+
 ## Reference
 
 1. [Trilateration三边测量定位算法](https://www.cnblogs.com/sddai/p/5663463.html)
@@ -281,4 +356,13 @@ $@Book{Gao2017SLAM, title={视觉SLAM十四讲：从理论到实践}, publisher 
 21. [[数值计算] 数据拟合——非线性最小二乘法](https://zhuanlan.zhihu.com/p/83320557)
 22. [线性回归和局部加权线性回归](https://www.cnblogs.com/MrLJC/p/4147697.html)
 23. [最小二乘法—多项式拟合非线性函数 - 简书 (jianshu.com)](https://www.jianshu.com/p/af0a4f71c05a)
+24. [直观理解梯度，以及偏导数、方向导数和法向量等 - shine-lee - 博客园 (cnblogs.com)](https://www.cnblogs.com/shine-lee/p/11715033.html)
+25. [常用的梯度下降优化算法 | 明天探索者 (seanlee97.github.io)](https://seanlee97.github.io/2018/10/01/常用的梯度下降优化算法/)
+26. [梯度下降算法 线性回归拟合（附Python/Matlab/Julia源代码） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/63799123)
+27. [[数值计算\] 数据拟合——非线性最小二乘法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/83320557)
+28. [Nonlinear Least-Squares Fitting — GSL 2.6 documentation (gnu.org)](https://www.gnu.org/software/gsl/doc/html/nls.html?highlight=levenberg marquardt algorithm#:~:text=Weighted nonlinear least-squares fitting minimizes the function where,in the same form as the unweighted case.)
+29. [2.2 - Weighted Gauss-Newton Optimization on Lie-Manifolds · LSD-SLAM : 基于直接法的大范围单目同步定位和地图构建方法 (gitbooks.io)](https://stormtiti.gitbooks.io/lsd-slam/content/preliminaires/2.2-weighted-gauss-newton-optimization-on-lie-manifolds.html)
+30. [Gauss-Newton算法学习_Where there is life, there is hope-CSDN博客](https://blog.csdn.net/jinshengtao/article/details/51615162)
+31. [最优化理论与算法------牛顿法（附Matlab实现）： - YuhuaStone - 博客园 (cnblogs.com)](https://www.cnblogs.com/yuhuastone/p/12814752.html)
+32. [数字信号处理４——高斯牛顿法与matlab实例_qinze5857的博客-CSDN博客](https://blog.csdn.net/qinze5857/article/details/109483432)
 

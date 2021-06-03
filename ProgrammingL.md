@@ -187,6 +187,26 @@ https://www.nowcoder.com/tutorial/10003/e546205d358e46668418c0a38840051f
 
 <https://blog.csdn.net/pushup8/article/details/85071735>
 
+##### 19.内存管理（malloc、alloca、realloc、calloc）
+
+| 分配方式 | 阶段                     |                              | 存储位置 |
+| -------- | ------------------------ | ---------------------------- | -------- |
+| 静态分配 | 程序编译阶段进行内存分配 | 全局变量\|静态变量(static)   | 静态区域 |
+| 动态分配 | 程序运行阶段分配         | 局部变量 \| alloca           | 栈       |
+| 动态分配 | 程序运行阶段分配         | malloc \| realloc \| calloca | 堆       |
+
+动态分配——堆
+
+头文件:#include <stdlib.h>
+
+| 方式    | 说明                                                     |                                              |
+| ------- | -------------------------------------------------------- | -------------------------------------------- |
+| malloc  | (void*)malloc(size_t sizet)                              | 分配内存位于堆中，需要调用memset进行初始化。 |
+| realloc | void* realloc(void* ptr, unsigned newsize);              | 对malloc申请的内存进行大小的调整.            |
+| calloca | void*  calloc(size_t numElements, size_t sizeOfElement); | 将初始化这部分的内存,设置为0.                |
+
+[malloc、calloc、realloc的区别 - DoubleLi - 博客园 (cnblogs.com)](https://www.cnblogs.com/lidabo/p/4611411.html)
+
 # Matlab
 
 ——记录Matlab相关；
