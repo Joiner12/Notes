@@ -594,9 +594,16 @@ To github.com:Joiner12/ArchivedNote.git
 
 2.[Sensors | Free Full-Text | Human Body Parts Tracking and Kinematic Features Assessment Based on RSSI and Inertial Sensor Measurements | HTML (mdpi.com)](https://www.mdpi.com/1424-8220/13/9/11289/htm)
 
-3.组合投资（爬虫）d'd'd
+3.组合投资（爬虫）
 
 [Big data based stock trend prediction using deep CNN with reinforcement-LSTM model | SpringerLink](https://link.springer.com/article/10.1007%2Fs13198-021-01074-2)
 
 4.[默认属性值 - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/creating_plots/default-property-values.html)
 
+## Log:five:
+
+1.house monitor
+
+2.[基于新息的自适应增量Kalman滤波器 (ie.ac.cn)](http://jeit.ie.ac.cn/cn/article/doi/10.11999/JEIT190493)
+
+3.[基于SageHusa的线性自适应平方根卡尔曼滤波算法 - 豆丁网 (docin.com)](https://www.docin.com/p-1255150947.html)
