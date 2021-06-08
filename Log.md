@@ -607,3 +607,8 @@ To github.com:Joiner12/ArchivedNote.git
 2.[基于新息的自适应增量Kalman滤波器 (ie.ac.cn)](http://jeit.ie.ac.cn/cn/article/doi/10.11999/JEIT190493)
 
 3.[基于SageHusa的线性自适应平方根卡尔曼滤波算法 - 豆丁网 (docin.com)](https://www.docin.com/p-1255150947.html)
+
+## Log:two:
+
+**1.kalman滤波分享**
+
