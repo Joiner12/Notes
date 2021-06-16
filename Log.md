@@ -612,3 +612,11 @@ To github.com:Joiner12/ArchivedNote.git
 
 **1.kalman滤波分享**
 
+## Log:three:
+
+1.[(1条消息) MATLAB 常见取整函数_L18092482025的博客-CSDN博客_matlab 向上取整](https://blog.csdn.net/l18092482025/article/details/52654399)
+
+<p style="text-align:center;font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;;">
+    遇事冷静是否还有另外的一种理解方法！
+</p>
+
