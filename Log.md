@@ -619,4 +619,7 @@ To github.com:Joiner12/ArchivedNote.git
 <p style="text-align:center;font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;;">
     遇事冷静是否还有另外的一种理解方法！
 </p>
+## Log:four:
+
+[【机器学习】K-means（非常详细） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/78798251)
 
