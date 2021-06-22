@@ -619,7 +619,17 @@ To github.com:Joiner12/ArchivedNote.git
 <p style="text-align:center;font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;;">
     遇事冷静是否还有另外的一种理解方法！
 </p>
-## Log:four:
+## Log:one:
 
 [【机器学习】K-means（非常详细） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/78798251)
+
+[【机器学习】K-Means算法及多种优化改进算法，聚类模型评估，附带案例代码_Daycym的博客-CSDN博客_kmeans聚类算法](https://blog.csdn.net/Daycym/article/details/84774164)
+
+## Log:two:
+
+1.recursion - kmeans
+
+[欧式距离、曼哈顿距离、切比雪夫距离三种距离的可视化展示 - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1524568)
+
+[机器学习中应用到的各种距离介绍（附上Matlab代码） - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1435753)
 
