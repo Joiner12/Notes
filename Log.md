@@ -577,16 +577,7 @@ To github.com:Joiner12/ArchivedNote.git
 
 [卡尔曼滤波（Kalman Filter）原理与公式推导 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/48876718)
 
-[Particle Filter Tutorial 粒子滤波：从推导到应用（一）_知行合一-CSDN博客_粒子滤波](https://blog.csdn.net/heyijia0327/article/details/40899819)
-
-```matlab
- figure('name', 'kalman-1', 'color', 'white');
-        hold on
-        subplot(2, 2, 1)
-        plot()
-        % hold on
-       
-```
+[Particle Filter Tutorial 粒子滤波：从推导到应用（一）_知行合一-CSDN博客_粒子滤波](https://blog.csdn.net/heyijia0327/article/details/40899819)   
 
 ## Log:four:
 
@@ -636,4 +627,10 @@ To github.com:Joiner12/ArchivedNote.git
 ## Log:three:
 
 [【无监督学习】聚类算法——K-means | Levitate_ (levitate-qian.github.io)](https://levitate-qian.github.io/2020/11/14/clustering-k-means/)
+
+类模板
+
+```c++
+ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
+```
 
