@@ -634,3 +634,10 @@ To github.com:Joiner12/ArchivedNote.git
 ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ```
 
+## Log:four:
+
+1.引用和取地址c++
+
+2.[virtualbox ubuntu 磁盘大小扩容 - wakasann - 博客园 (cnblogs.com)](https://www.cnblogs.com/fsong/p/11759261.html)
+
+[Linux删除文件夹命令是什么-linux运维-PHP中文网](https://www.php.cn/linux-472518.html)
