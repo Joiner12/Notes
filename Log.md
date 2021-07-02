@@ -35,7 +35,7 @@ https://www.cnblogs.com/sddai/p/5663463.html
 https://zhuanlan.zhihu.com/p/113946848
 
 2.  matlab绘图配色标准
-3. 专业书：kindle
+3.  专业书：kindle
 
 https://search.pandown.cn/api/query?surl=https://pan.baidu.com/share/init?surl=UAf3I3nk1J1SicuCJN712A
 
@@ -65,8 +65,8 @@ https://search.pandown.cn/api/query?surl=https://pan.baidu.com/share/init?surl=U
 ## Log:seven:
 
 1.  加载文件的方式：load read readtable fopen
-2. 使用正则表达式替换文本https://ww2.mathworks.cn/help/matlab/ref/regexprep.html
-3. 组件间共享数据https://ww2.mathworks.cn/help/matlab/creating_guis/share-data-among-callbacks.html √
+2.  使用正则表达式替换文本https://ww2.mathworks.cn/help/matlab/ref/regexprep.html
+3.  组件间共享数据https://ww2.mathworks.cn/help/matlab/creating_guis/share-data-among-callbacks.html √
 
 ## Log:eight:
 
@@ -461,7 +461,6 @@ https://ww2.mathworks.cn/help/stats/weighted-nonlinear-regression.html
 [matlab 转义字符_#+!-CSDN博客_matlab转义字符](https://blog.csdn.net/colddie/article/details/7248651)
 
 ```
-
 Enumerating objects: 14, done.
 Counting objects: 100% (14/14), done.
 Delta compression using up to 8 threads
@@ -610,6 +609,7 @@ To github.com:Joiner12/ArchivedNote.git
 <p style="text-align:center;font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;;">
     遇事冷静是否还有另外的一种理解方法！
 </p>
+
 ## Log:one:
 
 [【机器学习】K-means（非常详细） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/78798251)
@@ -661,3 +661,16 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 [二维和三维网格 - MATLAB meshgrid - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/meshgrid.html)
 
 3.实时天气地图
+
+[设置Windows桌面壁纸_singleyellow的博客-CSDN博客](https://blog.csdn.net/singleyellow/article/details/83714790)
+
+[SystemParametersInfoA function (winuser.h) - Win32 apps | Microsoft Docs](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)
+
+## Log:five:
+
+1.删除无效路径
+
+[什么是 MATLAB 搜索路径？ - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/matlab_env/what-is-the-matlab-search-path.html)
+
+2.[别用cmd了，配置一个比Mac终端还美的Windows Terminal——详细教程_TheYoungBoyLHG的博客-CSDN博客](https://blog.csdn.net/TheYoungBoyLHG/article/details/108094527)
+
