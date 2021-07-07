@@ -686,3 +686,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 4. [shell脚本----cp (copy)复制文件或目录_奔跑的蜗牛-CSDN博客_shell 复制文件](https://blog.csdn.net/yf210yf/article/details/9207335)
 5. [创建网格布局管理器 - MATLAB uigridlayout - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/uigridlayout.html)
 
+## Log:three:
+
+1. MATLAB 获取当前脚本绝对路径
+2. [particle filtering---粒子滤波（讲的很通俗易懂）_满城风絮-CSDN博客_粒子滤波通俗讲解](https://blog.csdn.net/piaoxuezhong/article/details/78619150)
+3. 函数模块复用率偏低
