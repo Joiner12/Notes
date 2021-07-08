@@ -691,3 +691,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. MATLAB 获取当前脚本绝对路径
 2. [particle filtering---粒子滤波（讲的很通俗易懂）_满城风絮-CSDN博客_粒子滤波通俗讲解](https://blog.csdn.net/piaoxuezhong/article/details/78619150)
 3. 函数模块复用率偏低
+
+## Log:four:
+
+1. matlab+figure最大化  -blog.csdn.net  -baidu.com
+
