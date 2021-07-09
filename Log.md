@@ -696,3 +696,12 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. matlab+figure最大化  -blog.csdn.net  -baidu.com
 
+## Log:five:
+
+1. [shell bash判断文件或文件夹是否存在 - emanlee - 博客园 (cnblogs.com)](https://www.cnblogs.com/emanlee/p/3583769.html)
+2. [cmd-bat批处理命令延时方法_jk110333的专栏-CSDN博客](https://blog.csdn.net/jk110333/article/details/41869053)
+3. [cmd-bat批处理命令延时方法_jk110333的专栏-CSDN博客](https://blog.csdn.net/jk110333/article/details/41869053)
+4. bat和bash 语法差异
+5. table用法
+6. [判断数组元素是否为集数组成员 - MATLAB ismember - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/double.ismember.html)
+
