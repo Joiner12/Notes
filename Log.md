@@ -723,5 +723,11 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [RSSI影响因素_喜欢悠闲的博客-CSDN博客](https://blog.csdn.net/qq_29567257/article/details/90642458)
 2. [What is a RSSI? (speedcheck.org)](https://www.speedcheck.org/wiki/rssi/#functionality)
 
+## Log:four:
+
+1. [无线信道 笔记（1） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/365852874)
+2. [多径效应 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/104626138)
+3. [6.1 定义与概念 - IoT Book - 清华大学 - 王继良 (iot-book.github.io)](https://iot-book.github.io/CH3_WirelessChannel/S1_信道定义/)
+
 
 
