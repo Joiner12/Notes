@@ -729,5 +729,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 2. [多径效应 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/104626138)
 3. [6.1 定义与概念 - IoT Book - 清华大学 - 王继良 (iot-book.github.io)](https://iot-book.github.io/CH3_WirelessChannel/S1_信道定义/)
 
+## Log:five:
 
+1. [无线通信信道的衰落特性（大尺度衰落和小尺度衰落）_逸凌Time-CSDN博客_大尺度衰落](https://blog.csdn.net/qq_36554582/article/details/105167186)
+2. [大话UWB定位之蓝牙定位的烦恼 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/68168414)
 
