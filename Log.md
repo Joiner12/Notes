@@ -734,3 +734,9 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [无线通信信道的衰落特性（大尺度衰落和小尺度衰落）_逸凌Time-CSDN博客_大尺度衰落](https://blog.csdn.net/qq_36554582/article/details/105167186)
 2. [大话UWB定位之蓝牙定位的烦恼 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/68168414)
 
+## Log:one:
+
+1. [无法获得锁 /var/lib/dpkg/lock-frontend - open (11: 资源暂时不可用)_D学习中--CSDN博客](https://blog.csdn.net/qq_41925420/article/details/86604025)
+2. [蓝牙协议中LQ和RSSI的原理及应用场景 (wowotech.net)](http://www.wowotech.net/bluetooth/lqi_rssi.html)
+3. [wifi rssi 计算 距离_用RSSI/TOF判断距离靠谱吗？浅谈RSSI/TOF测距优劣_weixin_39579127的博客-CSDN博客](https://blog.csdn.net/weixin_39579127/article/details/111140421?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242)
+4. [多径衰落详解（整理）（一）_zh915648053的博客-CSDN博客_多径衰落](https://blog.csdn.net/zh915648053/article/details/80676079)
