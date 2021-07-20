@@ -740,3 +740,10 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 2. [蓝牙协议中LQ和RSSI的原理及应用场景 (wowotech.net)](http://www.wowotech.net/bluetooth/lqi_rssi.html)
 3. [wifi rssi 计算 距离_用RSSI/TOF判断距离靠谱吗？浅谈RSSI/TOF测距优劣_weixin_39579127的博客-CSDN博客](https://blog.csdn.net/weixin_39579127/article/details/111140421?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242)
 4. [多径衰落详解（整理）（一）_zh915648053的博客-CSDN博客_多径衰落](https://blog.csdn.net/zh915648053/article/details/80676079)
+
+## Log:two:
+
+1. [python+Selenium自动签到实例_milletluo的博客-CSDN博客](https://blog.csdn.net/lm409/article/details/78360684)
+2. [python实现每天自动签到领积分的示例代码_菜鸟教程-CSDN博客_自动签到代码](https://blog.csdn.net/liming89/article/details/110264695?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242)
+3. [A RSSI-based parameter tracking strategy for constrained position localization | EURASIP Journal on Advances in Signal Processing | Full Text (springeropen.com)](https://asp-eurasipjournals.springeropen.com/articles/10.1186/s13634-017-0512-x)
+
