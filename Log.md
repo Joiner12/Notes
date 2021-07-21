@@ -747,3 +747,9 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 2. [python实现每天自动签到领积分的示例代码_菜鸟教程-CSDN博客_自动签到代码](https://blog.csdn.net/liming89/article/details/110264695?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242)
 3. [A RSSI-based parameter tracking strategy for constrained position localization | EURASIP Journal on Advances in Signal Processing | Full Text (springeropen.com)](https://asp-eurasipjournals.springeropen.com/articles/10.1186/s13634-017-0512-x)
 
+## Log:three:
+
+1. 桌面倒计时 bash
+2. [瑞利衰落信道 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/瑞利衰落信道)
+3. [瑞利衰落与莱斯衰落的区别 - 通信原理与基础 - 通信人家园 - Powered by C114 (txrjy.com)](https://www.txrjy.com/thread-1138839-1-1.html)
+4. [瑞利信道，莱斯信道和高斯信道模型_phymat.nico的专栏-CSDN博客_高斯信道和瑞利信道](https://blog.csdn.net/shixin_0125/article/details/114369867)
