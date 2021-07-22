@@ -753,3 +753,29 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 2. [瑞利衰落信道 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/瑞利衰落信道)
 3. [瑞利衰落与莱斯衰落的区别 - 通信原理与基础 - 通信人家园 - Powered by C114 (txrjy.com)](https://www.txrjy.com/thread-1138839-1-1.html)
 4. [瑞利信道，莱斯信道和高斯信道模型_phymat.nico的专栏-CSDN博客_高斯信道和瑞利信道](https://blog.csdn.net/shixin_0125/article/details/114369867)
+
+## Log:four:
+
+1. 关键词分析法、关系网络图
+
+<div style="text-align:center;">
+  <img src="https://th.bing.com/th/id/R.2cd96487d48a0385de14ffa66338afea?rik=GMtxC9qmYnEkTQ&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20180717%2ff19fdbf2092f49b4949002470f35533c.jpeg&ehk=x0N4Wy1GQHyF2FwBMtZUqL%2fzlZGr3tVfI5eFJutNy8s%3d&risl=&pid=ImgRaw"><br>
+  <p>小说人物关系图</p>
+</div>
+**AOD\AOA**
+
+1. [蓝牙5.1规范提供两种精确定位方法 实现AoA和AoD定位_WEB开发网 (cncms.com.cn)](http://www.cncms.com.cn/things/20190624/06246340.html)
+2. [蓝牙技术原理（9）蓝牙AOA/AOD技术原理-物联网技术文章-傲云电气网 (weixiuzhan.cn)](https://www.weixiuzhan.cn/news/show-32511.html)
+3. [AoA/AoD运用蓝牙技术，给室内定位带来全新框架 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/77191169)
+4. [蓝牙前沿应用\] 照明即平台 —— 通过蓝牙增强服务提高照明投资回报率（蓝牙MESH、定位AoA、AoD） - beautifulzzzz - 博客园 (cnblogs.com)](https://www.cnblogs.com/zjutlitao/p/10604840.html)
+5. [Wireless localization for mmWave networks in urban environments (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6435218/)
+6. [1703.10978.pdf (arxiv.org)](https://arxiv.org/pdf/1703.10978.pdf)
+7. https://silabs-prod.adobecqms.net/content/usergenerated/asi/cloud/content/siliconlabs/en/community/chinese-blog/jcr:content/content/primary/blog/_-7jYr.social.0.10.html
+8. [A Performance Evaluation Framework for Direction Finding Using BLE AoA/AoD Receivers | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/9187256)
+9. [ResearchGate](https://www.researchgate.net/publication/251993199_A_joint_AOA_AOD_and_delays_estimation_of_multipath_signals_based_on_beamforming_techniques)
+10. [[1905.03930\] Efficient Channel AoD/AoA Estimation Using Widebeams for Millimeter Wave MIMO Systems (arxiv.org)](https://arxiv.org/abs/1905.03930)
+11. [基于智能手机的室内定位技术的发展现状和挑战 (rhhz.net)](http://html.rhhz.net/CHXB/html/2017-10-1316.htm)
+12. [蓝牙AoA室内定位 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/43082698)
+13. [【蓝牙AOA定位】低功耗高精度蓝牙室内定位技术 - 室内定位 (locatingtech.com)](https://www.locatingtech.com/indoor-positioning/蓝牙aoa定位低功耗高精度的蓝牙室内定位技术/)
+14. [一文看懂Bluetooth 5.1 AoA到达角度位置服务实现原理_BLECODER的博客-CSDN博客](https://blog.csdn.net/weixin_42583147/article/details/100574253)
+
