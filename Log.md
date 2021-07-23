@@ -764,9 +764,6 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 </div>
 **AOD\AOA**
 
-1. [蓝牙5.1规范提供两种精确定位方法 实现AoA和AoD定位_WEB开发网 (cncms.com.cn)](http://www.cncms.com.cn/things/20190624/06246340.html)
-2. [蓝牙技术原理（9）蓝牙AOA/AOD技术原理-物联网技术文章-傲云电气网 (weixiuzhan.cn)](https://www.weixiuzhan.cn/news/show-32511.html)
-3. [AoA/AoD运用蓝牙技术，给室内定位带来全新框架 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/77191169)
 4. [蓝牙前沿应用\] 照明即平台 —— 通过蓝牙增强服务提高照明投资回报率（蓝牙MESH、定位AoA、AoD） - beautifulzzzz - 博客园 (cnblogs.com)](https://www.cnblogs.com/zjutlitao/p/10604840.html)
 5. [Wireless localization for mmWave networks in urban environments (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6435218/)
 6. [1703.10978.pdf (arxiv.org)](https://arxiv.org/pdf/1703.10978.pdf)
@@ -774,8 +771,10 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 8. [A Performance Evaluation Framework for Direction Finding Using BLE AoA/AoD Receivers | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/9187256)
 9. [ResearchGate](https://www.researchgate.net/publication/251993199_A_joint_AOA_AOD_and_delays_estimation_of_multipath_signals_based_on_beamforming_techniques)
 10. [[1905.03930\] Efficient Channel AoD/AoA Estimation Using Widebeams for Millimeter Wave MIMO Systems (arxiv.org)](https://arxiv.org/abs/1905.03930)
-11. [基于智能手机的室内定位技术的发展现状和挑战 (rhhz.net)](http://html.rhhz.net/CHXB/html/2017-10-1316.htm)
-12. [蓝牙AoA室内定位 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/43082698)
-13. [【蓝牙AOA定位】低功耗高精度蓝牙室内定位技术 - 室内定位 (locatingtech.com)](https://www.locatingtech.com/indoor-positioning/蓝牙aoa定位低功耗高精度的蓝牙室内定位技术/)
+8. [基于智能手机的室内定位技术的发展现状和挑战 (rhhz.net)](http://html.rhhz.net/CHXB/html/2017-10-1316.htm)
 14. [一文看懂Bluetooth 5.1 AoA到达角度位置服务实现原理_BLECODER的博客-CSDN博客](https://blog.csdn.net/weixin_42583147/article/details/100574253)
 
+## Log:five:
+
+1. [可视化展示——实现论文引用关系动图展示_lw03060402的博客-CSDN博客_论文引用关系图](https://blog.csdn.net/lw03060402/article/details/106960348)
+2. [如何做好文本关键词提取？从三种算法说起 | 机器之心 (jiqizhixin.com)](https://www.jiqizhixin.com/articles/2018-11-14-17)
