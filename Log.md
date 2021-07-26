@@ -779,3 +779,13 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [可视化展示——实现论文引用关系动图展示_lw03060402的博客-CSDN博客_论文引用关系图](https://blog.csdn.net/lw03060402/article/details/106960348)
 2. [如何做好文本关键词提取？从三种算法说起 | 机器之心 (jiqizhixin.com)](https://www.jiqizhixin.com/articles/2018-11-14-17)
 
+## Log:one:
+
+<img src="https://gitee.com/RiskyJR/pic-bed/raw/master/relationGraph.jpeg">
+
+
+
+1. [图和网络算法 - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/graph-and-network-algorithms.html)
+2. [Python Network（三）案例（无向图，有向图，权重，点线分类与大小粗细）_青风learing-CSDN博客](https://blog.csdn.net/weixin_44301621/article/details/104857338)
+3. [python简单实战项目：《冰与火之歌1-5》角色关系图谱构建——人物关系可视化_Liu Ruilun的博客-CSDN博客](https://blog.csdn.net/AlanConstantineLau/article/details/72146213)
+
