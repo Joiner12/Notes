@@ -764,15 +764,15 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 </div>
 **AOD\AOA**
 
-4. [蓝牙前沿应用\] 照明即平台 —— 通过蓝牙增强服务提高照明投资回报率（蓝牙MESH、定位AoA、AoD） - beautifulzzzz - 博客园 (cnblogs.com)](https://www.cnblogs.com/zjutlitao/p/10604840.html)
-5. [Wireless localization for mmWave networks in urban environments (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6435218/)
-6. [1703.10978.pdf (arxiv.org)](https://arxiv.org/pdf/1703.10978.pdf)
-7. https://silabs-prod.adobecqms.net/content/usergenerated/asi/cloud/content/siliconlabs/en/community/chinese-blog/jcr:content/content/primary/blog/_-7jYr.social.0.10.html
-8. [A Performance Evaluation Framework for Direction Finding Using BLE AoA/AoD Receivers | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/9187256)
-9. [ResearchGate](https://www.researchgate.net/publication/251993199_A_joint_AOA_AOD_and_delays_estimation_of_multipath_signals_based_on_beamforming_techniques)
-10. [[1905.03930\] Efficient Channel AoD/AoA Estimation Using Widebeams for Millimeter Wave MIMO Systems (arxiv.org)](https://arxiv.org/abs/1905.03930)
-8. [基于智能手机的室内定位技术的发展现状和挑战 (rhhz.net)](http://html.rhhz.net/CHXB/html/2017-10-1316.htm)
-14. [一文看懂Bluetooth 5.1 AoA到达角度位置服务实现原理_BLECODER的博客-CSDN博客](https://blog.csdn.net/weixin_42583147/article/details/100574253)
+1. [Wireless localization for mmWave networks in urban environments (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6435218/)
+2. [1703.10978.pdf (arxiv.org)](https://arxiv.org/pdf/1703.10978.pdf)
+3. https://silabs-prod.adobecqms.net/content/usergenerated/asi/cloud/content/siliconlabs/en/community/chinese-blog/jcr:content/content/primary/blog/_-7jYr.social.0.10.html
+4. [A Performance Evaluation Framework for Direction Finding Using BLE AoA/AoD Receivers | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/9187256)
+5. [ResearchGate](https://www.researchgate.net/publication/251993199_A_joint_AOA_AOD_and_delays_estimation_of_multipath_signals_based_on_beamforming_techniques)
+6. [[1905.03930\] Efficient Channel AoD/AoA Estimation Using Widebeams for Millimeter Wave MIMO Systems (arxiv.org)](https://arxiv.org/abs/1905.03930)
+7. [基于智能手机的室内定位技术的发展现状和挑战 (rhhz.net)](http://html.rhhz.net/CHXB/html/2017-10-1316.htm)
+8. [Bluetooth Low Energy Angle of Arrival (AoA) (ti.com)](https://dev.ti.com/tirex/content/simplelink_academy_cc2640r2sdk_2_40_03_00/modules/blestack/ble_aoa/ble_aoa.html)
+9. [ResearchGate](https://www.researchgate.net/publication/283476641_Review_of_angle_of_arrival_AOA_estimations_through_received_signal_strength_indication_RSSI_for_wireless_sensors_network_WSN)
 
 ## Log:five:
 
@@ -788,4 +788,5 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [图和网络算法 - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/graph-and-network-algorithms.html)
 2. [Python Network（三）案例（无向图，有向图，权重，点线分类与大小粗细）_青风learing-CSDN博客](https://blog.csdn.net/weixin_44301621/article/details/104857338)
 3. [python简单实战项目：《冰与火之歌1-5》角色关系图谱构建——人物关系可视化_Liu Ruilun的博客-CSDN博客](https://blog.csdn.net/AlanConstantineLau/article/details/72146213)
+4.  Monte-Carlo simulations[Wireless localization for mmWave networks in urban environments (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6435218/)
 
