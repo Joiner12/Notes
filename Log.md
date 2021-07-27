@@ -787,6 +787,9 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [图和网络算法 - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/graph-and-network-algorithms.html)
 2. [Python Network（三）案例（无向图，有向图，权重，点线分类与大小粗细）_青风learing-CSDN博客](https://blog.csdn.net/weixin_44301621/article/details/104857338)
-3. [python简单实战项目：《冰与火之歌1-5》角色关系图谱构建——人物关系可视化_Liu Ruilun的博客-CSDN博客](https://blog.csdn.net/AlanConstantineLau/article/details/72146213)
 4.  Monte-Carlo simulations[Wireless localization for mmWave networks in urban environments (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6435218/)
 
+## Log:two:
+
+1. [数字调制系列：IQ基本理论 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/58119209)
+2. 论文引用关系图
