@@ -771,7 +771,6 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 5. [ResearchGate](https://www.researchgate.net/publication/251993199_A_joint_AOA_AOD_and_delays_estimation_of_multipath_signals_based_on_beamforming_techniques)
 6. [[1905.03930\] Efficient Channel AoD/AoA Estimation Using Widebeams for Millimeter Wave MIMO Systems (arxiv.org)](https://arxiv.org/abs/1905.03930)
 7. [基于智能手机的室内定位技术的发展现状和挑战 (rhhz.net)](http://html.rhhz.net/CHXB/html/2017-10-1316.htm)
-8. [Bluetooth Low Energy Angle of Arrival (AoA) (ti.com)](https://dev.ti.com/tirex/content/simplelink_academy_cc2640r2sdk_2_40_03_00/modules/blestack/ble_aoa/ble_aoa.html)
 9. [ResearchGate](https://www.researchgate.net/publication/283476641_Review_of_angle_of_arrival_AOA_estimations_through_received_signal_strength_indication_RSSI_for_wireless_sensors_network_WSN)
 
 ## Log:five:
@@ -793,3 +792,12 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [数字调制系列：IQ基本理论 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/58119209)
 2. 论文引用关系图
+
+## Log:three:
+
+<div style="font-size:25px;font-family:KaiTi,Microsoft YaHei;background-color:white;text-align:center;">
+    <p >
+    给人希望！
+</p>
+</div>
+
