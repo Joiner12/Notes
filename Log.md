@@ -800,4 +800,12 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
     给人希望！
 </p>
 </div>
+## Log:four:
+
+1. [使用HistCite进行文献引用分析_BoCai-Tech 博客-CSDN博客_histcite使用步骤的正确顺序](https://blog.csdn.net/dongfang12n/article/details/80589607)
+2. [VOSviewer - Visualizing scientific landscapes](https://www.vosviewer.com/)
+3. [研究方法|用CiteSpace进行科学文献可视化分析_Rilke1028的博客-CSDN博客_citespace可视化分析](https://blog.csdn.net/Rilke1028/article/details/92011464?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-11.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-11.control)
+4. [升级到全新 Windows 11 操作系统 | Microsoft](https://www.microsoft.com/ZH-CN/windows/windows-11?ocid=prod_sv_cons_win_awr_LearnMore )
+5. [超分辨DOA估计——MUSIC算法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/362008506)
+6. [DOA——MUSIC算法 - 桂。 - 博客园 (cnblogs.com)](https://www.cnblogs.com/xingshansi/p/7163605.html)
 
