@@ -814,3 +814,12 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [pyecharts - A Python Echarts Plotting Library built with love.](https://pyecharts.org/#/)
 2. [pandas.read_excel — pandas 1.3.1 documentation (pydata.org)](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html?highlight=read_excel)
 
+## Log:one:
+
+1. [pandas 入门：DataFrame的创建，读写，插入和删除_不去想结果，一直在路上-CSDN博客_dataframe](https://blog.csdn.net/xtfge0915/article/details/52938740)
+2. [用pyecharts生成仪表盘——将多张图片汇总到一个页面，大屏可视化数据展示_bo_gu的博客-CSDN博客](https://blog.csdn.net/bo_gu/article/details/104990907)
+3. [最新Pandas.read_excel()全参数详解（案例实操，如何利用python导入excel） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/142972462)
+4. [Python 字典用法详解（超全） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/355443925)
+5. [大数据展示大屏可视化html5模板科技展板设计展示看板年度报表html静态模板页面源码 - html代码库网站程序模板源码|jquery特效动画js插件源码 (dmaku.com)](http://www.dmaku.com/demo-moban-2073.html)
+6. [pyecharts实现新冠肺炎疫情可视化BI数据大屏_sleepyyoung的博客-CSDN博客_pyecharts可视化大屏](https://blog.csdn.net/qq_43613793/article/details/104268536)
+
