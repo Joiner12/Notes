@@ -150,4 +150,5 @@ $$
 3. [Bluetooth Low Energy Angle of Arrival (AoA) (ti.com)](https://dev.ti.com/tirex/content/simplelink_academy_cc2640r2sdk_2_40_03_00/modules/blestack/ble_aoa/ble_aoa.html#2-calculate-the-phase-difference-among-the-antennas)
 4. [数字调制系列：IQ基本理论 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/58119209)
 5. https://silabs-prod.adobecqms.net/content/usergenerated/asi/cloud/content/siliconlabs/en/community/chinese-blog/jcr:content/content/primary/blog/_-7jYr.social.0.10.html
+6. [Comparison of Direction of Arrival (DOA) Estimation Techniques for Closely Spaced Targets | Connected Papers](https://www.connectedpapers.com/main/a63018b4bd1cb5f082e1a381e7a2c7bb2903deea/Comparison-of-Direction-of-Arrival-DOA-Estimation-Techniques-for-Closely-Spaced-Targets/graph)
 

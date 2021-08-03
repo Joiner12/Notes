@@ -823,5 +823,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 5. [大数据展示大屏可视化html5模板科技展板设计展示看板年度报表html静态模板页面源码 - html代码库网站程序模板源码|jquery特效动画js插件源码 (dmaku.com)](http://www.dmaku.com/demo-moban-2073.html)
 6. [pyecharts实现新冠肺炎疫情可视化BI数据大屏_sleepyyoung的博客-CSDN博客_pyecharts可视化大屏](https://blog.csdn.net/qq_43613793/article/details/104268536)
 
+## Log:two:
 
-
+1. [使用pyecharts绘制词云图-淘宝商品评论展示 - 朱卫军 - 博客园 (cnblogs.com)](https://www.cnblogs.com/zhuwjwh/p/12496852.html)
+2. [[pyecharts学习笔记\]——WordCloud词云图 - 灰信网（软件开发博客聚合） (freesion.com)](https://www.freesion.com/article/8069608735/)
+3. [文本文件里如何快速在每行头尾都加上指定的内容---正则表达式（一）_逝无痕——kaidy-CSDN博客_正则表达式行尾添加](https://blog.csdn.net/wangkai_123456/article/details/53857945)
