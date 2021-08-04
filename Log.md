@@ -828,3 +828,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [使用pyecharts绘制词云图-淘宝商品评论展示 - 朱卫军 - 博客园 (cnblogs.com)](https://www.cnblogs.com/zhuwjwh/p/12496852.html)
 2. [[pyecharts学习笔记\]——WordCloud词云图 - 灰信网（软件开发博客聚合） (freesion.com)](https://www.freesion.com/article/8069608735/)
 3. [文本文件里如何快速在每行头尾都加上指定的内容---正则表达式（一）_逝无痕——kaidy-CSDN博客_正则表达式行尾添加](https://blog.csdn.net/wangkai_123456/article/details/53857945)
+
+## Log:three:
+
+1. [Estimate AoA or AoD of BLE Signal - MATLAB bleAngleEstimate (mathworks.com)](https://www.mathworks.com/help/comm/ref/bleangleestimate.html)
+

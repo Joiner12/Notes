@@ -138,8 +138,37 @@ $$
     <img src="https://gitee.com/RiskyJR/pic-bed/raw/master/AoA_2.png">
     <p>二维AOA定位过程示意图</p>
 </div>
+## 2.定位方法${^{[9]}}$
+
+### 2.1 角度+距离(Angle plus Estimated Distance)
+
+RSSI+ Angle
+
+<div style="background-color:white;text-align:center;">
+    <br/>
+    <img src="figure/rssi+angle.png">
+    <p>角度+距离</p>
+</div>
 
 
+
+### 2.2 (Intersection of Multiple Angles)
+
+<div style="background-color:white;text-align:center;">
+    <br/>
+    <img src="figure/Angle+Angle.png">
+    <p>角度+角度</p>
+</div>
+
+## 3. AoA/AoD定位系统$^{[10]}$
+
+### 3.1 AoA设计方案
+
+<img src="figure/angle-of-arrival-design-considerations.jpg">
+
+### 3.2 AoD设计方案
+
+<img src="figure/angle-of-departure-design-considerations.jpg">
 
 
 
@@ -151,4 +180,11 @@ $$
 4. [数字调制系列：IQ基本理论 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/58119209)
 5. https://silabs-prod.adobecqms.net/content/usergenerated/asi/cloud/content/siliconlabs/en/community/chinese-blog/jcr:content/content/primary/blog/_-7jYr.social.0.10.html
 6. [Comparison of Direction of Arrival (DOA) Estimation Techniques for Closely Spaced Targets | Connected Papers](https://www.connectedpapers.com/main/a63018b4bd1cb5f082e1a381e7a2c7bb2903deea/Comparison-of-Direction-of-Arrival-DOA-Estimation-Techniques-for-Closely-Spaced-Targets/graph)
+7. [超分辨DOA估计——MUSIC算法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/362008506)
+8. [DOA——MUSIC算法 - 桂。 - 博客园 (cnblogs.com)](https://www.cnblogs.com/xingshansi/p/7163605.html)
+9. [Quuppa’s Role Regarding the New Bluetooth SIG Direction Finding Feature – Quuppa](https://www.quuppa.com/quuppas-role-regarding-the-new-bluetooth-sig-direction-finding-feature/)
+10. [Bluetooth 5.1 Angle of Arrival and Angle of Departure - Silicon Labs (silabs.com)](https://www.silabs.com/wireless/bluetooth/bluetooth-5-1)
+11. [(1条消息) 无线定位原理：TOA & AOA_本帅哥屏蔽了凡人呢-CSDN博客_aoa定位](https://blog.csdn.net/qq_23947237/article/details/82738191?utm_term=aoa定位算法&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-1-82738191&spm=3001.4430)
+12. [AOA(Angle of Arrival，到达角)定位算法及其误差分析的原理和MATLAB仿真_ICTBeginner 的博客-CSDN博客](https://blog.csdn.net/qq_37930244/article/details/104933168)
+13. [蓝牙5.1到达角和离开角定位技术(aoa/aod)_工农村贴膜小哥的博客-CSDN博客_aoa aod定位](https://blog.csdn.net/qq_35651984/article/details/107577617?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-4.control&spm=1001.2101.3001.4242)
 
