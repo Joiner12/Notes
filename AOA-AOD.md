@@ -146,9 +146,10 @@ RSSI+ Angle
 
 <div style="background-color:white;text-align:center;">
     <br/>
-    <img src="figure/rssi+angle.png">
+    <img src="https://gitee.com/RiskyJR/pic-bed/raw/master/rssi%20angle.png">
     <p>角度+距离</p>
 </div>
+
 
 
 
@@ -156,19 +157,28 @@ RSSI+ Angle
 
 <div style="background-color:white;text-align:center;">
     <br/>
-    <img src="figure/Angle+Angle.png">
-    <p>角度+角度</p>
+    <img src="https://gitee.com/RiskyJR/pic-bed/raw/master/Angle%20Angle.png">
+    <p>二维AOA定位过程示意图</p>
 </div>
+
 
 ## 3. AoA/AoD定位系统$^{[10]}$
 
 ### 3.1 AoA设计方案
 
-<img src="figure/angle-of-arrival-design-considerations.jpg">
+<div style="background-color:white;text-align:center;">
+    <br/>
+    <img src="https://gitee.com/RiskyJR/pic-bed/raw/master/angle-of-arrival-design-considerations.jpg">
+    <p>AoA设计方案</p>
+</div>
 
 ### 3.2 AoD设计方案
 
-<img src="figure/angle-of-departure-design-considerations.jpg">
+<div style="background-color:white;text-align:center;">
+    <br/>
+    <img src="https://gitee.com/RiskyJR/pic-bed/raw/master/angle-of-departure-design-considerations.jpg">
+    <p>AoD设计方案</p>
+</div>
 
 
 
@@ -187,4 +197,5 @@ RSSI+ Angle
 11. [(1条消息) 无线定位原理：TOA & AOA_本帅哥屏蔽了凡人呢-CSDN博客_aoa定位](https://blog.csdn.net/qq_23947237/article/details/82738191?utm_term=aoa定位算法&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-1-82738191&spm=3001.4430)
 12. [AOA(Angle of Arrival，到达角)定位算法及其误差分析的原理和MATLAB仿真_ICTBeginner 的博客-CSDN博客](https://blog.csdn.net/qq_37930244/article/details/104933168)
 13. [蓝牙5.1到达角和离开角定位技术(aoa/aod)_工农村贴膜小哥的博客-CSDN博客_aoa aod定位](https://blog.csdn.net/qq_35651984/article/details/107577617?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-4.control&spm=1001.2101.3001.4242)
+14. https://www.sekorm.com/news/66727045.html
 
