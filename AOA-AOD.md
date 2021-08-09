@@ -181,6 +181,55 @@ RSSI+ Angle
 </div>
 
 
+# Papers
+
+关键词：**AOA;蓝牙**
+
+## Baidu
+
+1. [(PDF) Bluetooth 5.1: An Analysis of Direction Finding Capability for High-Precision Location Services (researchgate.net)](https://www.researchgate.net/publication/351812073_Bluetooth_51_An_Analysis_of_Direction_Finding_Capability_for_High-Precision_Location_Services)
+2. [Experimental Demonstration of BLE Transmitter Positioning Based on AOA Estimation | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/8580796)
+3. [Direction of Arrival Estimation Using Amplitude and Phase Information in Low-Profile MIMO Arrays | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/8445577)
+4. [Direction Finding with UWB and BLE: A Comparative Study | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/9356072)
+
+## 知网-硕博
+
+1. [基于蓝牙技术的室内定位系统研究与设计 - 中国知网 (cnki.net)](https://t.cnki.net/kcms/detail?v=3uoqIhG8C475KOm_zrgu4lQARvep2SAkEcTGK3Qt5VuzQzk0e7M1z5wAIV7DTtbrhfIUsW2ylA4zAEdZiLeVm_43bOjj7Wzx&uniplatform=NZKPT)
+2. [基于蓝牙角度估计的室内定位技术研究 - 中国知网 (cnki.net)](https://t.cnki.net/kcms/detail?v=3uoqIhG8C475KOm_zrgu4lQARvep2SAkEcTGK3Qt5VuzQzk0e7M1z29mQJPsOYMB2CkbbHWaEmMTId_38Q6pAocPvyWVBcBs&uniplatform=NZKPT)
+3. [基于球形天线的室内无线定位算法研究 - 中国知网 (cnki.net)](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFD201902&filename=1019042350.nh&v=Mp00WOUaFXHgYILnoyF07%mmd2F%mmd2Fh5VQFH1McorY0%mmd2F5wnQqZGaQWvmImHeUWJiH4Y0Z4h)
+
+## IEEE
+
+1. [Line-of-sight angle of arrival estimation in the outdoor multipath environment | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/661059)
+
+## ResearchGate
+
+1. [(PDF) Bluetooth Low Energy and CNN-Based Angle of Arrival Localization in Presence of Rayleigh Fading (researchgate.net)](https://www.researchgate.net/publication/351917905_Bluetooth_Low_Energy_and_CNN-Based_Angle_of_Arrival_Localization_in_Presence_of_Rayleigh_Fading)
+2. [An Interactive Visiting System Using BLE Devices | Request PDF (researchgate.net)](https://www.researchgate.net/publication/353231992_An_Interactive_Visiting_System_Using_BLE_Devices)
+3. [Angle–of–Arrival (AoA) Factorization in Multipath Channels (researchgate.net)](https://www.researchgate.net/publication/352170560_Angle-of-Arrival_AoA_Factorization_in_Multipath_Channels)
+4. [(PDF) AoA Estimates for LPWAN Technologies: Indoor Experimental Analysis (researchgate.net)](https://www.researchgate.net/publication/350383421_AoA_Estimates_for_LPWAN_Technologies_Indoor_Experimental_Analysis)
+
+## Bing
+
+1. [Angle of Arrival (AoA) (ti.com)](https://dev.ti.com/tirex/explore/node?node=AHYhhuDNTaRXzkOlahOlvA__pTTHBmu__LATEST)
+2. [DOA Estimation Based on Improved MUSIC Algorithm (scirp.org)](https://file.scirp.org/pdf/14-4.11.pdf)
+3. [Optimization of MUSIC algorithm for angle of arrival estimation in wireless communications - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S209099771300031X)
+4. [download (lu.se)](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=9031557&fileOId=9031558)
+5. [AoA (utexas.edu)](https://www.cs.utexas.edu/~swadhin/reading_group/slides/AoA.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Reference
 
