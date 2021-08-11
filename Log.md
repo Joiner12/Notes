@@ -845,5 +845,7 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [Examples - Apache ECharts](https://echarts.apache.org/examples/en/index.html)
 2. [中文简介 - Document (pyecharts.org)](https://gallery.pyecharts.org/#/README)
 
+## Log:three:
 
+1. [功能强大的python包（七）：BeautifulSoup（HTML解析） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/394268763)
 
