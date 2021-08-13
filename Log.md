@@ -853,3 +853,9 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [【pybullet教程1】hello world_LiuZ的博客-CSDN博客_pybullet](https://blog.csdn.net/weixin_41045354/article/details/104534581)
 
+## Log:five:
+
+1. [Pybullet入门教程 - 古月居 (guyuehome.com)](https://www.guyuehome.com/34388)
+2. [Learn Beautiful Soup(5) —— 使用BeautifulSoup改变网页内容 - NightCode的个人空间 - OSCHINA - 中文开源技术交流社区](https://my.oschina.net/u/1587304/blog/399866)
+3. [How to insert a new tag into a BeautifulSoup object? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-insert-a-new-tag-into-a-beautifulsoup-object/#:~:text=Creating a new tag using new_tag () method,appended to the end of the parent tag.)
+
