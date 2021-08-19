@@ -863,3 +863,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. matlab保存图片清晰度
 
+## Log:four:
+
+1. [When RSSI encounters deep learning: An area localization scheme for pervasive sensing systems - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1084804520303192)
+2. [通过线刷升级 (miui.com)](https://www.miui.com/shuaji-393.html)
+
