@@ -54,5 +54,17 @@ http://epaper.bjnews.com.cn/images/2015-08/29/B06/dongx58104_b.jpg
 
 [权力 (豆瓣) (douban.com)](https://book.douban.com/subject/10446295/)
 
+## 《百年孤独》
+
+<div style="text-align:center;background-color:white;">
+    <img src="https://img3.doubanio.com/view/subject/l/public/s27237850.jpg" style="width:300px;height:450px;">
+</div>
+
+
+
+[百年孤独 (豆瓣) (douban.com)](https://book.douban.com/subject/6082808/)
+
+[百年孤独 - 图书馆 - 青少年新世纪读书网 (cnread.net)](http://www.cnread.net/library/book217.html)
+
 中图网
 
