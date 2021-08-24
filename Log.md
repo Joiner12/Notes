@@ -886,7 +886,10 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. 系统性学习DJ
 2. 
 
+## Log:two:
 
-
-
+1. [BLE Channel Selection Algorithms - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/comm/ug/ble-channel-selection-algorithms.html)
+2. 广播信道(37、38、39)和数据信道是谁在广播RSSI;[bluetooth - How to get BLE advertising channel index number - Stack Overflow](https://stackoverflow.com/questions/64310118/how-to-get-ble-advertising-channel-index-number)
+3. K-means
+4. [Frequency table - MATLAB tabulate - MathWorks 中国](https://ww2.mathworks.cn/help/stats/tabulate.html)
 
