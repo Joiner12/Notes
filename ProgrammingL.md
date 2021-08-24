@@ -2002,6 +2002,13 @@ git pull origin master
 
 #### 17、删除远程分支
 
+```bash
+# 删除名字为branch_name远程分支
+git push origin --delete branch_name  
+# 删除名字为branch_name本地分支
+git branch -d branch_name
+```
+
 https://www.cnblogs.com/luosongchao/p/3408365.html
 
 #### 18、解决push每次输入密码

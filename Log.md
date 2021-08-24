@@ -674,3 +674,222 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 2.[别用cmd了，配置一个比Mac终端还美的Windows Terminal——详细教程_TheYoungBoyLHG的博客-CSDN博客](https://blog.csdn.net/TheYoungBoyLHG/article/details/108094527)
 
+## Log:one:
+
+1.三边定位算法巩固
+
+## Log:two:
+
+1. [(1条消息) Matlab的转义字符_Jack_Free的专栏-CSDN博客_matlab转义字符](https://blog.csdn.net/u011268606/article/details/16943585)
+2. [正则表达式 - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/matlab_prog/regular-expressions.html)
+3. [(1条消息) Shell删除某个文件夹下指定字符开头的所有文件_技术提高效率-CSDN博客](https://blog.csdn.net/matlab_matlab/article/details/108402990)
+4. [shell脚本----cp (copy)复制文件或目录_奔跑的蜗牛-CSDN博客_shell 复制文件](https://blog.csdn.net/yf210yf/article/details/9207335)
+5. [创建网格布局管理器 - MATLAB uigridlayout - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/uigridlayout.html)
+
+## Log:three:
+
+1. MATLAB 获取当前脚本绝对路径
+2. [particle filtering---粒子滤波（讲的很通俗易懂）_满城风絮-CSDN博客_粒子滤波通俗讲解](https://blog.csdn.net/piaoxuezhong/article/details/78619150)
+3. 函数模块复用率偏低
+
+## Log:four:
+
+1. matlab+figure最大化  -blog.csdn.net  -baidu.com
+
+## Log:five:
+
+1. [shell bash判断文件或文件夹是否存在 - emanlee - 博客园 (cnblogs.com)](https://www.cnblogs.com/emanlee/p/3583769.html)
+2. [cmd-bat批处理命令延时方法_jk110333的专栏-CSDN博客](https://blog.csdn.net/jk110333/article/details/41869053)
+3. [cmd-bat批处理命令延时方法_jk110333的专栏-CSDN博客](https://blog.csdn.net/jk110333/article/details/41869053)
+4. bat和bash 语法差异
+5. table用法
+6. [判断数组元素是否为集数组成员 - MATLAB ismember - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/double.ismember.html)
+
+## Log:one:
+
+1. [js实现时间轴_十月的秋的专栏-CSDN博客](https://blog.csdn.net/chenguizhenaza/article/details/117217375)
+2. [How To Build A Vertical Timeline | Twitter Bootstrap Example (templatemonster.com)](https://www.templatemonster.com/blog/tutorial-build-vertical-timeline-archives-page-using-bootstrap/)
+3. [51个css时间轴 - 简书 (jianshu.com)](https://www.jianshu.com/p/c9c719821198)
+4. [将数组从左向右翻转 - MATLAB fliplr - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/fliplr.html)
+
+## Log:two:
+
+1. [用CSS和一点JavaScript写一个垂直时间线 (tutsplus.com)](https://webdesign.tutsplus.com/zh-hans/tutorials/building-a-vertical-timeline-with-css-and-a-touch-of-javascript--cms-26528)
+2. [29个CSS时间轴以及一些精美的JavaScript | 在线广告 (creativosonline.org)](https://www.creativosonline.org/zh-CN/CSS时间轴.html)
+3. [Responsive slider timeline with Swiper (codepen.io)](https://codepen.io/bcarvalho/pen/RZqmZX)
+
+## Log:three:
+
+1. [RSSI影响因素_喜欢悠闲的博客-CSDN博客](https://blog.csdn.net/qq_29567257/article/details/90642458)
+2. [What is a RSSI? (speedcheck.org)](https://www.speedcheck.org/wiki/rssi/#functionality)
+
+## Log:four:
+
+1. [无线信道 笔记（1） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/365852874)
+2. [多径效应 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/104626138)
+3. [6.1 定义与概念 - IoT Book - 清华大学 - 王继良 (iot-book.github.io)](https://iot-book.github.io/CH3_WirelessChannel/S1_信道定义/)
+
+## Log:five:
+
+1. [无线通信信道的衰落特性（大尺度衰落和小尺度衰落）_逸凌Time-CSDN博客_大尺度衰落](https://blog.csdn.net/qq_36554582/article/details/105167186)
+2. [大话UWB定位之蓝牙定位的烦恼 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/68168414)
+
+## Log:one:
+
+1. [无法获得锁 /var/lib/dpkg/lock-frontend - open (11: 资源暂时不可用)_D学习中--CSDN博客](https://blog.csdn.net/qq_41925420/article/details/86604025)
+2. [蓝牙协议中LQ和RSSI的原理及应用场景 (wowotech.net)](http://www.wowotech.net/bluetooth/lqi_rssi.html)
+3. [wifi rssi 计算 距离_用RSSI/TOF判断距离靠谱吗？浅谈RSSI/TOF测距优劣_weixin_39579127的博客-CSDN博客](https://blog.csdn.net/weixin_39579127/article/details/111140421?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242)
+4. [多径衰落详解（整理）（一）_zh915648053的博客-CSDN博客_多径衰落](https://blog.csdn.net/zh915648053/article/details/80676079)
+
+## Log:two:
+
+1. [python+Selenium自动签到实例_milletluo的博客-CSDN博客](https://blog.csdn.net/lm409/article/details/78360684)
+2. [python实现每天自动签到领积分的示例代码_菜鸟教程-CSDN博客_自动签到代码](https://blog.csdn.net/liming89/article/details/110264695?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242)
+3. [A RSSI-based parameter tracking strategy for constrained position localization | EURASIP Journal on Advances in Signal Processing | Full Text (springeropen.com)](https://asp-eurasipjournals.springeropen.com/articles/10.1186/s13634-017-0512-x)
+
+## Log:three:
+
+1. 桌面倒计时 bash
+2. [瑞利衰落信道 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/瑞利衰落信道)
+3. [瑞利衰落与莱斯衰落的区别 - 通信原理与基础 - 通信人家园 - Powered by C114 (txrjy.com)](https://www.txrjy.com/thread-1138839-1-1.html)
+4. [瑞利信道，莱斯信道和高斯信道模型_phymat.nico的专栏-CSDN博客_高斯信道和瑞利信道](https://blog.csdn.net/shixin_0125/article/details/114369867)
+
+## Log:four:
+
+1. 关键词分析法、关系网络图
+
+<div style="text-align:center;">
+  <img src="https://th.bing.com/th/id/R.2cd96487d48a0385de14ffa66338afea?rik=GMtxC9qmYnEkTQ&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20180717%2ff19fdbf2092f49b4949002470f35533c.jpeg&ehk=x0N4Wy1GQHyF2FwBMtZUqL%2fzlZGr3tVfI5eFJutNy8s%3d&risl=&pid=ImgRaw"><br>
+  <p>小说人物关系图</p>
+</div>
+**AOD\AOA**
+
+1. [Wireless localization for mmWave networks in urban environments (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6435218/)
+2. [1703.10978.pdf (arxiv.org)](https://arxiv.org/pdf/1703.10978.pdf)
+3. https://silabs-prod.adobecqms.net/content/usergenerated/asi/cloud/content/siliconlabs/en/community/chinese-blog/jcr:content/content/primary/blog/_-7jYr.social.0.10.html
+4. [A Performance Evaluation Framework for Direction Finding Using BLE AoA/AoD Receivers | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/9187256)
+5. [ResearchGate](https://www.researchgate.net/publication/251993199_A_joint_AOA_AOD_and_delays_estimation_of_multipath_signals_based_on_beamforming_techniques)
+6. [[1905.03930\] Efficient Channel AoD/AoA Estimation Using Widebeams for Millimeter Wave MIMO Systems (arxiv.org)](https://arxiv.org/abs/1905.03930)
+7. [基于智能手机的室内定位技术的发展现状和挑战 (rhhz.net)](http://html.rhhz.net/CHXB/html/2017-10-1316.htm)
+9. [ResearchGate](https://www.researchgate.net/publication/283476641_Review_of_angle_of_arrival_AOA_estimations_through_received_signal_strength_indication_RSSI_for_wireless_sensors_network_WSN)
+
+## Log:five:
+
+1. [可视化展示——实现论文引用关系动图展示_lw03060402的博客-CSDN博客_论文引用关系图](https://blog.csdn.net/lw03060402/article/details/106960348)
+2. [如何做好文本关键词提取？从三种算法说起 | 机器之心 (jiqizhixin.com)](https://www.jiqizhixin.com/articles/2018-11-14-17)
+
+## Log:one:
+
+<img src="https://gitee.com/RiskyJR/pic-bed/raw/master/relationGraph.jpeg">
+
+
+
+1. [图和网络算法 - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/graph-and-network-algorithms.html)
+2. [Python Network（三）案例（无向图，有向图，权重，点线分类与大小粗细）_青风learing-CSDN博客](https://blog.csdn.net/weixin_44301621/article/details/104857338)
+4.  Monte-Carlo simulations[Wireless localization for mmWave networks in urban environments (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6435218/)
+
+## Log:two:
+
+1. [数字调制系列：IQ基本理论 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/58119209)
+2. 论文引用关系图
+
+## Log:three:
+
+<div style="font-size:25px;font-family:KaiTi,Microsoft YaHei;background-color:white;text-align:center;">
+    <p >
+    给人希望！
+</p>
+</div>
+## Log:four:
+
+1. [使用HistCite进行文献引用分析_BoCai-Tech 博客-CSDN博客_histcite使用步骤的正确顺序](https://blog.csdn.net/dongfang12n/article/details/80589607)
+2. [VOSviewer - Visualizing scientific landscapes](https://www.vosviewer.com/)
+3. [研究方法|用CiteSpace进行科学文献可视化分析_Rilke1028的博客-CSDN博客_citespace可视化分析](https://blog.csdn.net/Rilke1028/article/details/92011464?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-11.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-11.control)
+4. [升级到全新 Windows 11 操作系统 | Microsoft](https://www.microsoft.com/ZH-CN/windows/windows-11?ocid=prod_sv_cons_win_awr_LearnMore )
+5. [超分辨DOA估计——MUSIC算法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/362008506)
+6. [DOA——MUSIC算法 - 桂。 - 博客园 (cnblogs.com)](https://www.cnblogs.com/xingshansi/p/7163605.html)
+
+## Log:five:
+
+1. [pyecharts - A Python Echarts Plotting Library built with love.](https://pyecharts.org/#/)
+2. [pandas.read_excel — pandas 1.3.1 documentation (pydata.org)](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html?highlight=read_excel)
+
+## Log:one:
+
+1. [pandas 入门：DataFrame的创建，读写，插入和删除_不去想结果，一直在路上-CSDN博客_dataframe](https://blog.csdn.net/xtfge0915/article/details/52938740)
+2. [用pyecharts生成仪表盘——将多张图片汇总到一个页面，大屏可视化数据展示_bo_gu的博客-CSDN博客](https://blog.csdn.net/bo_gu/article/details/104990907)
+3. [最新Pandas.read_excel()全参数详解（案例实操，如何利用python导入excel） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/142972462)
+4. [Python 字典用法详解（超全） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/355443925)
+5. [大数据展示大屏可视化html5模板科技展板设计展示看板年度报表html静态模板页面源码 - html代码库网站程序模板源码|jquery特效动画js插件源码 (dmaku.com)](http://www.dmaku.com/demo-moban-2073.html)
+6. [pyecharts实现新冠肺炎疫情可视化BI数据大屏_sleepyyoung的博客-CSDN博客_pyecharts可视化大屏](https://blog.csdn.net/qq_43613793/article/details/104268536)
+
+## Log:two:
+
+1. [使用pyecharts绘制词云图-淘宝商品评论展示 - 朱卫军 - 博客园 (cnblogs.com)](https://www.cnblogs.com/zhuwjwh/p/12496852.html)
+2. [[pyecharts学习笔记\]——WordCloud词云图 - 灰信网（软件开发博客聚合） (freesion.com)](https://www.freesion.com/article/8069608735/)
+3. [文本文件里如何快速在每行头尾都加上指定的内容---正则表达式（一）_逝无痕——kaidy-CSDN博客_正则表达式行尾添加](https://blog.csdn.net/wangkai_123456/article/details/53857945)
+
+## Log:three:
+
+1. [Estimate AoA or AoD of BLE Signal - MATLAB bleAngleEstimate (mathworks.com)](https://www.mathworks.com/help/comm/ref/bleangleestimate.html)
+
+## Log:four:
+
+1. [从技术角度深入剖析：改号软件，电话号码任意显示，伪造来电显示 - 核攻击 (wooyun.js.org)](https://wooyun.js.org/drops/从技术角度深入剖析：改号软件，电话号码任意显示，伪造来电显示.html)
+2. [Python数据可视化大屏最全教程（全） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/383745843)
+3. [Python3 函数注释： 参数 中 的 冒号 与 箭头_freeking101的博客-CSDN博客_python函数注释](https://blog.csdn.net/freeking101/article/details/96480031?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.control&spm=1001.2101.3001.4242)
+4. [pyecharts x轴字体大小调整_基于Pyecharts可视化大屏案例一（2）_weixin_39570530的博客-CSDN博客](https://blog.csdn.net/weixin_39570530/article/details/110307201?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.control)
+
+## Log:two:
+
+1. [Examples - Apache ECharts](https://echarts.apache.org/examples/en/index.html)
+2. [中文简介 - Document (pyecharts.org)](https://gallery.pyecharts.org/#/README)
+
+## Log:three:
+
+1. [功能强大的python包（七）：BeautifulSoup（HTML解析） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/394268763)
+
+## Log:four:
+
+1. [【pybullet教程1】hello world_LiuZ的博客-CSDN博客_pybullet](https://blog.csdn.net/weixin_41045354/article/details/104534581)
+
+## Log:five:
+
+1. [Pybullet入门教程 - 古月居 (guyuehome.com)](https://www.guyuehome.com/34388)
+2. [Learn Beautiful Soup(5) —— 使用BeautifulSoup改变网页内容 - NightCode的个人空间 - OSCHINA - 中文开源技术交流社区](https://my.oschina.net/u/1587304/blog/399866)
+3. [How to insert a new tag into a BeautifulSoup object? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-insert-a-new-tag-into-a-beautifulsoup-object/#:~:text=Creating a new tag using new_tag () method,appended to the end of the parent tag.)
+
+## Log:two:
+
+1. matlab保存图片清晰度
+
+## Log:four:
+
+1. [When RSSI encounters deep learning: An area localization scheme for pervasive sensing systems - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1084804520303192)
+2. [通过线刷升级 (miui.com)](https://www.miui.com/shuaji-393.html)
+
+## Log:five:
+
+1. [创建带有线条、日期和文本的时间线 — Matplotlib 3.3.3 文档 (osgeo.cn)](https://www.osgeo.cn/matplotlib/gallery/lines_bars_and_markers/timeline.html)
+
+## Log:one:
+
+<hr>
+
+**Todo List**
+
+- [ ]  `分享会材料`
+- [ ]  发票
+
+<hr>
+
+1. 系统性学习DJ
+2. 
+
+## Log:two:
+
+1. [BLE Channel Selection Algorithms - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/comm/ug/ble-channel-selection-algorithms.html)
+2. 广播信道(37、38、39)和数据信道是谁在广播RSSI;[bluetooth - How to get BLE advertising channel index number - Stack Overflow](https://stackoverflow.com/questions/64310118/how-to-get-ble-advertising-channel-index-number)
+3. K-means
+4. [Frequency table - MATLAB tabulate - MathWorks 中国](https://ww2.mathworks.cn/help/stats/tabulate.html)
+
