@@ -890,6 +890,13 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [BLE Channel Selection Algorithms - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/comm/ug/ble-channel-selection-algorithms.html)
 2. 广播信道(37、38、39)和数据信道是谁在广播RSSI;[bluetooth - How to get BLE advertising channel index number - Stack Overflow](https://stackoverflow.com/questions/64310118/how-to-get-ble-advertising-channel-index-number)
-3. K-means
-4. [Frequency table - MATLAB tabulate - MathWorks 中国](https://ww2.mathworks.cn/help/stats/tabulate.html)
+3. [BLE Advertising channels | BLE Data channels list (rfwireless-world.com)](https://www.rfwireless-world.com/Terminology/BLE-Advertising-channels-and-Data-channels-list.html)
+4. K-means
+5. [Frequency table - MATLAB tabulate - MathWorks 中国](https://ww2.mathworks.cn/help/stats/tabulate.html)
+
+## Log:four:
+
+1. [【机器学习】逻辑回归（非常详细） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/74874291)
+2. [二项式系数或所有组合 - MATLAB nchoosek - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/nchoosek.html)
+3. [叉积 - MATLAB cross - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/cross.html)
 
