@@ -866,7 +866,6 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:four:
 
 1. [When RSSI encounters deep learning: An area localization scheme for pervasive sensing systems - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1084804520303192)
-2. [通过线刷升级 (miui.com)](https://www.miui.com/shuaji-393.html)
 
 ## Log:five:
 
@@ -894,9 +893,15 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 4. K-means
 5. [Frequency table - MATLAB tabulate - MathWorks 中国](https://ww2.mathworks.cn/help/stats/tabulate.html)
 
-## Log:four:
+## Log:three:
 
 1. [【机器学习】逻辑回归（非常详细） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/74874291)
 2. [二项式系数或所有组合 - MATLAB nchoosek - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/nchoosek.html)
 3. [叉积 - MATLAB cross - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/cross.html)
+
+## Log:four:
+
+1. [特定整数类型的最大值 - MATLAB intmax - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/intmax.html)
+2. [Run Batch File (.BAT) on Startup in Windows - ShellHacks](https://www.shellhacks.com/run-batch-file-bat-on-startup-in-windows/)
+3. [资源：在线生成ascii字符画网站 - 简书 (jianshu.com)](https://www.jianshu.com/p/fca56d635091)
 
