@@ -909,3 +909,12 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [【Matplotlib】 刻度设置(2) - Chris*Chen - 博客园 (cnblogs.com)](https://www.cnblogs.com/nju2014/p/5633768.html)
 
+## Log:one:
+
+1. 阶段性梳理知识，系统性思考问题方式；
+2. [用Excel做时间轴信息图表 - 简书 (jianshu.com)](https://www.jianshu.com/p/9eb24c2e1cb3)
+
+<p style="color:#77FFDD;font-size:30px;text-align:center;">
+    大道至简,去繁就简;
+</p>
+
