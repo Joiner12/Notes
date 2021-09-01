@@ -924,4 +924,5 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. less earphone
 2. [linux 的复制/剪切命令用法 - 一2三 - 博客园 (cnblogs.com)](https://www.cnblogs.com/lichao99/p/11313265.html)
+3. [Estimation of Rician K-Factor in the Presence of Nakagami-- Shadowing for the LoS Component | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/8260869)
 
