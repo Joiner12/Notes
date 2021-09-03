@@ -929,4 +929,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. 论文引用关系图
 2. [高精度室内定位研究评述及未来演进展望 (infocomm-journal.com)](http://www.infocomm-journal.com/txxb/article/2021/1000-436x/1000-436x-42-7-00198.shtml)
-3. 
+
+## Log:five:
+
+1. [树莓派安装BlueZ协议栈（Raspberry pi Bluetooth LE）_talkxin的博客-CSDN博客](https://blog.csdn.net/talkxin/article/details/50609609)
+2. PPT反映的学习、工作方式问题；
