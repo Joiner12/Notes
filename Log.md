@@ -934,3 +934,9 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [树莓派安装BlueZ协议栈（Raspberry pi Bluetooth LE）_talkxin的博客-CSDN博客](https://blog.csdn.net/talkxin/article/details/50609609)
 2. PPT反映的学习、工作方式问题；
+
+## Log:one:
+
+1. [HTML与CSS的链接方式_ruthy的博客-CSDN博客_html与css连接](https://blog.csdn.net/ruthywei/article/details/71079579)
+2. [HTML5实用小技巧分享（三）——两种添加背景图片的方式_欢迎来到Gorit的博客-CSDN博客_html设置背景图片](https://blog.csdn.net/caidewei121/article/details/87885267)
+3. https://www.pipipi.net/questions/13954.html
