@@ -940,3 +940,12 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [HTML与CSS的链接方式_ruthy的博客-CSDN博客_html与css连接](https://blog.csdn.net/ruthywei/article/details/71079579)
 2. [HTML5实用小技巧分享（三）——两种添加背景图片的方式_欢迎来到Gorit的博客-CSDN博客_html设置背景图片](https://blog.csdn.net/caidewei121/article/details/87885267)
 3. https://www.pipipi.net/questions/13954.html
+
+## Log:three:
+
+1. [CSS3实现几个常用的网页小效果 - 郭锦荣 - 博客园 (cnblogs.com)](https://www.cnblogs.com/jr1993/p/4743914.html)
+2. [8个时尚而简约的HTML5按钮 | HTML5资源教程 (html5tricks.com)](https://www.html5tricks.com/8-fasion-html5-buttons.html)
+3. [css实现按钮固定在底部_OG-CSDN博客](https://blog.csdn.net/it429/article/details/51546285)
+4. [这10个按钮，把 CSS HOVER 的创意发挥到极致了 | 设计达人 (shejidaren.com)](https://www.shejidaren.com/button-hover-and-click-effects.html)
+5. [CSS实现超级炫酷的流光按钮效果_潮利潮的博客-CSDN博客_css流光效果](https://blog.csdn.net/qq_44699174/article/details/105923329)
+6. [页面中如何引用外部的HTML（四种方法） - 范仁义 - 博客园 (cnblogs.com)](https://www.cnblogs.com/Renyi-Fan/p/9284231.html)
