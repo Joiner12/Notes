@@ -984,3 +984,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
    ```
 
 2. 冒烟测试
+
+## Log:six:
+
+1. [发明专利撰写模板_Touale的博客-CSDN博客](https://blog.csdn.net/Touale/article/details/119455183)
+

@@ -7,7 +7,7 @@
 
 [软技能 (豆瓣) (douban.com)](https://book.douban.com/subject/26835090/)
 
-## Halilton-I nationens intresse/汉密尔顿：国家利益
+
 
 ## 《天朝的崩溃：鸦片战争再研究》
 
@@ -74,5 +74,12 @@ http://epaper.bjnews.com.cn/images/2015-08/29/B06/dongx58104_b.jpg
 
 [分析与思考 (豆瓣) (douban.com)](https://book.douban.com/subject/35149551/)
 
+
+## 《相约星期二》
+
+<div style="text-align:center;background-color:white;">
+    <img src="https://img2.doubanio.com/view/subject/l/public/s29237651.jpg" style="width:300px;height:450px;">
+</div>
+[相约星期二 (豆瓣) (douban.com)](https://book.douban.com/subject/2194123/)
 中图网
 
