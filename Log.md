@@ -866,7 +866,6 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:four:
 
 1. [When RSSI encounters deep learning: An area localization scheme for pervasive sensing systems - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1084804520303192)
-2. [通过线刷升级 (miui.com)](https://www.miui.com/shuaji-393.html)
 
 ## Log:five:
 
@@ -890,6 +889,103 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [BLE Channel Selection Algorithms - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/comm/ug/ble-channel-selection-algorithms.html)
 2. 广播信道(37、38、39)和数据信道是谁在广播RSSI;[bluetooth - How to get BLE advertising channel index number - Stack Overflow](https://stackoverflow.com/questions/64310118/how-to-get-ble-advertising-channel-index-number)
-3. K-means
-4. [Frequency table - MATLAB tabulate - MathWorks 中国](https://ww2.mathworks.cn/help/stats/tabulate.html)
+3. [BLE Advertising channels | BLE Data channels list (rfwireless-world.com)](https://www.rfwireless-world.com/Terminology/BLE-Advertising-channels-and-Data-channels-list.html)
+4. K-means
+5. [Frequency table - MATLAB tabulate - MathWorks 中国](https://ww2.mathworks.cn/help/stats/tabulate.html)
+
+## Log:three:
+
+1. [【机器学习】逻辑回归（非常详细） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/74874291)
+2. [二项式系数或所有组合 - MATLAB nchoosek - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/nchoosek.html)
+3. [叉积 - MATLAB cross - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/cross.html)
+
+## Log:four:
+
+1. [特定整数类型的最大值 - MATLAB intmax - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/intmax.html)
+2. [Run Batch File (.BAT) on Startup in Windows - ShellHacks](https://www.shellhacks.com/run-batch-file-bat-on-startup-in-windows/)
+3. [资源：在线生成ascii字符画网站 - 简书 (jianshu.com)](https://www.jianshu.com/p/fca56d635091)
+
+## Log:five:
+
+1. [【Matplotlib】 刻度设置(2) - Chris*Chen - 博客园 (cnblogs.com)](https://www.cnblogs.com/nju2014/p/5633768.html)
+
+## Log:one:
+
+1. 阶段性梳理知识，系统性思考问题方式；
+2. [用Excel做时间轴信息图表 - 简书 (jianshu.com)](https://www.jianshu.com/p/9eb24c2e1cb3)
+
+<p style="color:'black';font-size:30px;text-align:center;">
+    大道至简,去繁就简;<br>专注
+</p>
+
+
+
+## Log:three:
+
+1. less earphone
+2. [linux 的复制/剪切命令用法 - 一2三 - 博客园 (cnblogs.com)](https://www.cnblogs.com/lichao99/p/11313265.html)
+
+## Log:four:
+
+1. 论文引用关系图
+2. [高精度室内定位研究评述及未来演进展望 (infocomm-journal.com)](http://www.infocomm-journal.com/txxb/article/2021/1000-436x/1000-436x-42-7-00198.shtml)
+
+## Log:five:
+
+1. [树莓派安装BlueZ协议栈（Raspberry pi Bluetooth LE）_talkxin的博客-CSDN博客](https://blog.csdn.net/talkxin/article/details/50609609)
+2. PPT反映的学习、工作方式问题；
+
+## Log:one:
+
+1. [HTML与CSS的链接方式_ruthy的博客-CSDN博客_html与css连接](https://blog.csdn.net/ruthywei/article/details/71079579)
+2. [HTML5实用小技巧分享（三）——两种添加背景图片的方式_欢迎来到Gorit的博客-CSDN博客_html设置背景图片](https://blog.csdn.net/caidewei121/article/details/87885267)
+3. https://www.pipipi.net/questions/13954.html
+
+## Log:three:
+
+1. [CSS3实现几个常用的网页小效果 - 郭锦荣 - 博客园 (cnblogs.com)](https://www.cnblogs.com/jr1993/p/4743914.html)
+2. [8个时尚而简约的HTML5按钮 | HTML5资源教程 (html5tricks.com)](https://www.html5tricks.com/8-fasion-html5-buttons.html)
+3. [css实现按钮固定在底部_OG-CSDN博客](https://blog.csdn.net/it429/article/details/51546285)
+4. [这10个按钮，把 CSS HOVER 的创意发挥到极致了 | 设计达人 (shejidaren.com)](https://www.shejidaren.com/button-hover-and-click-effects.html)
+5. [CSS实现超级炫酷的流光按钮效果_潮利潮的博客-CSDN博客_css流光效果](https://blog.csdn.net/qq_44699174/article/details/105923329)
+
+## Log:five:
+
+1. ```matlab
+   % docsearch gca&subplot
+   clc;
+   tcf('beacon-1');
+   f1 = figure('name', 'beacon-1', 'color', 'w');
+   
+   for j = 1:1:6
+       axes_1(j) = subplot(3, 2, j);
+   end
+   tcf('beacon-2');
+   f2 = figure('name', 'beacon-1', 'color', 'w');
+   
+   for j = 1:1:6
+       axes_2(j) = subplot(3, 2, j);
+   end
+   
+   for k = 1:1:11
+   
+       if k <= 6
+           subplot(axes_1(k));
+           plot(BeaconRSSI(k).rssi);
+           title(strcat(num2str(BeaconRSSI(k).dist), 'm'));
+       else
+           subplot(axes_2(k - 6));
+           plot(BeaconRSSI(k).rssi);
+           title(strcat(num2str(BeaconRSSI(k).dist), 'm'));
+       end
+   
+   end
+   
+   ```
+
+2. 冒烟测试
+
+## Log:six:
+
+1. [发明专利撰写模板_Touale的博客-CSDN博客](https://blog.csdn.net/Touale/article/details/119455183)
 
