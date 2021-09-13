@@ -989,3 +989,7 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [发明专利撰写模板_Touale的博客-CSDN博客](https://blog.csdn.net/Touale/article/details/119455183)
 
+## Log:one:
+
+1. [Savitzky-Golay卷积平衡算法原理，以及MATLAB的实现 | 码农家园 (codenong.com)](https://www.codenong.com/cs106600086/)
+
