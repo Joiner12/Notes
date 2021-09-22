@@ -993,3 +993,9 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [Savitzky-Golay卷积平衡算法原理，以及MATLAB的实现 | 码农家园 (codenong.com)](https://www.codenong.com/cs106600086/)
 
+## Log:three:
+
+1. [pyecharts学习2--自适应屏幕居中显示_shadowsland的专栏-CSDN博客_pyecharts自适应页面](https://blog.csdn.net/u011888840/article/details/105688756)
+2. [函数的参数 - 廖雪峰的官方网站 (liaoxuefeng.com)](https://www.liaoxuefeng.com/wiki/1016959663602400/1017261630425888)
+3. [Python 方法重载_ffantastic的博客-CSDN博客_python 重载](https://blog.csdn.net/ffantastic/article/details/82025130)
+
