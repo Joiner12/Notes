@@ -1004,3 +1004,14 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [获取文件名的组成部分 - MATLAB fileparts - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/fileparts.html)
 2. matlab保存图片的几种方法&图像画质设定
 3. [打开保存在 FIG 文件中的图窗 - MATLAB openfig - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/openfig.html)
+
+## Log:seven:
+
+1. [删除Notepad ++中除包含我需要的单词的行以外的所有行？ (qastack.cn)](https://qastack.cn/superuser/290247/delete-all-lines-in-notepad-except-lines-containing-a-word-i-need)
+2. [创建字符串数组 - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/matlab_prog/create-string-arrays.html)
+3. find
+4. 奇异点处理
+5. [Matlab如何设置函数默认参数值 - GShang - 博客园 (cnblogs.com)](https://www.cnblogs.com/gshang/p/14532104.html)
+6. [Matlab函数设置参数默认值 | Matlab | 小望云北屋 (xiaowangyun.com)](https://www.xiaowangyun.com/wyblog/detail/?id=130)
+7. [Moore-Penrose广义逆：可解决MATLAB报错“矩阵接近奇异值，或者缩放错误。结果可能不准确”_Yancy的博客-CSDN博客](https://blog.csdn.net/lyxleft/article/details/83998246)
+
