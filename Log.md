@@ -1019,3 +1019,6 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [Matlab函数设置参数默认值 | Matlab | 小望云北屋 (xiaowangyun.com)](https://www.xiaowangyun.com/wyblog/detail/?id=130)
 
+## Log:six:
+
+1. [Python requests包get响应内容中文乱码解决方案_老野的成长之路-CSDN博客_requests.get 乱码](https://blog.csdn.net/feixuedongji/article/details/82984583)
