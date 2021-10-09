@@ -1022,3 +1022,6 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:six:
 
 1. [Python requests包get响应内容中文乱码解决方案_老野的成长之路-CSDN博客_requests.get 乱码](https://blog.csdn.net/feixuedongji/article/details/82984583)
+2. [数据可视化 (豆瓣) (douban.com)](https://book.douban.com/subject/25760272/)
+3. [Python正则表达式匹配日期与时间 - VincentZhu - 博客园 (cnblogs.com)](https://www.cnblogs.com/OnlyDreams/p/7845527.html)
+
