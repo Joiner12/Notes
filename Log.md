@@ -1025,3 +1025,7 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 2. [数据可视化 (豆瓣) (douban.com)](https://book.douban.com/subject/25760272/)
 3. [Python正则表达式匹配日期与时间 - VincentZhu - 博客园 (cnblogs.com)](https://www.cnblogs.com/OnlyDreams/p/7845527.html)
 
+## Log:two:
+
+1. [dominate · PyPI](https://pypi.org/project/dominate/)
+2. [Python之图解with语句 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/183779277)
