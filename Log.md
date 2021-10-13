@@ -1029,3 +1029,16 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [dominate · PyPI](https://pypi.org/project/dominate/)
 2. [Python之图解with语句 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/183779277)
+
+## Log:three:
+
+<p style="text-align:left;font-size:20px;">
+    卸下压力
+</p>
+
+1.[RSSI-Based Indoor Localization Using Multi-Lateration With Zone Selection and Virtual Position-Based Compensation Methods | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/9383213)
+
+2.[Study of characteristics of RSSI signal | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/4608603)
+
+3.[Hexo](https://hexo.io/zh-cn/)
+
