@@ -1041,4 +1041,3 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 2.[Study of characteristics of RSSI signal | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/4608603)
 
 3.[Hexo](https://hexo.io/zh-cn/)
-
