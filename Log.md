@@ -1046,3 +1046,6 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1.[NexT 使用文档 (iissnan.com)](http://theme-next.iissnan.com/)
 
+## Log:five:
+
+贝叶斯分类
