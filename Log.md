@@ -1049,3 +1049,14 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:five:
 
 贝叶斯分类
+
+## Log:two:
+
+1.[向量范数和矩阵范数 - MATLAB norm - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/norm.html)
+
+2.[技术文档 | Apollo轨迹规划——算法综述 (qq.com)](https://mp.weixin.qq.com/s/mPiAPT5hBlhR5gINIEMnkw)
+
+3.[无人车运动规划算法综述 (cnjournals.cn)](http://tjxb.cnjournals.cn/html/2017/08/16339.htm)
+
+4.[15ShortestPaths.key (princeton.edu)](https://www.cs.princeton.edu/~rs/AlgsDS07/15ShortestPaths.pdf)
+
