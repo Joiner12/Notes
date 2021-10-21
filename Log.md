@@ -1065,3 +1065,12 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1.多层函数参数设置方法
 
 2.[git取消跟踪文件目录_sun2009_的博客-CSDN博客_git 取消跟踪文件](https://blog.csdn.net/sun2009_/article/details/70198580)
+
+## Log:four:
+
+1.[向量范数 - MATLAB vecnorm - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/vecnorm.html)
+
+2.[加权最小二乘估计在无线传感器网络定位中的应用 - 百度学术 (baidu.com)](https://xueshu.baidu.com/usercenter/paper/show?paperid=71959eb3f55b113ff2fa48150e49e46a)
+
+3.[获取两个字符串之间的内容的方法, 正则表达式 python re_wanzi_antang的博客-CSDN博客_取两个字符之间的内容](https://blog.csdn.net/wanzi_antang/article/details/103768618)
+
