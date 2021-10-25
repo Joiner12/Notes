@@ -1079,3 +1079,10 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1.贪心和非贪心匹配，'.*' & '.*?' 。
 
 [python正则表达式 （.*?）与（.*）的区别_爱生活爱自己爱学习-CSDN博客](https://blog.csdn.net/m0_37962192/article/details/103768541)
+
+## Log:one:
+
+1.[Microsoft PowerPoint - Covariance Matrices (stanford.edu)](https://statweb.stanford.edu/~candes/teaching/acm118/Handouts/CovNormal.pdf)
+
+2.[如何直观地理解「协方差矩阵」？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/37609917)
+
