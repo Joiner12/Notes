@@ -1086,3 +1086,10 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 2.[如何直观地理解「协方差矩阵」？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/37609917)
 
+## Log:two:
+
+1.[Lectures7.pdf (mcmaster.ca)](https://ms.mcmaster.ca/canty/teaching/stat3a03/Lectures7.pdf)
+
+2.[13.1 - Weighted Least Squares | STAT 501 (psu.edu)](https://online.stat.psu.edu/stat501/lesson/13/13.1)
+
+3.[lecture-18.pdf (cmu.edu)](http://www.stat.cmu.edu/~cshalizi/350/lectures/18/lecture-18.pdf)
