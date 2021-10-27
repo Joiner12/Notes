@@ -1093,3 +1093,14 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 2.[13.1 - Weighted Least Squares | STAT 501 (psu.edu)](https://online.stat.psu.edu/stat501/lesson/13/13.1)
 
 3.[lecture-18.pdf (cmu.edu)](http://www.stat.cmu.edu/~cshalizi/350/lectures/18/lecture-18.pdf)
+
+## Log:four:
+
+[Covariance in Statistics (Definition and Examples) (byjus.com)](https://byjus.com/maths/covariance/)
+
+[介绍 | Valine 一款快速、简洁且高效的无后端评论系统。](https://valine.js.org/#/)
+
+树莓派远程
+
+笔记本远程开机
+
