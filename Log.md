@@ -1104,3 +1104,7 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 笔记本远程开机
 
+## Log:three:
+
+1.自动处理公文脚本
+
