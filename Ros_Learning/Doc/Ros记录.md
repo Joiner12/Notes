@@ -175,3 +175,21 @@ $ rosnode list
 rosnode info node-name
 ```
 
+## 7.Web  Info
+
+1. 创建工作区间 & 环境变量检查 [cn/ROS/Tutorials/InstallingandConfiguringROSEnvironment - ROS Wiki](http://wiki.ros.org/cn/ROS/Tutorials/InstallingandConfiguringROSEnvironment#A.2BUhte.2Bg-ROS.2BXeVPXHp6lfQ-)
+2. [Linux下source命令详解 - 水车 - 博客园 (cnblogs.com)](https://www.cnblogs.com/shuiche/p/9436126.html)
+3. [树莓派3B+学习笔记：11、查看硬件信息 - Z-z-z - 博客园 (cnblogs.com)](https://www.cnblogs.com/trilobita/p/10600945.html#:~:text=查看树莓派硬件信息     . 1、查看CPU信息.,cat%2Fproc%2Fcpuinfo. 查看最后三行. 如果只想查看最后三行，也可使用这个命令. tail-3%2Fproc%2Fcpuinfo. lscpu. 2、查看树莓派型号. cat%2Fproc%2Fdevice-tree%2Fmodel.)
+
+## 8.缓存扩展Raspberry 4B
+
+```shell
+# 注意，移植到树莓派主控的话，【kcf_track】功能包需要替换，树莓派版的【kcf_track】功能包在与本文档在同一级目录下的文件夹【kcf_track\raspberry\kcf_track】。
+# 同时2GB内存的【树莓派4B】，需要进行缓存扩展后才可以进行编译，否则会树莓派会卡死。扩展缓存命令：
+sudo dd if=/dev/zero of=/swap bs=1M count=4096
+sudo mkswap /swap
+sudo chmod 600 /swap
+sudo swapon -a /swap 
+# 第一个命令执行需要8分钟
+```
+

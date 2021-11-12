@@ -1116,4 +1116,10 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:one:
 
 1.  python命令行调用 参数(python scrapy --list -h)
-2. 
+
+## Log:four:
+
+1. https://sklearn.apachecn.org/#/
+1. [【AE教程】超级换脸术，AE也能换脸！ - 知乎 (zhihu.com)](https://www.zhihu.com/zvideo/1294282398792798208)
+1. [一分钟学会用AE做人脸识别、换脸、瘦脸、面部跟踪、HUD扫描效果~AE脚本Motionbro Facetools_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Xf4y1a7aD/)
+
