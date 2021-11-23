@@ -1123,3 +1123,12 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [【AE教程】超级换脸术，AE也能换脸！ - 知乎 (zhihu.com)](https://www.zhihu.com/zvideo/1294282398792798208)
 1. [一分钟学会用AE做人脸识别、换脸、瘦脸、面部跟踪、HUD扫描效果~AE脚本Motionbro Facetools_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Xf4y1a7aD/)
 
+## Log:one:
+
+1. [OpenCV-视频转图片/图片转视频_ngy321的博客-CSDN博客](https://blog.csdn.net/ngy321/article/details/79882767)
+
+## Log:two:
+
+1. [自动备份修改hosts文件解决github访问速度慢的问题 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/394470267)
+2. [OpenCV技巧 | 常用格式图片保存为透明背景图片(附Python源码)-教你轻松制作Logo - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1865575)
+

@@ -180,6 +180,17 @@ rosnode info node-name
 1. 创建工作区间 & 环境变量检查 [cn/ROS/Tutorials/InstallingandConfiguringROSEnvironment - ROS Wiki](http://wiki.ros.org/cn/ROS/Tutorials/InstallingandConfiguringROSEnvironment#A.2BUhte.2Bg-ROS.2BXeVPXHp6lfQ-)
 2. [Linux下source命令详解 - 水车 - 博客园 (cnblogs.com)](https://www.cnblogs.com/shuiche/p/9436126.html)
 3. [树莓派3B+学习笔记：11、查看硬件信息 - Z-z-z - 博客园 (cnblogs.com)](https://www.cnblogs.com/trilobita/p/10600945.html#:~:text=查看树莓派硬件信息     . 1、查看CPU信息.,cat%2Fproc%2Fcpuinfo. 查看最后三行. 如果只想查看最后三行，也可使用这个命令. tail-3%2Fproc%2Fcpuinfo. lscpu. 2、查看树莓派型号. cat%2Fproc%2Fdevice-tree%2Fmodel.)
+3. [VNCViewer实现与WIN端文本复制粘贴_Erpim的博客-CSDN博客](https://blog.csdn.net/qq_35414569/article/details/80259503?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.baidujs&dist_request_id=1328642.22533.16156117962279547&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.baidujs)
+3. [Vim的保存和退出命令 - 简书 (jianshu.com)](https://www.jianshu.com/p/b6d7153c83f1)
+3. [Ubuntu:由于没有公钥，无法验证下列签名_天线狗子的博客-CSDN博客_ubuntu由于没有公钥,无法验证下列签名](https://blog.csdn.net/qq_37236149/article/details/111240085)
+3. [如何将Ubuntu升级到18.04最新版 - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1174343)
+3. [Ubuntu安装ROS2并编写自己的程序 - 古月居 (guyuehome.com)](https://www.guyuehome.com/33808)
+3. [Building ROS 2 on Linux — ROS 2 Documentation: Eloquent documentation](https://docs.ros.org/en/eloquent/Installation/Linux-Development-Setup.html)
+3. [ROS探索总结（二十一）——如何发布里程计消息 - 古月居 (guyuehome.com)](https://www.guyuehome.com/332)
+3. [SLAM+语音机器人DIY系列：（六）SLAM建图与自主避障导航——4.多目标点导航及任务调度 - 小虎哥哥爱学习 - 博客园 (cnblogs.com)](https://www.cnblogs.com/hiram-zhang/p/10416104.html)
+3. [从零搭建一辆ROS小车（二）发布里程计数据在rviz中显示 - 码上快乐 (codeprj.com)](https://www.codeprj.com/blog/bed43d1.html)
+3. [linux命令之sh的用法_xiaozhuangyumaotao的博客-CSDN博客_linux sh命令](https://blog.csdn.net/xiaozhuangyumaotao/article/details/105645925)
+3. [GPG配置、命令、实例与apt-key密钥测试 - usmile - 博客园 (cnblogs.com)](https://www.cnblogs.com/usmile/p/12873604.html)
 
 ## 8.缓存扩展Raspberry 4B
 
@@ -192,4 +203,94 @@ sudo chmod 600 /swap
 sudo swapon -a /swap 
 # 第一个命令执行需要8分钟
 ```
+
+## 9.安装ROS2()
+
+
+
+```shell
+# 1.设置本地环境
+locale  # check for UTF-8
+
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+locale  # verify settings
+# 2.软件源
+sudo apt update && sudo apt install curl gnupg2 lsb-release
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+# 3.添加代码仓库到源
+sudo sh -c 'echo "deb [arch=amd64,arm64] http://packages.ros.org/ros2/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros2-latest.list'
+# 4.更新软件
+sudo apt update
+# 5.安装ROS2桌面版 
+sudo apt install ros-eloquent-desktop
+# 6.自动补全工具
+sudo apt install -y python3-pip
+pip3 install -U argcomplete
+# 7.安装编译工具
+sudo apt install python3-colcon-common-extensions
+# 8.安装依赖和ROS工具
+# 无法定位bulid-essential
+sudo apt update && sudo apt install -y bulid-essential cmake git python3-colcon-common-extensions python3-pip python-rosdep python3-vcstool-wget
+# 使用pip3安装测试功能包，执行以下指令：
+python3 -m pip install -U argcomplete flake8 flake8-blind-except flake8-builtins flake8-class-newline flake8-comprehensions flake8-deprecated flake8-docstrings flake8-import-order flake8-quotes pytest-repreat pytest-rerunfailures pytest pytest-cov pytest-runner stuptools
+# 安装FAST-RTPS依赖项
+sudo apt install --no-install-recommends -y libasio-dev libtinyxml2-dev
+# 安装Cyclone DDS依赖项
+sudo apt install --no-install-recommends -y libcunit1-dev
+# 9.环境配置
+sudo gedit ~/.bashrc
+# 添加
+alias initros1="source /opt/ros/melodic/setup.bash"
+alias initros2="source /opt/ros/eloquent/setup.bash"
+# 保存生效
+source ~/.bashrc
+# 10.测试
+initros2
+ros2 run demo_nodes_cpp talker
+ros2 run demo_nodes_py listener
+```
+
+## 10.ROS主机搭建NFS服务
+
+```shell
+在Ros主机上搭建NFS服务器
+一、服务端执行：
+1、安装必备包
+在机器人中安装nfs服务端
+sudo apt-get install nfs-kernel-server
+2、创建要共享的目录文件夹
+sudo -p mkdir /mnt
+
+3、编辑配置文件
+①添加NFS共享目录
+sudo nano /etc/exports 
+/home/wheeltec/wheeltec_rebot  *(rw,sync,no_root_squash)
+②给挂载的目录设置权限以及修改文件用户
+sudo chmod  -R  777  /home/wheeltec/wheeltec_robot
+sudo chown  -R  777  nobody  /home/wheeltec/wheeltec_robot
+
+4、启动服务
+sudo /etc/init.d/nfs-kernel-server start  
+sudo  /etc/init.d/nfs-kernel-server restart 	
+先启动NFS再重启NFS
+
+二、客户端
+1、安装nfs-utils和portma包
+sudo apt-get install nfs-common portmap
+2、创建一个提供挂载的目录
+sudo mkdir /mnt/mount_nfs
+3、挂载
+ sudo  mount  -t  nfs  -o  nolock  192.168.0.100:/home/wheeltec/wheeltec_robot  /mnt
+```
+
+## 11.烧录
+
+1. [Operating system images – Raspberry Pi](https://www.raspberrypi.com/software/operating-systems/)
+2. [Index of /ubuntu-cdimage/ubuntu/releases/18.04.5/release/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/18.04.5/release/)
+3. [树莓派4b之镜像烧录（手把手完整版）_六五酥的博客-CSDN博客_树莓派4b 镜像](https://blog.csdn.net/qq_27149279/article/details/105308588)
+4. [树莓派4B安装ubuntu18.04.4和ROS并测试激光雷达_蜗小侠的博客-CSDN博客](https://blog.csdn.net/qq_35898865/article/details/105065259)
 
