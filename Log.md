@@ -1132,3 +1132,11 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [自动备份修改hosts文件解决github访问速度慢的问题 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/394470267)
 2. [OpenCV技巧 | 常用格式图片保存为透明背景图片(附Python源码)-教你轻松制作Logo - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1865575)
 
+## Log:four:
+
+1. [局部规划器-TebLocalPlannerROS - 慢慢的回味 (liuxiaofei.com.cn)](https://liuxiaofei.com.cn/blog/局部规划器-teblocalplannerros/)
+
+## Log:two:
+
+1. [Document - PyMuPDF Documentation](https://documentation.help/PyMuPDF/document.html)
+2. [树莓派：DIY电视盒子_知其可为而不为-CSDN博客_树莓派电视盒子](https://blog.csdn.net/saga1979/article/details/109570366)

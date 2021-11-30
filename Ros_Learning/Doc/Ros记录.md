@@ -294,3 +294,191 @@ sudo mkdir /mnt/mount_nfs
 3. [树莓派4b之镜像烧录（手把手完整版）_六五酥的博客-CSDN博客_树莓派4b 镜像](https://blog.csdn.net/qq_27149279/article/details/105308588)
 4. [树莓派4B安装ubuntu18.04.4和ROS并测试激光雷达_蜗小侠的博客-CSDN博客](https://blog.csdn.net/qq_35898865/article/details/105065259)
 
+## 12.ROS基础
+
+### 1.创建工作空间
+
+<1> 将要创建的工作空间文件夹是在~/catkin_ws/src/中。 若新创建则使用下面命令。  
+
+````bash
+# 创建工作空间
+mkdir -p ros_ws_1/src
+cd ros_ws_1/src/
+# 工作空间初始化
+catkin_init_workspace
+
+````
+
+<2> 创建完工作空间文件夹后， 里面并没有问的文件夹， 只有CMkkeList.txt。 下一步是编译工作空间， 使用下面的命令：  
+
+```bash
+cd ~/ros_ws_1
+catkin_make
+```
+
+编译完成后， 查看catkin_ws文件目录， 可以看到上面的编译命令创建了build和devel文件夹。
+
+<3> 使用命令， 完成配置 
+
+```bash
+~/ros_ws_1$ source devel/setup.bash
+```
+
+<4> 添加程序包到全局路径并使之生效（如果已经添加过则忽略此步骤）
+
+```bash
+$ echo "source ~/ros_ws_1/devel/setup.bash" >> ~/.bashrc
+$ source ~/.bashrc
+```
+
+要想保证工作空间已配置正确需确保ROS_PACKAGE_PATH环境变量包含你的工作空间目录， 采用以下命令查看：  
+
+```bash
+$ echo $ROS_PACKAGE_PATH
+/home/<youruser>/catkin_ws/src:/opt/ros/kinetic/share
+```
+
+### 2.工作空间目录解析 
+
+使用linux下的tree树状目录结构打开我们创建的catkin_ws工作空间（ 如下图所示） ，可以看到该工作空间下包含build、 devel和src三个文件夹， 有时候编译也会出现更多的信息，但是这三个文件夹是catkin编译系统默认的， 每个文件夹都是一个具有不同功能的空间。  
+
+```BASH
+tree -L 2 ros_ws_1
+```
+
+:large_blue_diamond: **源文件空间（The Source space）** : 在源空间（src 文件夹） 放置了功能包、 项目、克隆包等， 这个空间最重要的是 CMakeLists.txt。 当你在工作空间中配置功能包时， src 文件夹 CMakeList.txt 调用 make。 这个文件是通过 catkininitworkspace 命令创建的。  
+
+:large_orange_diamond: **编译空间（The Build space）** ： 在build文件夹里， CMake和catkin为功能包和项目保存缓存信息、 配置、 和其他中间文件。  
+
+:large_orange_diamond: **开发空间（The Development space） ：** devel 文件夹用来保存编译后的程序， 编译生成的目标文件包括头文件， 动态链接库， 静态链接库， 可执行文件等环境变量， 这些无需安装就能用来测试的程序。 一旦通过测试， 就可以安装或者导出功能包与其他开发人员分享。  
+
+### 3.catkin编译包 
+
+catkin编译包有两个选项， 一个是使用标准的CMake工作流程， 通过此方法编译一个包：  
+
+```bash
+$ cmake packageToBuild/
+$ make
+```
+
+使用catkin_make命令行编译所有的包：  
+
+```bash
+$ cd workspace(工作空间目录)
+$ catkin_make
+```
+
+### 4.功能包的开发编译 
+
+```bash
+smileface@smileface-VirtualBox:~/Desktop/ros_ws_1/src$ catkin_create_pkg test_tutorial roscpp rospy std_msgs
+Created file test_tutorial/CMakeLists.txt
+Created file test_tutorial/package.xml
+Created folder test_tutorial/include/test_tutorial
+Created folder test_tutorial/src
+Successfully created files in /home/smileface/Desktop/ros_ws_1/src/test_tutorial. Please adjust the values in package.xml.
+
+```
+
+创建功能包指令：
+
+```bash
+catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
+```
+
+```cpp
+#include "ros/ros.h"
+#include "std_msgs/String.h"
+#include <sstream>
+int main(int argc， char **argv)
+{
+    ros::init(argc， argv， "talker");
+    ros::NodeHandle n;
+    ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter"， 1000);
+    ros::Rate loop_rate(10);
+    int count = 0;
+    while (ros::ok())
+    { 
+        std_msgs::String msg;
+        std::stringstream ss;
+        ss << "hello" <<count;
+        msg.data = ss.str();
+        ROS_INFO("%s"， msg.data.c_str());
+        chatter_pub.publish(msg);
+        ros::spinOnce();
+        loop_rate.sleep();
+        ++count;
+    }
+    return 0;
+}
+```
+
+### 5.ROS节点
+
+一个节点其实只不过是ROS程序包中的一个可执行文件。 ROS节点可以使用ROS客户库与其他节点通信。 节点可以发布或接收一个话题。 节点也可以提供或使用某种服务。  
+
+```shell
+# 运行所有ROS程序必须启动
+roscore
+```
+
+**节点处理工具**
+
+```shell
+$ rosnode
+rosnode is a command-line tool for printing information about ROS Nodes.
+
+Commands:
+	rosnode ping	test connectivity to node
+	rosnode list	list active nodes
+	rosnode info	print information about node
+	rosnode machine	list nodes running on a particular machine or list machines
+	rosnode kill	kill a running node
+	rosnode cleanup	purge registration information of unreachable nodes
+
+Type rosnode <command> -h for more detailed usage, e.g. 'rosnode ping -h'
+
+```
+
+### 6.ROS话题
+
+话题是节点用来传输数据的总线。 通过话题进行消息路由不需要节点之间直接连接， 这就意味着发布者和订阅者之间不需要知道彼此的存在。 同一个话题可以有多个订阅者， 也可以有多个发布者。 话题默认采用TCP/IP长连接的方式传输。话题之间的通信是通过在节点之间发送ROS消息实现的。 对于发布器(turtleteleopkey)和订阅器(turtulesim_node)之间的通信， 发布器和订阅器之间必须发送和接收相同类型的消息。 这意味着话题的类型是由发布在它上面的消息类型决定的。 使用rostopic type命令可以查看发布在某个话题上的消息类型。  
+
+```shell
+# 列出节点话题清单
+$ rostopic list
+rostopic is a command-line tool for printing information about ROS Topics.
+
+Commands:
+	rostopic bw	display bandwidth used by topic
+	rostopic delay	display delay of topic from timestamp in header
+	rostopic echo	print messages to screen
+	rostopic find	find topics by type
+	rostopic hz	display publishing rate of topic    
+	rostopic info	print information about active topic
+	rostopic list	list active topics
+	rostopic pub	publish data to topic
+	rostopic type	print topic or field type
+
+Type rostopic <command> -h for more detailed usage, e.g. 'rostopic echo -h'
+
+```
+
+
+
+### 7.rqt_graph
+
+rqt_graph是rqt程序包中的一部分， 它可以创建一个显示当前系统运行情况的动态图形 。
+
+打开新的终端
+
+```bash
+$ rosrun rqt_graph rqt_graph
+```
+
+rqt_plot命令可以实时显示一个发布到某个话题上的数据变化图形。   
+
+```bash
+$ rosrun rqt_plot rqt_plot
+```
+
