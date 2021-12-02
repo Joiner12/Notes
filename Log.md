@@ -1144,3 +1144,7 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:three:
 
 1. [Index of /releases/18.04.4 (ubuntu.com)](http://old-releases.ubuntu.com/releases/18.04.4/)
+
+## Log:four:
+
+1. [如何利用蓝牙5.0实现数据远程采集 - 一口Linux - 博客园 (cnblogs.com)](https://www.cnblogs.com/yikoulinux/p/14846652.html)
