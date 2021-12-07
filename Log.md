@@ -1148,3 +1148,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:four:
 
 1. [如何利用蓝牙5.0实现数据远程采集 - 一口Linux - 博客园 (cnblogs.com)](https://www.cnblogs.com/yikoulinux/p/14846652.html)
+
+## Log:two:
+
+1. [介紹 | python-style-guide (gitbooks.io)](https://python-guide.gitbooks.io/python-style-guide/content/index.html)
+2. 

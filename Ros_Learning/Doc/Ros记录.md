@@ -482,3 +482,7 @@ rqt_plot命令可以实时显示一个发布到某个话题上的数据变化图
 $ rosrun rqt_plot rqt_plot
 ```
 
+## 13.ROS应用
+
+### 1.串口通信
+
