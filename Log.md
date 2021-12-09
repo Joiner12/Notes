@@ -1152,4 +1152,4 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:two:
 
 1. [介紹 | python-style-guide (gitbooks.io)](https://python-guide.gitbooks.io/python-style-guide/content/index.html)
-2. 
+2. [NumPy 用户指南 | NumPy 中文](https://www.numpy.org.cn/user/)
