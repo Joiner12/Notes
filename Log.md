@@ -122,12 +122,6 @@ https://blog.csdn.net/qq_33039859/article/details/85248430
 
 5.matlab找出重写plot函数-参数检查
 
-6.Gaussian滤波
-
-https://loopvoid.github.io/2017/03/04/%E4%B8%80%E7%BB%B4%E4%BF%A1%E5%8F%B7%E7%9A%84%E9%AB%98%E6%96%AF%E6%BB%A4%E6%B3%A2/
-
-https://www.jianshu.com/p/961490ea0458
-
 ## Log:five:
 
 1.git push 
@@ -1153,3 +1147,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. [介紹 | python-style-guide (gitbooks.io)](https://python-guide.gitbooks.io/python-style-guide/content/index.html)
 2. [NumPy 用户指南 | NumPy 中文](https://www.numpy.org.cn/user/)
+
+## Log:four:
+
+1. [9_EdgeDetection (umd.edu)](https://www.cs.umd.edu/class/spring2021/cmsc426-0101/files/9_EdgeDetection.pdf)
+2. [python-将正态分布拟合到一维d - ITranslater](https://www.itranslater.com/qa/details/2583250181529535488)
