@@ -18,6 +18,16 @@
 
 [Matplotlib — Visualization with Python](https://matplotlib.org/)
 
+## 6.Scipy
+
+[SciPy](https://scipy.org/)
+
+## 7.sklearn
+
+https://sklearn.apachecn.org/#/
+
+[scikit-learn中文社区](https://scikit-learn.org.cn/)
+
 ## X.Other
 
 1. [break, continue, and return :: Learn Python by Nina Zakharenko](https://www.learnpython.dev/02-introduction-to-python/110-control-statements-looping/40-break-continue/#:~:text=break%2C continue%2C and return. break and continue allow,more of the statements contained inside of it.)
@@ -27,3 +37,5 @@
 5. [re — Regular expression operations — Python 3.10.1 documentation](https://docs.python.org/3/library/re.html)
 6. [pandas.DataFrame.append — pandas 1.3.4 documentation (pydata.org)](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.append.html)
 7. [pandas DataFrame表格(列)拼接（concat,append,join,merge）_wsp_1138886114的博客-CSDN博客_pandas 列拼接](https://blog.csdn.net/wsp_1138886114/article/details/101015664)
+7. [详解pandas的read_csv方法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/340441922)
+7. [Python range() Function (w3schools.com)](https://www.w3schools.com/python/ref_func_range.asp#:~:text=Python range () Function 1 Definition and Usage.,position to stop (not included). 4 More Examples)
