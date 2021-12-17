@@ -64,9 +64,11 @@ gridsearch.fit(X_train, y_train)
 
 
 
+![RSSI-FIT1-0](D:/Code/BlueTooth/pos_bluetooth_matlab/Fingerprinting/Doc/BLE-RSSI-CHAR/RSSI-FIT1-0.png)
 
+<p style="color:#56ff52;font-weight:bold;">关键点</p>
 
-
+指纹提取总体特征如何通过实际定位过程中局部特征完全反映。
 
 ## Reference
 
