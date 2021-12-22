@@ -1162,3 +1162,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 1. [Matplotlib subplots()函数 - Matplotlib教程™ (yiibai.com)](https://www.yiibai.com/matplotlib/matplotlib_subplots_function.html)
 2. knn ble fingerprinting `Blog`
 3. [机器学习基础（1）- ROC曲线理解 - 简书 (jianshu.com)](https://www.jianshu.com/p/2ca96fce7e81)
+
+## Log:three:
+
+1. numpy 矩阵运算（vs matlab）
+2. 
