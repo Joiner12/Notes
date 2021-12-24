@@ -1166,4 +1166,8 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:three:
 
 1. numpy 矩阵运算（vs matlab）
-2. 
+
+## Log:four:
+
+1. 多线程实现运行状态观察；
+
