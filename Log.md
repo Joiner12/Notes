@@ -1171,3 +1171,7 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 
 1. 多线程实现运行状态观察；
 
+## Log:two:
+
+1. [26【python】sprintf风格的字符串 - awildfish - 博客园 (cnblogs.com)](https://www.cnblogs.com/helww/p/9906411.html)
+2. 
