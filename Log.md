@@ -1174,4 +1174,12 @@ ros::Subscriber sub = nh.subscribe<std_msgs::String>("chatter", 10, doMsg);
 ## Log:two:
 
 1. [26【python】sprintf风格的字符串 - awildfish - 博客园 (cnblogs.com)](https://www.cnblogs.com/helww/p/9906411.html)
-2. 
+
+## Log:three:
+
+1. [实战：使用 PyTorch 和 OpenCV 实现实时目标检测系统 - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1856794)
+2. [Automatic Vision Object Tracking : 11 Steps (with Pictures) - Instructables](https://www.instructables.com/Automatic-Vision-Object-Tracking/)
+3. [Building a Real-Time Object Recognition App with Tensorflow and OpenCV | by Dat Tran | Towards Data Science](https://towardsdatascience.com/building-a-real-time-object-recognition-app-with-tensorflow-and-opencv-b7a2b4ebdc32)
+4. [Real-Time Object Recognition Using a Webcam and Deep Learning - dong1 - 博客园 (cnblogs.com)](https://www.cnblogs.com/dong1/p/14333747.html)
+5. [教你如何用python操作摄像头以及对视频流的处理 / 张生荣 (zhangshengrong.com)](https://www.zhangshengrong.com/p/v710KZ2RXM/)
+6. [OpenCV Video Capture - javatpoint](https://www.javatpoint.com/opencv-videocapture)
