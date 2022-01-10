@@ -257,3 +257,7 @@
 ## Log:five:
 
 1. **投票+爬虫**
+
+## Log:one:
+
+1. [Classification Using Nearest Neighbors - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/stats/classification-using-nearest-neighbors.html) -blog

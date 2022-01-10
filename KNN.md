@@ -70,6 +70,10 @@ gridsearch.fit(X_train, y_train)
 
 指纹提取总体特征如何通过实际定位过程中局部特征完全反映。
 
+
+
+kdtree构建了一种用于搜索的存储树形结构；
+
 ## Reference
 
 1. [The k-Nearest Neighbors (kNN) Algorithm in Python – Real Python](https://realpython.com/knn-python/)
@@ -81,3 +85,4 @@ gridsearch.fit(X_train, y_train)
 1. [Python成神之路 - 深度学习-标准化、归一化以及数据处理 (iitter.com)](https://python.iitter.com/other/86511.html)
 1. [Classification Using Nearest Neighbors - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/stats/classification-using-nearest-neighbors.html)
 1. [k-nearest neighbor classification - MATLAB (mathworks.com)](https://www.mathworks.com/help/stats/classificationknn.html)
+1. [2. KNN和KdTree算法实现 - hyc339408769 - 博客园 (cnblogs.com)](https://www.cnblogs.com/huangyc/p/10294307.html)
