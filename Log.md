@@ -261,3 +261,7 @@
 ## Log:one:
 
 1. [Classification Using Nearest Neighbors - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/stats/classification-using-nearest-neighbors.html) -blog
+
+## Log:four:
+
+1.[MATLAB面向对象编程模式上 - 简书 (jianshu.com)](https://www.jianshu.com/p/87d5d0634a2d)
