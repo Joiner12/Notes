@@ -265,3 +265,9 @@
 ## Log:four:
 
 1.[MATLAB面向对象编程模式上 - 简书 (jianshu.com)](https://www.jianshu.com/p/87d5d0634a2d)
+
+## Log:five:
+
+1.歌词图片
+
+[html 歌词同步滚动实现思路深入解析 - 乔一亖 - 博客园 (cnblogs.com)](https://www.cnblogs.com/joyce33/p/13501197.html)
