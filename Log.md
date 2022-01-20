@@ -271,3 +271,16 @@
 1.歌词图片
 
 [html 歌词同步滚动实现思路深入解析 - 乔一亖 - 博客园 (cnblogs.com)](https://www.cnblogs.com/joyce33/p/13501197.html)
+
+## Log:one:
+
+**Binance**
+
+1. [Binance Python API – A Step-by-Step Guide - AlgoTrading101 Blog](https://algotrading101.com/learn/binance-python-api-guide/)
+2. [Welcome to python-binance v1.0.15 — python-binance 0.2.0 documentation](https://python-binance.readthedocs.io/en/latest/)
+
+## Log:two:
+
+1. [Ubuntu使用crontab定时执行python脚本 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/341901663)
+2. Blog → Ubuntu定时执行python脚本 [√]
+
