@@ -284,3 +284,11 @@
 1. [Ubuntu使用crontab定时执行python脚本 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/341901663)
 2. Blog → Ubuntu定时执行python脚本 [√]
 
+## Log:two:
+
+1. [Linux Ubuntu 下安装使用selenium 环境搭建-学习笔记-JerryCoding个人博客](https://www.jerrycoding.com/article/linux-selenium/)
+2. [ubuntu 使用cron设置定时启动任务 - lonmy - 博客园 (cnblogs.com)](https://www.cnblogs.com/lonmyblog/p/8006789.html#:~:text=cron，是一个Linux定时执行工具，可以在无需人工干预的情况下运行作业。 在Ubuntu,server 下，cron是被默认安装并启动的；如果没有启动，自行设置并启动 (chkconfigsysv-rc-conf)。)
+
+## Log:three:
+
+1. [Python try except异常处理详解（入门必读） (biancheng.net)](http://c.biancheng.net/view/4599.html)
