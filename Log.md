@@ -292,3 +292,20 @@
 ## Log:three:
 
 1. [Python try except异常处理详解（入门必读） (biancheng.net)](http://c.biancheng.net/view/4599.html)
+
+## Log:three:
+
+1. [How to Schedule Python Scripts As Cron Jobs With Crontab - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-schedule-python-scripts-as-cron-jobs-with-crontab/)
+2. [python-crontab · PyPI](https://pypi.org/project/python-crontab/)
+3. [python-crontab 设置定时任务 - 简书 (jianshu.com)](https://www.jianshu.com/p/925de5998e1d)
+4. [在 Linux 中安全且轻松地管理 Cron 定时任务 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/45998227)
+5. [Crontab内环境变量与Shell环境变量的关系及解决问题的办法_canyue2811的博客-CSDN博客_crontab 环境变量](https://blog.csdn.net/weixin_36343850/article/details/79217611)
+
+## Log:four:
+
+1. [Ubuntu查看crontab运行日志_Tim-CSDN博客_ubuntu 查看cron日志](https://blog.csdn.net/zhuangtim1987/article/details/52280409)
+2. [Ubuntu 文件查找 - Bing](https://cn.bing.com/search?q=Ubuntu 文件查找  &qs=n&form=QBRE&=%eManage Your Search History%E&sp=-1&pq=ubuntu 文件查找 &sc=3-12&sk=&cvid=340181E12AFB4CBBA4C0100369659765)
+3. [鸟哥的 Linux 私房菜 -- 文件与目录管理 (vbird.org)](http://cn.linux.vbird.org/linux_basic/0220filemanager_5.php)
+4. [解决crontab运行python脚本不生效 - 简书 (jianshu.com)](https://www.jianshu.com/p/ca1424761024)
+4. [python中yield的用法详解——最简单，最清晰的解释_mieleizhi0522的博客-CSDN博客_yield](https://blog.csdn.net/mieleizhi0522/article/details/82142856)
+4. [ubuntu 20.04-关上笔记本盖子不自动休眠_以梦为境-CSDN博客_ubuntu20 合盖不休眠](https://blog.csdn.net/weixin_47689683/article/details/114102284#:~:text=在默认情况下，笔记本合上屏幕后，ubuntu系统会休眠，但是通过更改配置可以使笔记本合上盖子不进去休眠，方法如下： 修改,Login Manager的配置文件。 打开终端：)
