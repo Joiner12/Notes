@@ -309,3 +309,29 @@
 4. [解决crontab运行python脚本不生效 - 简书 (jianshu.com)](https://www.jianshu.com/p/ca1424761024)
 4. [python中yield的用法详解——最简单，最清晰的解释_mieleizhi0522的博客-CSDN博客_yield](https://blog.csdn.net/mieleizhi0522/article/details/82142856)
 4. [ubuntu 20.04-关上笔记本盖子不自动休眠_以梦为境-CSDN博客_ubuntu20 合盖不休眠](https://blog.csdn.net/weixin_47689683/article/details/114102284#:~:text=在默认情况下，笔记本合上屏幕后，ubuntu系统会休眠，但是通过更改配置可以使笔记本合上盖子不进去休眠，方法如下： 修改,Login Manager的配置文件。 打开终端：)
+
+## Log:one:
+
+1. [装饰器 - 廖雪峰的官方网站 (liaoxuefeng.com)](https://www.liaoxuefeng.com/wiki/1016959663602400/1017451662295584)
+
+## Log:two:
+
+1. [Flask-SocketIO的使用_奔跑的豆子的专栏-CSDN博客](https://blog.csdn.net/y472360651/article/details/116545273)
+
+## Log:three:
+
+1. [python导入自定义模块方法 - 简书 (jianshu.com)](https://www.jianshu.com/p/6692b48c7295)
+2. [python SPYDER入门一（安装及增长搜索路径）超详细 - 菜鸟学院 (noobyard.com)](http://www.noobyard.com/article/p-mhbnmdqw-db.html)
+
+## Log:four:
+
+1. [用 Python 和币安 API 构建数字货币交易机器人（三）-技术圈 (proginn.com)](https://jishuin.proginn.com/p/763bfbd5a9e6)
+
+## Log:one:
+
+1. 没有足够的运势，就需要更多的努力和谨慎；当你想要成事的时候会，问题就会出现，这就是对人的考验。
+
+## Log:three:
+
+1. 战略 战术
+
