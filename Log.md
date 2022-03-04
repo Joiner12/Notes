@@ -333,5 +333,33 @@
 
 ## Log:three:
 
-1. 战略 战术
+1. 战术上的勤奋，难以弥补战略的懒惰。
 
+## Log:four:
+
+1. [地理空间情报学教程 - 读书网|dushu.com](https://www.dushu.com/book/13146980/)
+
+## Log:one:
+
+1. [WebSocket 详解教程 - 静默虚空 - 博客园 (cnblogs.com)](https://www.cnblogs.com/jingmoxukong/p/7755643.html)
+2. [使用python从币安爬取数字货币历史行情数据_linchaolong的专栏-程序员秘密_币安历史数据 - 程序员秘密 (cxymm.net)](https://www.cxymm.net/article/linchaolong/119176881)
+3. [python获取币安k线数据 - 程序员秘密 (cxymm.net)](https://www.cxymm.net/searchArticle?qc=python获取币安k线数据&page=1)
+
+## Log:two:
+
+1. [如何用matlab画股市K线，修改内置candle函数_肆拾伍的博客-CSDN博客_matlab 画k线](https://blog.csdn.net/qq_43157190/article/details/94412482)
+2. [candlesticks - File Exchange - MATLAB Central (mathworks.com)](https://www.mathworks.com/matlabcentral/fileexchange/74860-candlesticks)
+3. [candlestick chart plot - File Exchange - MATLAB Central (mathworks.com)](https://www.mathworks.com/matlabcentral/fileexchange/79589-candlestick-chart-plot)
+
+## Log:three:
+
+1. Avatar
+2. [详解pandas的read_csv方法 - 古明地盆 - 博客园 (cnblogs.com)](https://www.cnblogs.com/traditional/p/12514914.html)
+
+## Log:four:
+
+1. [pandas.DataFrame.astype — pandas 1.4.1 documentation (pydata.org)](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.astype.html#pandas.DataFrame.astype)
+2. [python ISO 转化为datatime,datatime日期时钟增减方法 - 简书 (jianshu.com)](https://www.jianshu.com/p/1fa52ea9dbef)
+3. [Pandas高级教程之:plot画图详解 - flydean - 博客园 (cnblogs.com)](https://www.cnblogs.com/flydean/p/14979942.html)
+4. [Pandas日期时间格式化 (biancheng.net)](http://c.biancheng.net/pandas/date-formatting.html)
+5. [matplotlib - Pandas bar plot changes date format - Stack Overflow](https://stackoverflow.com/questions/30133280/pandas-bar-plot-changes-date-format)
