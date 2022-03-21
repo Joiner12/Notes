@@ -363,3 +363,10 @@
 3. [Pandas高级教程之:plot画图详解 - flydean - 博客园 (cnblogs.com)](https://www.cnblogs.com/flydean/p/14979942.html)
 4. [Pandas日期时间格式化 (biancheng.net)](http://c.biancheng.net/pandas/date-formatting.html)
 5. [matplotlib - Pandas bar plot changes date format - Stack Overflow](https://stackoverflow.com/questions/30133280/pandas-bar-plot-changes-date-format)
+
+## Log:five:
+
+1. [pandas中DataFrame 数据合并，连接（merge,join,concat)_Paulzhao6518的博客-CSDN博客_dataframe 连接](https://blog.csdn.net/qq_41853758/article/details/83280104)
+2. [给Python代码加上酷炫进度条的几种姿势 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/145568973)
+3. [python之Rich库使用入门(打印彩色字体，表单，进度条与状态动画，高级数据类型)_CBeat的博客-程序员信息网_python rich - 程序员信息网 (i4k.xyz)](https://www.i4k.xyz/article/qq_43954124/112772262)
+4. [Python进度条 - 墨天轮 (modb.pro)](https://www.modb.pro/db/75816)
