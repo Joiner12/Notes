@@ -370,3 +370,27 @@
 2. [给Python代码加上酷炫进度条的几种姿势 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/145568973)
 3. [python之Rich库使用入门(打印彩色字体，表单，进度条与状态动画，高级数据类型)_CBeat的博客-程序员信息网_python rich - 程序员信息网 (i4k.xyz)](https://www.i4k.xyz/article/qq_43954124/112772262)
 4. [Python进度条 - 墨天轮 (modb.pro)](https://www.modb.pro/db/75816)
+
+## Log:one:
+
+1. [What Is hiberfil.sys and How Do I Delete It? (howtogeek.com)](https://www.howtogeek.com/howto/15140/what-is-hiberfil.sys-and-how-do-i-delete-it/)
+2. [How to Reduce Windows.edb Huge File Size? | Windows OS Hub (woshub.com)](http://woshub.com/windows-edb-file-too-big-how-to-reduce-size/)
+
+## Log:two:
+
+1. [在ros中利用C++订阅话题输出为TXT文本及从文本读取发布话题_T努力的路上_享受生活的博客-CSDN博客_ros 读取txt](https://blog.csdn.net/qq_45281711/article/details/109370784)
+2. [视觉-惯导多传感器融合（1）IMU & ROS_Techblog of HaoWANG的博客-CSDN博客](https://blog.csdn.net/hhaowang/article/details/121249997)
+3. [ROS小车记录系列（二）IMU采集、过滤，与odom数据融合，发布新的odom话题 - 代码先锋网 (codeleading.com)](https://www.codeleading.com/article/67504287797/)
+4. [ROS中将话题数据保存到txt文档_荒-于-嬉的博客-CSDN博客](https://blog.csdn.net/weixin_42591529/article/details/115285714)
+5. [ros自定义msg消息类型及roslaunch启动多节点 | ldg个人博客 (ldgcug.github.io)](https://ldgcug.github.io/2019/07/13/ROS/ros自定义msg消息类型及roslaunch启动多节点/)
+
+## Log:three:
+
+:arrow_right:
+
+1. [IMU模型以及校准知识总结-Ⅰ - wykxwyc的博客 | wykxwyc's Blog](https://wykxwyc.github.io/2019/04/12/Summary-of-IMU-Model-and-Calibration/)
+2. [VIO标定IMU随机误差：Allan方差法_$南山种豆$的博客-CSDN博客_imu随机误差标定](https://blog.csdn.net/YunLaowang/article/details/95608107)
+
+## Log:five:
+
+1. 自建服务器
