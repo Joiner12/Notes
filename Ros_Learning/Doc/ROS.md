@@ -1,14 +1,6 @@
 # A Gentle Introduction to Ros
 
 
-
-<div style="text-align:center;">
-    <img src="https://gitee.com/RiskyJR/pic-bed/raw/master/20220110111619.png" style="zoom:50%;">
-</div>
-
-
-
-
 ## 1.介绍:selfie:
 
 ​	ROS 是一个开源的、用于机器人的元操作系统。 它提供包括硬件抽象、低级设备控制、常用功能的实现、进程之间的消息传递和包管理。 它还提供用于在多台计算机上获取、构建、编写和运行代码的工具和库。
@@ -19,13 +11,38 @@
 
 ### 2.1 ROS安装
 
-[wiki.ros.org/ROS/Installation](http://wiki.ros.org/ROS/Installation)
+1. 鱼香ROS—一行代码解决人生困惑
 
-[indigo/Installation/Ubuntu - ROS Wiki](http://wiki.ros.org/indigo/Installation/Ubuntu)
+   ```bash
+   wget http://fishros.com/install -O fishros && . fishros
+   ```
 
-### 2.2 Configuring your account
+   [一行代码解决烦恼 (fishros.com)](https://fishros.com/docs/page/#/tools/install-ros/一行代码安装完成ROS)
 
-### 2.3 A minimal example using turtlesim
+2. 官网安装
+
+   [1] [wiki.ros.org/ROS/Installation](http://wiki.ros.org/ROS/Installation)
+
+   [2] [indigo/Installation/Ubuntu - ROS Wiki](http://wiki.ros.org/indigo/Installation/Ubuntu)
+
+3. 检查Ubuntu版本
+
+   ```bash
+   lsb_release -a
+   # No LSB modules are available.
+   # Distributor ID:	Ubuntu
+   # Description:	Ubuntu 18.04.6 LTS
+   # Release:	18.04
+   # Codename:	bionic
+   ```
+
+4. 安装turtlesim功能包
+
+   ```bash
+   $ sudo apt-get install ros-indigo-turtlesim
+   ```
+
+### 2.2 运行turtle——最小实例
 
 小海龟，在三个独立的终端中，执行这三个命令： 
 
@@ -35,7 +52,7 @@ $ rosrun turtlesim turtlesim_node
 $ rosrun turtlesim turtle_teleop_key
 ```
 
-### 2.4 功能包(Packages)
+### 2.3 功能包(Packages)
 
 ROS 中的软件以包的形式组织。 一个包可能包含 ROS 节点、一个与 ROS 无关的库、一个数据集、配置文件、第三方软件或任何其他逻辑上构成有用模块的东西。 这些软件包的目标是以易于使用的方式提供这种有用的功能，以便可以轻松地重用软件。 一般来说，ROS 包遵循“金发姑娘”原则：足够的功能是有用的，但不会太多以至于包是重量级的并且难以从其他软件中使用。 在示例中，使用了两个名为turtlesim_node 和turtle_teleop_key 的可执行文件，它们都是turtlesim 包的成员。 [Packages - ROS Wiki](http://wiki.ros.org/Packages)
 
@@ -45,9 +62,9 @@ ROS 中的软件以包的形式组织。 一个包可能包含 ROS 节点、一�
 $ rospack list
 ```
 
-每个包都由一个清单定义，该清单是一个名为 package.xml 的文件。 此文件定义了有关包的一些详细信息，包括其名称、版本、维护者和依赖项。 包含 package.xml 的目录称为包目录。 （在 事实上，这是一个 ROS 包的定义：任何 ROS 能找到的包含名为 package.xml 的文件的目录都是一个包目录。）这个目录存储了大部分包的文件。
+每个包都由一个清单定义，该清单是一个名为 *package.xml* 的文件。 此文件定义了有关包的一些详细信息，包括其名称、版本、维护者和依赖项。 包含 *package.xml* 的目录称为包目录。（事实上，这是一个 ROS 包的定义：任何 ROS 能找到的包含名为 *package.xml* 的文件的目录都是一个**包目录**。）这个目录存储了大部分包的文件。
 
-要查找单个包的目录，请使用 rospack find 命令： 
+要查找单个包的目录，使用 rospack find 命令： 
 
 ```powershell
 $ rospack find package-name
@@ -65,17 +82,18 @@ $ rospack find package-name
 $ rosls package-name 
 ```
 
-如果您想“转到”包目录，可以使用如下命令将当前目录更改为特定包： 
+如果想“转到”包目录，可以使用如下命令将当前目录更改为特定包： 
 
-<img src="img.img">
+```bash
+$ # 跳转到功能包指定子文件夹
+$ roscd package-name/directory 
+$ # 或者直接跳转功能包文件夹
+$ roscd package-name
+```
 
-使用rosls和roscd查看turtlesim使用的海龟图片。 eog 命令是“侏儒之眼”图像查看器。 
+### 2.4 master
 
-
-
-### The master
-
-ROS Master 为 ROS 系统中的其余节点提供命名和注册服务。 它跟踪主题和服务的发布者和订阅者。 Master 的作用是使各个 ROS 节点能够相互定位。 一旦这些节点相互定位，它们就会相互进行点对点通信。 Master 还提供参数服务器。 Master 最常使用 roscore 命令运行，该命令加载 ROS Master 以及其他基本组件。 [Master - ROS Wiki](http://wiki.ros.org/Master)
+ROS 中Master 为 ROS 系统中的其余节点提供命名和注册服务。 它跟踪主题和服务的发布者和订阅者。 Master 的作用是使各个 ROS 节点能够相互定位。 一旦这些节点相互定位，它们就会相互进行点对点通信。 Master 还提供参数服务器。 Master 最常使用 roscore 命令运行，该命令加载 ROS Master 以及其他基本组件。 [Master - ROS Wiki](http://wiki.ros.org/Master)
 
 ```powershell
 $ roscore
@@ -83,48 +101,60 @@ $ roscore
 
 roscore 不接受任何参数，也不需要配置 。您应该允许 master 在您使用 ROS 的整个时间内继续运行。 大多数 ROS 节点在启动时连接到主节点，如果稍后连接失败，则不会尝试重新连接。 因此，如果你停止roscore，此时运行的任何其他节点都将无法建立新的连接，即使你稍后重启roscore。 
 
-### Nodes
+### 2.5 节点(Nodes)
 
 一旦你启动了 roscore，你就可以运行使用 ROS 的程序。 ROS 程序的运行实例称为节点(Node)。 [Nodes - ROS Wiki](http://wiki.ros.org/Nodes)
 
-在turtlesim 示例中，我们创建了两个节点。 一个节点是一个名为turtlesim_node 的可执行文件的实例。 该节点负责创建turtlesim窗口并模拟海龟的运动。 第二个节点是一个名为turtle_teleop_key 的可执行文件的实例。 缩写teleop 是缩写形式 远程操作一词，指的是人类远程控制机器人的情况 通过给出直接的移动命令。 该节点等待箭头键被按下， 将该按键转换为移动命令，并将该命令发送到turtlesim- _node 节点。创建节点（也称为“运行 ROS 程序”）的基本命令是 rosrun。
+在turtlesim 示例中，我们创建了两个节点。 一个节点是一个名为turtlesim_node 的可执行文件的实例。 该节点负责创建turtlesim窗口并模拟海龟的运动。 第二个节点是一个名为turtle_teleop_key 的可执行文件的实例。通过给出直接的移动命令。 该节点等待箭头键被按下， 将该按键转换为移动命令，并将该命令发送到turtlesim_node节点。创建节点（也称为“运行 ROS 程序”）的基本命令是 rosrun。
 
 ```powershell
 $ rosrun package-name executable-name
 ```
 
-rosrun 有两个必需的参数。 第一个参数是包名。第二个参数只是一个名称 该包中的可执行文件。
+rosrun 有两个必需的参数。 第一个参数是功能包名。第二个参数只是一个名称为该功能包中的可执行文件。
 
 ROS 提供了几种方法来获取有关在任何特定时间运行的节点的信息：
 
-```powershell
-$ rosnode list
->> /rosout
->> /telsop_turtle
->> /turtlesim
-```
+- 列出活动节点
 
-/rosout 节点是一个特殊的节点，由 roscore 自动启动。 它的目的有点类似于您可能使用的标准输出（即 std::cout） 在控制台程序中。 
+  ```bash
+  $ rosnode list
+  >> /rosout
+  >> /telsop_turtle
+  >> /turtlesim
+  ```
 
-您可以使用以下命令获取有关特定节点的一些信息：
+  /rosout 节点是一个特殊的节点，由 roscore自动启动。它的目的有点类似于在控制台程序中使用的标准输出（即 std::cout） 。 
 
-```
-rosnode info node-name
-```
+- 检查节点信息
 
-### topics and message
+  获取有关特定节点的一些信息
+
+  ```bash
+  $ rosnode info node-name
+  ```
+
+- 停止节点
+
+  ```bash
+  $ rosnode kill node-name
+  ```
+
+  与停止和重启master不同，停止和重启一个节点通常不会对其他节点产生重大影响； 即使对于正在交换消息的节点，这些连接也会在节点被终止时被丢弃，并在节点重新启动时重新建立。 
+
+### 2.6 话题和消息(topics and message)
 
 节点之间是如何实现信息交换的？
 
 ROS节点用以通信的主要机制是发送信息，信息被命名为`话题(topics)` 。基本思想是：想要共享信息的节点将发布有关适当话题； 想要接收信息的节点将订阅它感兴趣的一个或多个话题。 `master` 负责确保发布者和订阅者可以找到彼此； 消息本身直接从发布者发送到订阅者。
 
-#### 查看发布-订阅关系图
+#### 2.6.1 查看发布-订阅关系图
 
 ```bash
-rqt_graph
+$ rqt_graph
 ```
 
-<img src="https://gitee.com/RiskyJR/pic-bed/raw/master/20220315101031.png">
+<img src="D:\pic-bed\20220315101031.png">
 
 椭圆形：节点
 
@@ -132,7 +162,7 @@ rqt_graph
 
 话题/turtle1/cmd_vel是由于/teleop_turtle发布，由/turtlesim订阅；
 
-#### Message and message types
+#### 2.6.2 消息和消息类型(Message and message types)
 
 ```bash
 #1. 列出活动节点
@@ -144,23 +174,13 @@ rostopic hz topic-name
 rostopic bw topic-name
 ```
 
-#### Inspecting a topic
-
-了解节点详细信息
+#### 2.6.3 检查消息类型(Inspecting a message)
 
 ```bash
-rostopic info topic-name
+$ rosmsg show message-type-name
 ```
 
-#### Inspecting a message
-
-检查消息类型
-
-```bash
-rosmsg show message-type-name
-```
-
-#### Publishing messages from the command line
+#### 2.6.4 命令行发布消息
 
 大多数情况下，发布消息的工作是由专门的程序完成的。但是，有时会发现手动发布消息很有用。 
 
@@ -171,92 +191,127 @@ rostopic pub -r 1 /turtle1/cmd_vel geometry_msgs/Twist ’[0, 0, 0]’ ’[0, 0,
 
 [ROS自定义msg类型及使用_张京林要加油的技术专栏-CSDN博客_ros 自定义msg](https://blog.csdn.net/u013453604/article/details/72903398)
 
-## Writing Ros programs
+## 3.ROS 编程
 
-### Creating a workspace and a package
+### 3.1 创建工作空间和功能包
 
 **工作空间的概念**
 
-<img src="https://gitee.com/RiskyJR/pic-bed/raw/master/20220315165104.png" style="zoom:50%">
+ROS中的所有软件都是以功能包的形式组织的，工作空间用来组织这些功能包。工作空间文件结构如下：
+
+<img src="D:\pic-bed\20220315165104.png" style="zoom:50%">
 
 ---
 
-**Creating a workspace and a package** 
+- **创建工作空间** 
 
-```bash
-# 创建工作空间&编译
-$ mkdir -p ~/catkin_ws/src
-$ cd ~/catkin_ws/
-$ catkin_make
-```
+  ```bash
+  # 创建工作空间&编译
+  $ mkdir -p ~/catkin_ws/src
+  $ cd ~/catkin_ws/
+  $ catkin_make
+  ```
 
-**catkin_make**
+  catkin_make 命令是使用 catkin 工作空间的便捷工具。 第一次在工作区中运行，将在"src"文件夹中创建一个 CMakeLists.txt 链接。 
 
-catkin_make 命令是使用 catkin 工作空间的便捷工具。 第一次在工作区中运行，将在“src”文件夹中创建一个 CMakeLists.txt 链接。 
+  [catkin/Tutorials/create_a_workspace - ROS Wiki](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 
-**Creating a package**
+- **创建功能包**
 
-实际上，这个包创建命令并没有做太多的事情：它创建一个目录来保存包，并在该目录中创建两个配置文件：
+  创建功能包基本指令，它创建一个目录来保存功能包并在该目录中创建两个配置文件，*package.xml*，*CMakeLists.txt*。
 
-package.xml
+  ```bash
+  $ catkin_create_pkg package-name
+  ```
 
-CMakeLists.txt
+  实例
 
-```bash
-# 工作空间的src文件路径下运行
-$ cd ~/catkin_ws/src
-# 创建一个名字为beginner_tutorials 依赖库为 std_msgs rospy roscpp的功能包
-# 标准语法:
-# catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
-$ catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+  ```bash
+  # 工作空间的src文件路径下运行
+  $ cd ~/catkin_ws/src
+  # 创建一个名字为beginner_tutorials 依赖库为 std_msgs rospy roscpp的功能包
+  # 标准语法:
+  # catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
+  $ catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+  
+  ```
 
-```
+### 3.2 Hello,ROS
 
-**Compiling the Hello program**  
+1. **源码**
 
-- Declaring dependencies
+   在功能包下的"src"文件夹中创建一个hello.cpp文件。文件内容如下：
 
-需要声明依赖的其他包。 对于 C++ 程序，需要这一步主要是为了确保 catkin 为 C++ 编译器提供适当的标志来定位它需要的头文件和库。 
+   ```cpp
+   // this head define the ROS basic classes
+   # include <ros/ros.h>
+   int main(int argc,char **argv)
+   {
+       // initialize the ROS system
+       ros::init(argc,argv,"hello_ros");
+       // establish this program as a ROS node
+       ros::NodeHandle nh;
+       // console print
+       ROS_INFO_STREAM("Hello ROS");
+   }
+   ```
 
+2. **编译**
 
+   ROS的编译是通过catkin完成的，编译过程包括四步：
 
-```cmake
-# CmakeLists.txt
-# 依赖包
-find_package(catkin REQUIRED COMPONENTS package-names)
-# package.xml
-# 使用 build_depend 和 run_depend 元素在包清单（package.xml）中列出依赖项
-# 编译依赖项
-<build_depend>package-name</build_depend>
-# 运行依赖项
-<run_depend>package-name</run_depend>
+   - 首先，需要声明程序依赖的其他包。 对于C++程序，这一步主要是为了确保 catkin 为 C++ 编译器提供适当的标志来定位它需要的头文件和库。 要列出依赖项，需要编辑包目录中的CMakeLists.txt。默认值为：
 
-```
+     ```makefile
+     find_package(catkin REQUIRED)
+     ```
 
-- Declaring an executable  
+     要添加其他依赖包，需要COMPONENTS 部分添加：
 
-  接下来，需要在 CMakeLists.txt 中添加两行来声明想要创建的可执行文件。
+     ```makefile
+     find_package(catkin REQUIRED COMPONENTS package-names)
+     ```
 
-```cmake
-add_executable(executable-name source-files)
-target_link_libraries(executable-name ${catkin_LIBRARIES})
-```
+     包清单 (package.xml) 中用 *build_depend* 和 *run_depend* 元素在列出依赖项： 
 
-第一行声明了想要的可执行文件的名称，以及应该组合成该可执行文件的源文件列表。 如果有多个源文件，在此处列出所有源文件，并用空格分隔。 第二行告诉 CMake 在链接这个可执行文件时使用适当的库标志（由上面的 find_package 行定义）。 如果功能包包含多个可执行文件，需要为每个拥有的可执行的文件复制并修改这两行。 
+     ```xml
+     <build_depend>package-name</build_depend>
+     <run_depend>package-name</run_depend>
+     ```
 
-- Building the workspace  
+   - 声明可执行文件 
 
-  在workspace目录下编译多个功能包；
+     在CMakeLists.txt中添加两行声明要创建的可执行文件。 一般形式是 :
 
-- Sourcing setup.bash   
+     ```makefile
+     add_executable(executable-name source-files)
+     target_link_libraries(executable-name ${catkin_LIBRARIES})
+     ```
 
-  这个自动生成的脚本设置了几个环境变量，使 ROS 能够找到您的包及其新生成的可执行文件。 
+     如果包含多个可执行文件，为每个可执行文件复制并修改这两行。
 
-```bash
-source devel/setup.bash
-```
+     实例：
 
-### Executing the hello program 
+     ```makefile
+     add_executable(hello hello.cpp)
+     target_link_libraries(hello ${catkin_LIBRARIES})
+     ```
+
+     
+
+   - 编译工作空间
+
+     使用catkin编译工作空间中所有的可执行文件，因为它旨在构建工作空间中的所有包，所以必须从工作空间目录运行此命令。
+
+   - **Sourcing** setup.bash
+
+     最后一步是执行一个名为 setup.bash 的脚本，该脚本由 catkin_make 在工作区的 devel 子目录中创建。运行的作用是自动生成的脚本设置了几个环境变量，使 ROS 能够找到包及其新生成的可执行文件。需要在每个终端执行一次，即使修改代码并使用 catkin_make 重新编译，但是修改文件夹结构需要重新source。
+
+     ```bash
+     $ source devel/setup.bash
+     ```
+
+3. **运行程序**
 
 ```bash
 # 启动master节点
@@ -274,6 +329,10 @@ rosrun [package_name] [node_name]
 5. [ROS/Tutorials/BuildingPackages - ROS Wiki](http://wiki.ros.org/ROS/Tutorials/BuildingPackages)
 6. [ROS 工作空间、package 及 catkin 编译系统 - 简书 (jianshu.com)](https://www.jianshu.com/p/8b8029e93f32)
 7. [ROS development with Visual Studio Code – Erdal's blog (erdalpekel.de)](https://erdalpekel.de/?p=157)
+
+### 3.3 话题发布和订阅
+
+
 
 ### A publisher program  
 
@@ -786,7 +845,77 @@ rosservice call /spawn 1 1 1 "lendo"
 
 从命令行调用服务对于探索和只需要偶尔做的事情很方便， 但是当然，能够从您的代码中调用服务会更有用。服务客户端的基本元素：
 
+```cpp
+#include <ros/ros.h>
+#include <turtlesim/Spawn.h>
+
+int main(int argc, char **argv) {
+  ros::init(argc, argv, "spawn_tuetle");
+  ros::NodeHandle nh;
+
+  //为spawn服务创建客户端实例
+  ros::ServiceClient spawnClient = nh.serviceClient<turtlesim::Spawn>("spawn");
+
+  // 创建请求和响应实例
+  turtlesim::Spawn::Request req;
+  turtlesim::Spawn::Response resp;
+
+  // 数据填充
+  req.x = 1;
+  req.y = 2;
+  req.theta = 1;
+  req.name = "whatthefuck";
+
+  // 调用服务
+  bool success = spawnClient.call(req, resp);
+  if (success) {
+
+    ROS_INFO_STREAM("fucl" << resp.name);
+  } else {
+    ROS_ERROR_STREAM("fuck u tommy");
+  }
+}
+```
+
+
+
 ### A server program
+
+```cpp
+#include <geometry_msgs/Twist.h>
+#include <ros/ros.h>
+#include <std_srvs/Empty.h>
+
+bool forward = true;
+bool toggleForward(std_srvs::Empty::Request &req,
+                   std_srvs::Empty::Request &resp) {
+  forward = !forward;
+  ROS_INFO_STREAM("CAONIMA " << (forward ? "forward" : "rotate") << "commands");
+  return true;
+}
+
+int main(int argc, char **argv) {
+  ros::init(argc, argv, "pubvel_toggle");
+  ros::NodeHandle nh;
+
+  // 注册服务器
+  ros::ServiceServer server =
+      nh.advertiseService("toggle_forward", &toggleForward);
+
+  // 发布指令
+  ros::Publisher pub =
+      nh.advertise<geometry_msgs::Twist>("turtle1/cmd_vel", 1000);
+  ros::Rate rate(2);
+  while (ros::ok()) {
+    geometry_msgs::Twist msg;
+    msg.linear.x = forward ? 1 : 1;
+    msg.linear.y = forward ? 0.0 : 1.0;
+    pub.publish(msg);
+    ros::spinOnce();
+    rate.sleep();
+  }
+}
+```
 
 
 
