@@ -404,3 +404,30 @@ IMU correct
 ## Log:four:
 
 1. [C语言系列（二）有符号数和无符号数详解_徐昊Xiho的博客-CSDN博客_有符号和无符号的区别](https://blog.csdn.net/u011974987/article/details/52142794)
+
+## Log:one:
+
+1. [In-Depth: Interface MPU6050 Accelerometer & Gyroscope Sensor with Arduino (lastminuteengineers.com)](https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/)
+2. signed → unsigned 原码、反码、补码转换。
+3. [Intro to Inertial Measurement Unit(IMU) Part 1 | by Niranjan Reddy | Medium](https://medium.com/@niru5/intro-to-inertial-measurement-unit-imu-part-1-47f19fc7d68d)
+4. [An introduction to inertial navigation (cam.ac.uk)](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf)
+5. [如何用Processing对MPU 6050的值进行3D建模 – 八色木 (basemu.com)](https://www.basemu.com/modeling-the-values-from-the-arduino-mpu-6050-in-3d-using-processing.html)
+6. [STM32 MPU6050数据获取（IIC + DMP） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/191646577)
+7. [ANO匿名飞控分析（3）— 姿态解算原理及代码分析_云端FFF的博客-CSDN博客_匿名姿态解算](https://blog.csdn.net/wxc971231/article/details/97449026)
+
+## Log:two:
+
+1. [Magnetometer Calibration - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/nav/ug/magnetometer-calibration.html?s_tid=srchtitle_imu calibration_3)
+
+## Log:three:
+
+1. [IMU Noise Model · ethz-asl/kalibr Wiki (github.com)](https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model)
+2. [(3条消息) IMU相关资料（github上所有有用的开源项目整理）_擦擦擦大侠的博客-CSDN博客_imu能够检测的项目包括](https://blog.csdn.net/chenshiming1995/article/details/105107578)
+3. https://blog.csdn.net/OKasy/article/details/104981566
+4. [IMU误差模型与校准 - 卜小乂 - 博客园 (cnblogs.com)](https://www.cnblogs.com/buxiaoyi/p/7541974.html#参考文献)
+
+## Log:four:
+
+1. [IMU噪声参数辨识-艾伦方差 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/158927004)
+2. [1.imu误差模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/129823676)
+3. [Inertial Sensor Noise Analysis Using Allan Variance - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/fusion/ug/inertial-sensor-noise-analysis-using-allan-variance.html)
