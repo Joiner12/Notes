@@ -426,8 +426,26 @@ IMU correct
 3. https://blog.csdn.net/OKasy/article/details/104981566
 4. [IMU误差模型与校准 - 卜小乂 - 博客园 (cnblogs.com)](https://www.cnblogs.com/buxiaoyi/p/7541974.html#参考文献)
 
+## Log:two:
+
+1. [UAV021（六--更新）：STM32F4读取MPU9250数据、USART2通过DMA获取SBUS协议数据 - 灰信网（软件开发博客聚合） (freesion.com)](https://www.freesion.com/article/93711092133/#MPU9250_21)
+2. [UAV021（二）：STM32F4实现IIC通信，读取10DOF数据（六轴传感器MPU6050+磁力计HMC5883+气压计MS5611） | 码农家园 (codenong.com)](https://www.codenong.com/cs106725545/)
+3. [用STM32F103的模拟IIC去读取陀螺仪、加速度、角度的数据_Fred_1986的博客-程序员宅基地 - 程序员宅基地 (cxyzjd.com)](https://www.cxyzjd.com/article/Fred_1986/108350958)
+
+## Log:three:
+
+1. [GY-91 - 随笔分类 - Lepton - 博客园 (cnblogs.com)](https://www.cnblogs.com/leptonation/category/792623.html)
+
 ## Log:four:
 
-1. [IMU噪声参数辨识-艾伦方差 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/158927004)
-2. [1.imu误差模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/129823676)
-3. [Inertial Sensor Noise Analysis Using Allan Variance - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/fusion/ug/inertial-sensor-noise-analysis-using-allan-variance.html)
+1. [pcdangio/ros-calibration_imu: ROS GUI utility for IMU calibration (github.com)](https://github.com/pcdangio/ros-calibration_imu)
+2. [ROS基础 6 | 角速度校准与IMU校准-电子工坊 (elelab.net)](http://www.elelab.net/angular-velocity-calibration-and-imu-calibration.html)
+3. [Kalibr使用：imu+camera联合标定过程详解 - 古月居 (guyuehome.com)](https://guyuehome.com/34592)
+4. [careweather/imu-calibration: Calibration procedure for the MPU9250's accelerometer, gyroscope, and magnetometer using Python and a Raspberry Pi Computer (github.com)](https://github.com/careweather/imu-calibration)
+5. [AlbertoJaenal/imu_still_calibration (github.com)](https://github.com/AlbertoJaenal/imu_still_calibration)
+6. [shenshikexmu/IMUCalibration-Gesture: calibration for Imu and show gesture (github.com)](https://github.com/shenshikexmu/IMUCalibration-Gesture)
+7. [IMU 标定 | 工业界和学术界有什么不同？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/54378150)
+8. [多传感器融合定位理论基础（三）：惯性器件误差分析 - 古月居 (guyuehome.com)](https://guyuehome.com/35085)
+
+
+
