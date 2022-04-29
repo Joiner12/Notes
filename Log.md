@@ -449,3 +449,21 @@ IMU correct
 
 
 
+## Log:two:
+
+1. [Orientation from accelerometer and gyroscope readings - MATLAB (mathworks.com)](https://www.mathworks.com/help/fusion/ref/imufilter-system-object.html)
+2. [Create a quaternion array - MATLAB (mathworks.com)](https://www.mathworks.com/help/robotics/ref/quaternion.html)
+3. [Rotations, Orientation, and Quaternions - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/fusion/ug/rotations-orientation-and-quaternions.html)
+4. [Quaternions and gyroscope | Lulu's blog (lucidar.me)](https://lucidar.me/en/quaternions/quaternion-and-gyroscope/)
+
+## Log:three:
+
+1. [Navigation Toolbox Documentation (mathworks.com)](https://www.mathworks.com/help/nav/index.html?s_tid=CRUX_lftnav)
+2. [matlab练习程序（罗德里格斯变换） - Dsp Tian - 博客园 (cnblogs.com)](https://www.cnblogs.com/tiandsp/p/14125376.html)
+3. [Vector-wise norm - MATLAB vecnorm (mathworks.com)](https://www.mathworks.com/help/matlab/ref/vecnorm.html)
+4. [_TZ_32678-magnolia-cs-iastate-edu.dvi (stanford.edu)](https://graphics.stanford.edu/courses/cs348a-17-winter/Papers/quaternion.pdf)
+5. [MPU6050姿态解算2-欧拉角&旋转矩阵 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/195683958)
+
+## Log:four:
+
+1. [首页-PSINS](http://www.psins.org.cn/sy)
