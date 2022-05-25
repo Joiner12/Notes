@@ -467,3 +467,33 @@ IMU correct
 ## Log:four:
 
 1. [首页-PSINS](http://www.psins.org.cn/sy)
+
+## Log:two:
+
+1. matlab figure root color white 
+2. matlab `cat`
+
+## Log:two:
+
+model of love & marriage
+
+[什么是波特率，波特率怎么计算_Crazzy_M的博客-CSDN博客_波特率](https://blog.csdn.net/qq_40147893/article/details/106539081)
+
+[stm32支持的波特率的问题_四点能的博客-CSDN博客_stm32串口最高波特率](https://blog.csdn.net/u010464679/article/details/52233554)
+
+## Log:three:
+
+1. matlab默认参数、可扩展参数；
+
+## Log:one:
+
+1. [四元数 | yangbenbo's blog](https://yangbenbo.github.io/2020/11/25/四元数/)
+2. [Understanding Quaternions 中文翻译《理解四元数》 (qiujiawei.com)](https://www.qiujiawei.com/understanding-quaternions/#4.2)
+
+## Log:two:
+
+1. [Runge-Kutta方法及其推导 - Zyuzhi Blog](https://blog.zyuzhi.me/2020/03/28/181.html)
+
+## Log:three:
+
+1. [使用MATLAB进行面向对象编程 – zxl19 – 一个研究生的存档点](https://zxl19.github.io/matlab-oop/)
