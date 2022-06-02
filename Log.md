@@ -497,3 +497,10 @@ model of love & marriage
 ## Log:three:
 
 1. [使用MATLAB进行面向对象编程 – zxl19 – 一个研究生的存档点](https://zxl19.github.io/matlab-oop/)
+
+## Log:four:
+
+1. [IIC详解，包括原理、过程，最后一步步教你实现IIC_shaguahaha的博客-CSDN博客_iic](https://blog.csdn.net/shaguahaha/article/details/70766665)
+1. [【STM32】IIC的基本原理（实例：普通IO口模拟IIC时序读取24C02）_Yngz_Miao的博客-CSDN博客_iic](https://blog.csdn.net/qq_38410730/article/details/80312357)
+1. 
+
