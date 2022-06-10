@@ -504,3 +504,7 @@ model of love & marriage
 1. [【STM32】IIC的基本原理（实例：普通IO口模拟IIC时序读取24C02）_Yngz_Miao的博客-CSDN博客_iic](https://blog.csdn.net/qq_38410730/article/details/80312357)
 1. 
 
+## Log:four:
+
+1. [Using Processing for Music Visualization (generativehut.com)](https://www.generativehut.com/post/using-processing-for-music-visualization)
+
