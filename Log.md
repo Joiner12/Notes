@@ -512,3 +512,16 @@ model of love & marriage
 
 1. 108
 2. 成都周边露营计划
+
+## Log:two:
+
+1. [Levenberg-Marquardt（列文伯格-马夸尔特）算法_圣书的博客-CSDN博客_levenberg-marquardt 算法](https://blog.csdn.net/u010922186/article/details/41214927)
+2. 
+
+## Log:four:
+
+1. matlab startup groot defaultFigureColor
+
+   [All available default settings for groot? - (mathworks.cn)](https://ww2.mathworks.cn/matlabcentral/answers/556696-all-available-default-settings-for-groot)
+
+   [用户定义的 MATLAB 启动脚本 - MATLAB startup - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/startup.html)
