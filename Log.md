@@ -525,3 +525,31 @@ model of love & marriage
    [All available default settings for groot? - (mathworks.cn)](https://ww2.mathworks.cn/matlabcentral/answers/556696-all-available-default-settings-for-groot)
 
    [用户定义的 MATLAB 启动脚本 - MATLAB startup - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/startup.html)
+
+## Log:five:
+
+1. [GitHub Pages 使用入门 - GitHub Docs](https://docs.github.com/cn/pages/getting-started-with-github-pages)
+
+## Log:one:
+
+1. [向量点乘（内积）和叉乘（外积、向量积）概念及几何意义解读_-牧野-的博客-CSDN博客_点乘](https://blog.csdn.net/dcrmg/article/details/52416832)
+
+
+
+## Log:three:
+
+1. [Hexo博客技巧：添加自定义html页面_Chak Aciano的博客-CSDN博客_hexo 使用html](https://blog.csdn.net/weixin_58068682/article/details/116611715)
+2. 
+
+## Log:two:
+
+1. [Python datetime模块详解、示例_cmzsteven的博客-CSDN博客_datetime](https://blog.csdn.net/cmzsteven/article/details/64906245)
+2. [Python三目表达式 - 林深处见鹿 - 博客园 (cnblogs.com)](https://www.cnblogs.com/hellovan/p/11180394.html#)
+3. [pandas 按行遍历Dataframe_Jepson2017的博客-CSDN博客_pandas遍历每一行](https://blog.csdn.net/d1240673769/article/details/112407978#)
+4. [SVG Filter Pie — Matplotlib 3.5.3 documentation](https://matplotlib.org/stable/gallery/misc/svg_filter_pie.html#sphx-glr-gallery-misc-svg-filter-pie-py)
+5. [python 实现将 pandas 数据和 matplotlib 绘图嵌入 html 文件_XnCSD的博客-CSDN博客](https://blog.csdn.net/XnCSD/article/details/79231205)
+6. [Matplotlib中文乱码解决方案（两种方式） (biancheng.net)](http://c.biancheng.net/matplotlib/9284.html)
+
+## Log:one:
+
+1. 记录工具（网页、app）
