@@ -553,3 +553,8 @@ model of love & marriage
 ## Log:one:
 
 1. 记录工具（网页、app）
+
+## Log:three:
+
+1. 倦怠感没有深入到事情、工作、学习中；
+
