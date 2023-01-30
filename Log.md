@@ -558,3 +558,33 @@ model of love & marriage
 
 1. 倦怠感没有深入到事情、工作、学习中；
 
+## Log:one:
+
+1. [函数的输入解析器 - MATLAB - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/inputparser.html)
+
+## Log:one:
+
+1. [tangly1024/NotionNext: 一个使用 NextJS + Notion API 实现的，部署在 Vercel 上的静态博客系统。为Notion和所有创作者设计。 (github.com)](https://github.com/tangly1024/NotionNext)
+
+## Log:four:
+
+1. [「玩转树莓派」打造一款智能语音闹钟 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/64704189)
+2. https://blog.csdn.net/weixin_43209795/article/details/105299480
+3. [真正免费的天气API，无需注册申请key_潇潇独行侠的博客-CSDN博客_天气api](https://blog.csdn.net/qq_25269161/article/details/125188009)
+4. [Pygame教程（非常详细） (biancheng.net)](http://c.biancheng.net/pygame/)
+
+## Log:five:
+
+1. [写个桌面挂件 | 手把手带大家做只桌面宠物呗 (qq.com)](https://mp.weixin.qq.com/s/4kOzdRXmrxzR88QcYYSFvQ)
+
+## Log:one:
+
+1. [[转载\]MATLAB面向对象编程：在类中实现static成员变量_durui0558的博客-CSDN博客](https://blog.csdn.net/u014602483/article/details/47816767)
+
+## Log:two:
+
+1. [理想低通滤波器、Butterworth滤波器和高斯滤波器(matlab)_执剑者罗辑的博客-CSDN博客_频率域理想低通滤波器和频率域高斯滤波器的滤波效果差异,尤其是对图像中 的像素突](https://blog.csdn.net/cjsh_123456/article/details/79342300)
+
+## Log:one:
+
+1. matlab  groot修改颜色为'w'
