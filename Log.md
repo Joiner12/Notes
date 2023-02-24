@@ -588,3 +588,82 @@ model of love & marriage
 ## Log:one:
 
 1. matlab  groot修改颜色为'w'
+
+## Log:two:
+
+1. python data analysis
+
+   [最全数据分析资料汇总（含python、爬虫、数据库、大数据、tableau、统计学等） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/69869004)
+
+   [Python for Data Analysis, 3E (wesmckinney.com)](https://wesmckinney.com/book/)
+
+   [《利用Python进行数据分析·第2版》第1章 准备工作 - 简书 (jianshu.com)](https://www.jianshu.com/p/04d180d90a3f)
+
+   [Python for Data Analysis, 3E - 1 Preliminaries (wesmckinney.com)](https://wesmckinney.com/book/preliminaries.html)
+
+   
+
+## Log:three:
+
+1. Smart Home
+
+   **如何以最小成本对传统进行改造**
+
+   [esp8266制作智能开关（保姆级）不需要会开发，有手就行_创客帖的博客-CSDN博客_esp8266智能开关](https://blog.csdn.net/qq_50441224/article/details/121453098)
+
+ 2. matlab面向对象编程
+
+ 3. matlab table资料整理
+
+    ```matlab
+    %q1,如何按块索引，例如:
+    a(1:3,end);
+    % q2 对比struct索引方式区别
+    % q3 block 操作
+    processed_data(:, end - 3, end) = origin_data(:, end - 3:end).Variables .* (2 / (2 ^ 15 - 1));
+    % 错误使用 sensor_data_preprocessing.presssure_acc_processing
+    % 不支持使用三个或更多下标(如在 t(i,j,k) 中)对表进行索引。请始终指定一个行下标和一个变量下标，如 t(rows,vars)。
+    % 动态扩展
+    processed_data.newcol = [];
+    ```
+
+## Log:four:
+
+1. 数字低通滤波器设计
+
+   [1 维数字滤波器 - MATLAB filter - MathWorks 中国](https://ww2.mathworks.cn/help/matlab/ref/filter.html)
+
+   [MATLAB 低通滤波器 low pass filter - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/141829105)
+
+   [利用Matlab实现一阶低通滤波器 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/101133367)
+
+   [【滤波器学习笔记】一阶RC低通滤波_Jim勉的博客-CSDN博客_rc滤波器传递函数](https://blog.csdn.net/qq_27334499/article/details/52186336)
+
+## Log:one:
+
+1. house monitor 
+
+   scapy框架[Scrapy 教程 — Scrapy 2.5.0 文档 (osgeo.cn)](https://www.osgeo.cn/scrapy/intro/tutorial.html)
+
+   [python爬虫：用scrapy框架爬取链家网房价信息并存入mongodb_� ONES的博客-CSDN博客_链家mongodb](https://blog.csdn.net/ones133/article/details/115095525)
+
+   [Scrapy 爬取链家租房价格信息_卖香油的少掌柜的博客-CSDN博客](https://blog.csdn.net/qq_58832911/article/details/124429885)
+
+2. 爬虫书籍
+
+3. conda list [conda list — conda 23.1.0.post26+8591b2563 documentation](https://docs.conda.io/projects/conda/en/latest/commands/list.html)
+
+4. 
+
+## Log:three:
+
+1. [Matlab Style Guidelines Cheat Sheet - File Exchange - MATLAB Central (mathworks.cn)](https://ww2.mathworks.cn/matlabcentral/fileexchange/45047-matlab-style-guidelines-cheat-sheet?s_tid=mlc_recom_leaf)
+2. **关于运动模式识别进度慢的总结；**
+
+## Log:three:
+
+1. 《learnning scrapy》
+
+## Log:five:
+
+1. [隐马尔可夫模型HMM - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/29938926)
