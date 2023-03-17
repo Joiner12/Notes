@@ -667,3 +667,16 @@ model of love & marriage
 ## Log:five:
 
 1. [隐马尔可夫模型HMM - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/29938926)
+
+## Log:one:
+
+1. house price model
+
+## Log:two:
+
+1. 小程序开发
+
+## Log:three:
+
+1. [GPTalk (trychatgp.com)](https://trychatgp.com/)商业模式
+
