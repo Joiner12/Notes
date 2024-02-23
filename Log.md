@@ -680,3 +680,9 @@ model of love & marriage
 
 1. [GPTalk (trychatgp.com)](https://trychatgp.com/)商业模式
 
+## Log:two:
+
+1. chatGPT了解。
+1. [V2free](https://w1.v2free.top/auth/register)
+1. [fanqiang/自建V2ray服务器简明教程.md at master · bannedbook/fanqiang (github.com)](https://github.com/bannedbook/fanqiang/blob/master/v2ss/自建V2ray服务器简明教程.md)
+1. [ChatGPT国内免翻 - 镜像代理 | 偷懒工具 toolight.cn](https://toolight.cn/content-item/data-proxy/ChatGPT国内免翻.html)
