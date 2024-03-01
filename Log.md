@@ -686,3 +686,40 @@ model of love & marriage
 1. [V2free](https://w1.v2free.top/auth/register)
 1. [fanqiang/自建V2ray服务器简明教程.md at master · bannedbook/fanqiang (github.com)](https://github.com/bannedbook/fanqiang/blob/master/v2ss/自建V2ray服务器简明教程.md)
 1. [ChatGPT国内免翻 - 镜像代理 | 偷懒工具 toolight.cn](https://toolight.cn/content-item/data-proxy/ChatGPT国内免翻.html)
+
+# 2024-02
+
+## Log :five:
+
+:star2: 目标公司信息搜集；
+
+:star2: 更好的时间记录工具、方式；
+
+## Log:one:
+
+:book: FFT原理及编程实现
+
+- [FFT原理（基2DIT-FFT）及C语言编程思路及实现_fft算法的基本原理-CSDN博客](https://blog.csdn.net/xszxyll/article/details/128886265)
+- [信号处理 | 傅里叶变换、短时傅里叶变换、小波变换、希尔伯特变换、希尔伯特黄变换 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/150705777)
+- 单侧频谱、双侧频谱；
+
+:book: 分类算法
+
+- [一个强大算法模型，标准LSTM ！！ (qq.com)](https://mp.weixin.qq.com/s/BW9Kb9EcEI5vMPIUsFgWbg)
+
+## Log:three:
+
+:book: 统计特征的物理意义解释
+
+:yellow_heart: **人往高处走，水往低处流；**
+
+:book: E:\ArchivedNote\Doc\Matlab\matlab面向对象变成 handle类型
+
+## Log:four:
+
+:question: LSTM（long short term memory）是如何实现记忆、忘却的。
+
+## Log:five:
+
+:book: 模型指标参数
+
