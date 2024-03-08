@@ -709,7 +709,7 @@ model of love & marriage
 
 ## Log:three:
 
-:book: 统计特征的物理意义解释
+:book: 统计特征的物理意义解释√
 
 :yellow_heart: **人往高处走，水往低处流；**
 
@@ -721,5 +721,28 @@ model of love & marriage
 
 ## Log:five:
 
-:book: 模型指标参数
+:book: 模型指标参数 F1 score 、泛化率 √
 
+---
+
+# 2024-03
+
+## Log:two:
+
+:clipboard: 整理性能度量笔记；√
+
+:thought_balloon: [AI，零基础，我的第一款应用 - 少数派 (sspai.com)](https://sspai.com/post/86860) 思路整理；√
+
+产品、AI应用、合作；
+
+## Log:four:
+
+:thinking: 关于房车， 存异的原因。
+
+ Log:five:
+
+
+
+
+
+Log:one: Log:two: Log:three:  Log:four: Log:five:
