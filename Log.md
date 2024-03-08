@@ -739,7 +739,9 @@ model of love & marriage
 
 :thinking: 关于房车， 存异的原因。
 
- Log:five:
+##  Log:five:
+
+:thought_balloon: 优良的品质，为人！坚韧、勇敢、乐观、积极！
 
 
 
