@@ -725,7 +725,7 @@ model of love & marriage
 
 ---
 
-# 2024-03
+# 2024-03  :large_orange_diamond:
 
 ## Log:two:
 
@@ -743,8 +743,32 @@ model of love & marriage
 
 :thought_balloon: 优良的品质，为人！坚韧、勇敢、乐观、积极！
 
+# 2024-03  :large_orange_diamond: :large_orange_diamond: 
 
+:blue_book: c语言中二维（高维）数组的实现；
 
+```c
+#include <stdio.h>
+#include <math.h>
 
+double calculateEuclideanNorm(double vector[], int n) {
+    double sum = 0.0;
 
-Log:one: Log:two: Log:three:  Log:four: Log:five:
+    // 计算各元素的平方和
+    for (int i = 0; i < n; i++) {
+        sum += vector[i] * vector[i];
+    }
+
+    // 计算平方和的平方根，即二范数
+    double norm = sqrt(sum);
+
+    return norm;
+}
+
+```
+
+```c
+double (*SV_TEST)[2] 对比 double *SV_TEST[2]
+```
+
+:question: 声明定义一个全局变量，并通过指针的方式来索引如何实现。

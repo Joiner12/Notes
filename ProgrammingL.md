@@ -1,6 +1,6 @@
 # C & C++
 
-##### 1.C “Struct” && “extern”
+## 1.C “Struct” && “extern”
 
 1.《结构体定义的几种常见方式》
 
@@ -17,15 +17,7 @@ struct A
 A = {int(1),bool(0)};
 ```
 
-
-
-##### 3.《extern关键字》
-
-<https://www.cnblogs.com/mch0dm1n/p/5727667.html>
-
-<https://blog.csdn.net/gao1440156051/article/details/48035911>
-
-##### 2.Printf | fprintf | print
+## 2.Printf | fprintf | print
 
 1.《printf 和 scanf》
 
@@ -33,7 +25,15 @@ A = {int(1),bool(0)};
 
 <https://blog.csdn.net/hk_kang/article/details/78747726>
 
-##### 3.函数指针（函数句柄）
+## 3.《extern关键字》
+
+<https://www.cnblogs.com/mch0dm1n/p/5727667.html>
+
+<https://blog.csdn.net/gao1440156051/article/details/48035911>
+
+
+
+## 4.函数指针（函数句柄）
 
 1.《c语言函数指针的理解与使用》
 
@@ -43,19 +43,15 @@ A = {int(1),bool(0)};
 
 <https://www.cnblogs.com/lulipro/p/7460206.html>
 
-##### 4.《锁屏》
-
-<https://blog.csdn.net/bjbz_cxy/article/details/91364391>
-
-##### 5.extern "C"
+## 5.extern "C"
 
 https://www.cnblogs.com/HappyXie/archive/2011/01/07/1929369.html
 
-##### 6.数组与指针
+## 6.数组与指针
 
 https://wiki.jikexueyuan.com/project/c-advance/pointer.html
 
-##### 7.C | C++时间库
+## 7.C | C++时间库
 
 1.《C++ 日期 & 时间》
 
@@ -65,7 +61,7 @@ https://wiki.jikexueyuan.com/project/c-advance/pointer.html
 
 <https://blog.csdn.net/lemonrabbit1987/article/details/48192521>
 
-##### 8.C/C++ 栈
+## 8.C/C++ 栈
 
 1.《C语言 栈 》
 
@@ -91,7 +87,7 @@ https://wiki.jikexueyuan.com/project/c-advance/pointer.html
 
 [环形列队](<https://blog.csdn.net/happytoeat/article/details/56481779>)
 
-##### 9.C++ STL 
+## 9.C++ STL 
 
 1.《C 标准库 - <string.h>》
 
@@ -103,7 +99,7 @@ https://wiki.jikexueyuan.com/project/c-advance/pointer.html
 
 <https://www.geeksforgeeks.org/the-c-standard-template-library-stl/>
 
-##### 10.C数组长度
+## 10.C数组长度
 
 《数组长度》
 
@@ -115,7 +111,7 @@ int _nLength = sizeof(Array)/sizeof(Array[0]);
 
 ```
 
-##### 11.C语言 数溢出
+## 11.C语言 数溢出
 
 《整数溢出，如何判断整数溢出》
 
@@ -123,7 +119,7 @@ int _nLength = sizeof(Array)/sizeof(Array[0]);
 
 <https://blog.csdn.net/gogokongyin/article/details/51758718>
 
-##### 12.txt文件操作 (c++)
+## 12.txt文件操作 (c++)
 
 <http://www.cplusplus.com/doc/tutorial/files/>
 
@@ -133,11 +129,11 @@ int _nLength = sizeof(Array)/sizeof(Array[0]);
 
 
 
-##### 13.Void * 
+## 13.Void * 
 
 1.<https://www.cnblogs.com/wuyudong/p/c-void-point.html>
 
-##### 14.堆栈
+## 14.堆栈
 
 1.函数使用栈大小过多，转移到堆中
 
@@ -167,27 +163,27 @@ https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zh
 
 <https://blog.csdn.net/zhanshen112/article/details/80758850>
 
-##### 15.二叉树
+## 15.二叉树
 
 1.《基本操作》
 
 <https://blog.csdn.net/zhanggonglalala/article/details/79738213>
 
-##### 16.位操作
+## 16.位操作
 
 1.二进制转换操作
 
 <https://cloud.tencent.com/developer/article/1347635>
 
-##### 17.C/C++教程
+## 17.C/C++教程
 
 https://www.nowcoder.com/tutorial/10003/e546205d358e46668418c0a38840051f
 
-##### 18.C Language Two Points
+## 18.C Language Two Points
 
 <https://blog.csdn.net/pushup8/article/details/85071735>
 
-##### 19.内存管理（malloc、alloca、realloc、calloc）
+## 19.内存管理（malloc、alloca、realloc、calloc）
 
 | 分配方式 | 阶段                     |                              | 存储位置 |
 | -------- | ------------------------ | ---------------------------- | -------- |
@@ -206,6 +202,10 @@ https://www.nowcoder.com/tutorial/10003/e546205d358e46668418c0a38840051f
 | calloca | void*  calloc(size_t numElements, size_t sizeOfElement); | 将初始化这部分的内存,设置为0.                |
 
 [malloc、calloc、realloc的区别 - DoubleLi - 博客园 (cnblogs.com)](https://www.cnblogs.com/lidabo/p/4611411.html)
+
+## 20.静态全局变量和一般全局变量
+
+[C/C++ 中 static 的用法全局变量与局部变量 | 菜鸟教程 (runoob.com)](https://www.runoob.com/w3cnote/cpp-static-usage.html)
 
 # Matlab
 
