@@ -51,6 +51,44 @@ https://www.cnblogs.com/HappyXie/archive/2011/01/07/1929369.html
 
 https://wiki.jikexueyuan.com/project/c-advance/pointer.html
 
+[指针数组和数组指针（非常易懂）-CSDN博客](https://blog.csdn.net/itszok/article/details/121198169)
+
+数组指针用法
+
+``` c
+// 数组指针
+void pointer_array()
+{
+	int matrix[2][3] = {
+		   {1, 2, 3},
+		   {4, 5, 6}
+	};
+
+	int* ptr1 = (int*)matrix; // 将二维数组的首地址转换为int指针
+
+	// 访问二维数组中的元素
+	printf("Element at matrix[0][1]: %d\n", *(ptr1 + 1)); // 第一行第二列的元素
+	printf("Element at matrix[1][2]: %d\n", *(ptr1 + 5)); // 第二行第三列的元素
+
+	int(*ptr2)[3] = (int(*)[3])matrix; // 将二维数组的首地址转换为指向包含3个int元素的数组的指针
+
+	// 访问二维数组中的元素
+	printf("Element at matrix[0][1]: %d\n", *(*(ptr2)+1)); // 第一行第二列的元素
+	printf("Element at matrix[1][2]: %d\n", *(*(ptr2 + 1) + 2)); // 第二行第三列的元素
+
+	int(*ptr3)[3] = matrix; // 将二维数组的首地址转换为指向包含3个int元素的数组的指针
+
+	// 访问二维数组中的元素
+	printf("Element at matrix[0][1]: %d\n", *(*(ptr3)+1)); // 第一行第二列的元素
+	printf("Element at matrix[1][2]: %d\n", *(*(ptr3 + 1) + 2)); // 第二行第三列的元素
+
+}
+```
+
+
+
+
+
 ## 7.C | C++时间库
 
 1.《C++ 日期 & 时间》

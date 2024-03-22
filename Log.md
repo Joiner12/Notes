@@ -772,3 +772,14 @@ double (*SV_TEST)[2] 对比 double *SV_TEST[2]
 ```
 
 :question: 声明定义一个全局变量，并通过指针的方式来索引如何实现。
+
+# 2024-03  :large_orange_diamond: :large_orange_diamond:  :large_orange_diamond:
+
+## Log :four:
+
+:thinking: 正视问题，勇敢。
+
+## Log:five:
+
+:thought_balloon: 低通滤波器时、频分析；bode图手动绘制；截至频率单位Hz\rad/s
+
